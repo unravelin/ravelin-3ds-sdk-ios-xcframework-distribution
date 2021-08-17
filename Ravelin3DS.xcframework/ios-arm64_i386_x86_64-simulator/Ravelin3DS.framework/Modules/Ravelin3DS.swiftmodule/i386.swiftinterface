@@ -2413,8 +2413,27 @@ public struct DecryptionContext {
 public struct SymmetricDecryptionContext {
 }
 @objc(R3DS2ChallengeStatusReceiver) public protocol R3DS2ChallengeStatusReceiver {
+  @objc func completed(completionEvent: Ravelin3DS.R3DS2CompletionEvent)
   @objc func cancelled()
   @objc func timedout()
+  @objc func protocolError(protocolErrorEvent: Ravelin3DS.R3DS2ProtocolErrorEvent)
+  @objc func runtimeError(runtimeErrorEvent: Ravelin3DS.R3DS2RuntimeErrorEvent)
+}
+@_hasMissingDesignatedInitializers @objc(R3DS2RuntimeErrorEvent) public class R3DS2RuntimeErrorEvent : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(R3DS2ErrorMessage) public class R3DS2ErrorMessage : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(R3DS2ProtocolErrorEvent) public class R3DS2ProtocolErrorEvent : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(R3DS2CompletionEvent) public class R3DS2CompletionEvent : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
 }
 @usableFromInline
 final internal class StreamDecryptor : Ravelin3DS.Cryptor, Ravelin3DS.Updatable {
@@ -2531,9 +2550,6 @@ extension PKCS5 {
   @objc public func getWarnings() throws -> [Ravelin3DS.R3DS2Warning]
   @objc public func getSDKVersion() throws -> Swift.String
   @objc public func cleanup() throws
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class CompletionEvent {
   @objc deinit
 }
 extension FixedWidthInteger {

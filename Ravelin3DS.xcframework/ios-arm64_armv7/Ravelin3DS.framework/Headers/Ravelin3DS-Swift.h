@@ -384,19 +384,41 @@ SWIFT_CLASS_NAMED("R3DS2ChallengeParameters")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class R3DS2CompletionEvent;
+@class R3DS2ProtocolErrorEvent;
+@class R3DS2RuntimeErrorEvent;
 
 /// Holds methods which correspond to events that can take place during the authentication process.
 SWIFT_PROTOCOL_NAMED("R3DS2ChallengeStatusReceiver")
 @protocol R3DS2ChallengeStatusReceiver
+/// Method called when the challenge process is completed.
+/// \param completionEvent Information about completion of the challenge process.
+///
+- (void)completedWithCompletionEvent:(R3DS2CompletionEvent * _Nonnull)completionEvent;
 /// Method called when the Cardholder selects the option to cancel the transaction on the challenge screen.
 - (void)cancelled;
 /// Method called when the challenge process reaches or exceeds the specified timeout.
 - (void)timedout;
+/// Method called when the 3DS SDK receives an EMV 3-D Secure protocol-defined error message from the ACS.
+/// \param protocolErrorEvent Error code and details.
+///
+- (void)protocolErrorWithProtocolErrorEvent:(R3DS2ProtocolErrorEvent * _Nonnull)protocolErrorEvent;
+/// Method called when the 3DS SDK encounters errors during the challenge process.
+/// \param runtimeErrorEvent Error code and details.
+///
+- (void)runtimeErrorWithRuntimeErrorEvent:(R3DS2RuntimeErrorEvent * _Nonnull)runtimeErrorEvent;
 @end
 
 
 SWIFT_PROTOCOL_NAMED("R3DS2ChallengeView")
 @protocol R3DS2ChallengeView
+@end
+
+
+SWIFT_CLASS_NAMED("R3DS2CompletionEvent")
+@interface R3DS2CompletionEvent : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 
@@ -441,6 +463,13 @@ SWIFT_CLASS_NAMED("R3DS2Error")
 + (NSError * _Nonnull)SDKNotInitializedWithMessage:(NSString * _Nonnull)message cause:(NSError * _Nullable)cause SWIFT_WARN_UNUSED_RESULT;
 + (NSError * _Nonnull)SDKRuntimeWithMessage:(NSString * _Nonnull)message errorCode:(NSString * _Nullable)errorCode cause:(NSError * _Nullable)cause SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS_NAMED("R3DS2ErrorMessage")
+@interface R3DS2ErrorMessage : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 
@@ -507,6 +536,20 @@ SWIFT_PROTOCOL_NAMED("R3DS2ProgressDialog")
 - (void)start;
 /// Stops the progress dialog.
 - (void)stop;
+@end
+
+
+SWIFT_CLASS_NAMED("R3DS2ProtocolErrorEvent")
+@interface R3DS2ProtocolErrorEvent : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS_NAMED("R3DS2RuntimeErrorEvent")
+@interface R3DS2RuntimeErrorEvent : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 @class R3DS2UiCustomization;
@@ -1273,19 +1316,41 @@ SWIFT_CLASS_NAMED("R3DS2ChallengeParameters")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class R3DS2CompletionEvent;
+@class R3DS2ProtocolErrorEvent;
+@class R3DS2RuntimeErrorEvent;
 
 /// Holds methods which correspond to events that can take place during the authentication process.
 SWIFT_PROTOCOL_NAMED("R3DS2ChallengeStatusReceiver")
 @protocol R3DS2ChallengeStatusReceiver
+/// Method called when the challenge process is completed.
+/// \param completionEvent Information about completion of the challenge process.
+///
+- (void)completedWithCompletionEvent:(R3DS2CompletionEvent * _Nonnull)completionEvent;
 /// Method called when the Cardholder selects the option to cancel the transaction on the challenge screen.
 - (void)cancelled;
 /// Method called when the challenge process reaches or exceeds the specified timeout.
 - (void)timedout;
+/// Method called when the 3DS SDK receives an EMV 3-D Secure protocol-defined error message from the ACS.
+/// \param protocolErrorEvent Error code and details.
+///
+- (void)protocolErrorWithProtocolErrorEvent:(R3DS2ProtocolErrorEvent * _Nonnull)protocolErrorEvent;
+/// Method called when the 3DS SDK encounters errors during the challenge process.
+/// \param runtimeErrorEvent Error code and details.
+///
+- (void)runtimeErrorWithRuntimeErrorEvent:(R3DS2RuntimeErrorEvent * _Nonnull)runtimeErrorEvent;
 @end
 
 
 SWIFT_PROTOCOL_NAMED("R3DS2ChallengeView")
 @protocol R3DS2ChallengeView
+@end
+
+
+SWIFT_CLASS_NAMED("R3DS2CompletionEvent")
+@interface R3DS2CompletionEvent : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 
@@ -1330,6 +1395,13 @@ SWIFT_CLASS_NAMED("R3DS2Error")
 + (NSError * _Nonnull)SDKNotInitializedWithMessage:(NSString * _Nonnull)message cause:(NSError * _Nullable)cause SWIFT_WARN_UNUSED_RESULT;
 + (NSError * _Nonnull)SDKRuntimeWithMessage:(NSString * _Nonnull)message errorCode:(NSString * _Nullable)errorCode cause:(NSError * _Nullable)cause SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS_NAMED("R3DS2ErrorMessage")
+@interface R3DS2ErrorMessage : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 
@@ -1396,6 +1468,20 @@ SWIFT_PROTOCOL_NAMED("R3DS2ProgressDialog")
 - (void)start;
 /// Stops the progress dialog.
 - (void)stop;
+@end
+
+
+SWIFT_CLASS_NAMED("R3DS2ProtocolErrorEvent")
+@interface R3DS2ProtocolErrorEvent : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS_NAMED("R3DS2RuntimeErrorEvent")
+@interface R3DS2RuntimeErrorEvent : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
 @class R3DS2UiCustomization;
