@@ -410,9 +410,11 @@ SWIFT_PROTOCOL_NAMED("R3DS2ChallengeStatusReceiver")
 - (void)runtimeErrorWithRuntimeErrorEvent:(R3DS2RuntimeErrorEvent * _Nonnull)runtimeErrorEvent;
 @end
 
+@class UIViewController;
 
 SWIFT_PROTOCOL_NAMED("R3DS2ChallengeView")
 @protocol R3DS2ChallengeView
+@property (nonatomic, readonly, strong) UIViewController * _Nonnull viewController;
 @end
 
 
@@ -1363,9 +1365,11 @@ SWIFT_PROTOCOL_NAMED("R3DS2ChallengeStatusReceiver")
 - (void)runtimeErrorWithRuntimeErrorEvent:(R3DS2RuntimeErrorEvent * _Nonnull)runtimeErrorEvent;
 @end
 
+@class UIViewController;
 
 SWIFT_PROTOCOL_NAMED("R3DS2ChallengeView")
 @protocol R3DS2ChallengeView
+@property (nonatomic, readonly, strong) UIViewController * _Nonnull viewController;
 @end
 
 
@@ -2316,9 +2320,11 @@ SWIFT_PROTOCOL_NAMED("R3DS2ChallengeStatusReceiver")
 - (void)runtimeErrorWithRuntimeErrorEvent:(R3DS2RuntimeErrorEvent * _Nonnull)runtimeErrorEvent;
 @end
 
+@class UIViewController;
 
 SWIFT_PROTOCOL_NAMED("R3DS2ChallengeView")
 @protocol R3DS2ChallengeView
+@property (nonatomic, readonly, strong) UIViewController * _Nonnull viewController;
 @end
 
 

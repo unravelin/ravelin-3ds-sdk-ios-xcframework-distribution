@@ -298,6 +298,7 @@ public struct Payload : Ravelin3DS.DataConvertible {
   @objc deinit
 }
 @objc(R3DS2ChallengeView) public protocol R3DS2ChallengeView {
+  @objc var viewController: UIKit.UIViewController { get }
 }
 extension HMAC {
   convenience public init(key: Swift.String, variant: Ravelin3DS.HMAC.Variant = .md5) throws
