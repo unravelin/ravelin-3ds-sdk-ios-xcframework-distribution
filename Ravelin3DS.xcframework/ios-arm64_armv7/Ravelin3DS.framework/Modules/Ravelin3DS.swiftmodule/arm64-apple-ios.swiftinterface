@@ -12,6 +12,7 @@ import LocalAuthentication
 import Security
 import Swift
 import UIKit
+import WebKit
 public struct JWS {
   public let header: Ravelin3DS.JWSHeader
   public let payload: Ravelin3DS.Payload
@@ -71,6 +72,40 @@ public struct SymmetricKey : Ravelin3DS.JWK {
 extension SecKey : Ravelin3DS.ExpressibleAsECPublicKeyComponents {
   public static func representing(ecPublicKeyComponents components: Ravelin3DS.ECPublicKeyComponents) throws -> Self
   public func ecPublicKeyComponents() throws -> Ravelin3DS.ECPublicKeyComponents
+}
+@objc @_inheritsConvenienceInitializers open class ScrollingStackViewController : UIKit.UIViewController {
+  final public let scrollView: UIKit.UIScrollView
+  final public let stackViewBackgroundView: UIKit.UIView
+  final public let stackView: UIKit.UIStackView
+  public var spacingColor: UIKit.UIColor {
+    get
+    set
+  }
+  public var borderColor: UIKit.UIColor {
+    get
+    set
+  }
+  public var borderWidth: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  public static func defaultAnimate(_ animations: @escaping () -> (), completion: ((Swift.Bool) -> Swift.Void)?)
+  public var animate: (@escaping () -> (), ((Swift.Bool) -> Swift.Void)?) -> ()
+  public static func defaultScrollAnimate(_ animations: @escaping () -> (), completion: ((Swift.Bool) -> Swift.Void)?)
+  public var scrollAnimate: (@escaping () -> (), ((Swift.Bool) -> Swift.Void)?) -> ()
+  @objc override dynamic open func viewDidLoad()
+  @objc override dynamic open func viewDidLayoutSubviews()
+  open func add(viewController: UIKit.UIViewController)
+  open func add(viewController: UIKit.UIViewController, edgeInsets: UIKit.UIEdgeInsets)
+  open func insert(viewController: UIKit.UIViewController, at index: Swift.Int)
+  open func insert(viewController: UIKit.UIViewController, edgeInsets: UIKit.UIEdgeInsets, at index: Swift.Int)
+  open func remove(viewController: UIKit.UIViewController)
+  open func show(viewController: UIKit.UIViewController, _ action: (() -> Swift.Void)? = nil)
+  open func hide(viewController: UIKit.UIViewController, _ action: (() -> Swift.Void)? = nil)
+  open func scrollTo(viewController: UIKit.UIViewController, _ action: (() -> Swift.Void)? = nil)
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
 }
 public struct CTR {
   public enum Error : Swift.Error {
