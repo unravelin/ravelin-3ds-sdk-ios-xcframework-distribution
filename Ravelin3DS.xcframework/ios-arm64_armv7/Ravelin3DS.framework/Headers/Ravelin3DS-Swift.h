@@ -574,6 +574,19 @@ SWIFT_PROTOCOL_NAMED("R3DS2Service")
 /// throws:
 /// InvalidInput, SDKAlreadyInitialized, SDKRuntime
 - (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error;
+/// Initializes the 3DS SDK instance.
+/// \param configParameters Configuration information that shall be used during initialization.
+///
+/// \param locale String that represents the locale for the app’s user interface.
+///
+/// \param uiCustomization UI configuration information that is used to specify the UI layout and theme. For example, font style and font size.
+///
+/// \param completion 
+///
+///
+/// throws:
+/// InvalidInput, SDKAlreadyInitialized, SDKRuntime
+- (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error completion:(void (^ _Nullable)(BOOL))completion;
 /// Creates an instance of Transaction through which the 3DS Requestor App gets the data that
 /// is required to perform the transaction.
 /// \param directoryServerId Registered Application Provider Identifier (RID) that is unique to
@@ -625,9 +638,12 @@ SWIFT_CLASS_NAMED("R3DS2ServiceSDK")
 ///
 /// \param uiCustomization UI configuration information that is used to specify the UI layout and theme. For example, font style and font size.
 ///
+/// \param completion 
+///
 ///
 /// throws:
 /// InvalidInput, SDKAlreadyInitialized, SDKRuntime
+- (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error completion:(void (^ _Nullable)(BOOL))completion;
 - (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error;
 /// The createTransaction method creates an instance of Transaction through which the 3DS Requestor App gets the data that is required to perform the transaction.
 /// \param directoryServerId Registered Application Provider Identifier (RID) that is unique to the Payment System.
@@ -1529,6 +1545,19 @@ SWIFT_PROTOCOL_NAMED("R3DS2Service")
 /// throws:
 /// InvalidInput, SDKAlreadyInitialized, SDKRuntime
 - (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error;
+/// Initializes the 3DS SDK instance.
+/// \param configParameters Configuration information that shall be used during initialization.
+///
+/// \param locale String that represents the locale for the app’s user interface.
+///
+/// \param uiCustomization UI configuration information that is used to specify the UI layout and theme. For example, font style and font size.
+///
+/// \param completion 
+///
+///
+/// throws:
+/// InvalidInput, SDKAlreadyInitialized, SDKRuntime
+- (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error completion:(void (^ _Nullable)(BOOL))completion;
 /// Creates an instance of Transaction through which the 3DS Requestor App gets the data that
 /// is required to perform the transaction.
 /// \param directoryServerId Registered Application Provider Identifier (RID) that is unique to
@@ -1580,9 +1609,12 @@ SWIFT_CLASS_NAMED("R3DS2ServiceSDK")
 ///
 /// \param uiCustomization UI configuration information that is used to specify the UI layout and theme. For example, font style and font size.
 ///
+/// \param completion 
+///
 ///
 /// throws:
 /// InvalidInput, SDKAlreadyInitialized, SDKRuntime
+- (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error completion:(void (^ _Nullable)(BOOL))completion;
 - (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error;
 /// The createTransaction method creates an instance of Transaction through which the 3DS Requestor App gets the data that is required to perform the transaction.
 /// \param directoryServerId Registered Application Provider Identifier (RID) that is unique to the Payment System.

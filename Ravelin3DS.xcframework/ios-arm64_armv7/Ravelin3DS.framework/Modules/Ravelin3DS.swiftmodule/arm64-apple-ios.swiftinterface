@@ -2573,6 +2573,7 @@ extension PKCS5 {
 }
 @objc(R3DS2Service) public protocol R3DS2Service {
   @objc func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?) throws
+  @objc func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?, completion: ((Swift.Bool) -> Swift.Void)?) throws
   @objc func createTransaction(directoryServerID: Swift.String, messageVersion: Swift.String?) throws -> Ravelin3DS.R3DS2Transaction
   @objc func getWarnings() throws -> [Ravelin3DS.R3DS2Warning]
   @objc func getSDKVersion() throws -> Swift.String
@@ -2581,6 +2582,7 @@ extension PKCS5 {
 @_inheritsConvenienceInitializers @objc(R3DS2ServiceSDK) public class R3DS2ServiceSDK : ObjectiveC.NSObject, Ravelin3DS.R3DS2Service {
   @objc override dynamic public init()
   @objc public init(bundle: Foundation.Bundle)
+  @objc public func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?, completion: ((Swift.Bool) -> Swift.Void)?) throws
   @objc public func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?) throws
   @objc public func createTransaction(directoryServerID directoryServerId: Swift.String, messageVersion: Swift.String?) throws -> Ravelin3DS.R3DS2Transaction
   @objc public func getWarnings() throws -> [Ravelin3DS.R3DS2Warning]
