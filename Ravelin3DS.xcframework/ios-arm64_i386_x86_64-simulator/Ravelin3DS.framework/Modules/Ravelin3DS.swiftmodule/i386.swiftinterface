@@ -2079,7 +2079,22 @@ extension Array where Element == Swift.UInt8 {
   public func decrypt(cipher: Ravelin3DS.Cipher) throws -> [Element]
   public func authenticate<A>(with authenticator: A) throws -> [Element] where A : Ravelin3DS.Authenticator
 }
+@_inheritsConvenienceInitializers @objc(R3DS2AuthenticationResponse) @objcMembers public class R3DS2AuthenticationResponse : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
 @_inheritsConvenienceInitializers @objc(R3DS2ChallengeParameters) @objcMembers public class R3DS2ChallengeParameters : ObjectiveC.NSObject {
+  @objc convenience public init(authenticationResponse authResponse: Ravelin3DS.R3DS2AuthenticationResponse?)
+  @objc public func set3DSServerTransactionID(threeDSServerTransactionID: Swift.String) throws
+  @objc public func setAcsTransactionID(acsTransactionID: Swift.String) throws
+  @objc public func setAcsRefNumber(acsReferenceNumber: Swift.String) throws
+  @objc public func setAcsSignedContent(acsSignedContent: Swift.String) throws
+  @objc public func setThreeDSRequestorAppURL(threeDSRequestorAppURL: Swift.String) throws
+  @objc public func get3DSServerTransactionID() -> Swift.String
+  @objc public func getAcsTransactionID() -> Swift.String
+  @objc public func getAcsRefNumber() -> Swift.String
+  @objc public func getAcsSignedContent() -> Swift.String
+  @objc public func getThreeDSRequestorAppURL() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
 }

@@ -251,6 +251,13 @@ SWIFT_CLASS_NAMED("R3DS2AuthenticationRequestParameters")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
+
+/// The ChallengeParameters class holds the parameters that are required to conduct the challenge process.
+SWIFT_CLASS_NAMED("R3DS2AuthenticationResponse")
+@interface R3DS2AuthenticationResponse : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSNumber;
 
 /// Provides methods to pass UI customization parameters to the 3DS SDK.
@@ -382,6 +389,17 @@ typedef SWIFT_ENUM_NAMED(NSInteger, R3DS2ButtonType, "R3DS2ButtonType", open) {
 
 SWIFT_CLASS_NAMED("R3DS2ChallengeParameters")
 @interface R3DS2ChallengeParameters : NSObject
+- (nonnull instancetype)initWithAuthenticationResponse:(R3DS2AuthenticationResponse * _Nullable)authResponse;
+- (BOOL)set3DSServerTransactionIDWithThreeDSServerTransactionID:(NSString * _Nonnull)threeDSServerTransactionID error:(NSError * _Nullable * _Nullable)error;
+- (BOOL)setAcsTransactionIDWithAcsTransactionID:(NSString * _Nonnull)acsTransactionID error:(NSError * _Nullable * _Nullable)error;
+- (BOOL)setAcsRefNumberWithAcsReferenceNumber:(NSString * _Nonnull)acsReferenceNumber error:(NSError * _Nullable * _Nullable)error;
+- (BOOL)setAcsSignedContentWithAcsSignedContent:(NSString * _Nonnull)acsSignedContent error:(NSError * _Nullable * _Nullable)error;
+- (BOOL)setThreeDSRequestorAppURLWithThreeDSRequestorAppURL:(NSString * _Nonnull)threeDSRequestorAppURL error:(NSError * _Nullable * _Nullable)error;
+- (NSString * _Nonnull)get3DSServerTransactionID SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getAcsTransactionID SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getAcsRefNumber SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getAcsSignedContent SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getThreeDSRequestorAppURL SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1222,6 +1240,13 @@ SWIFT_CLASS_NAMED("R3DS2AuthenticationRequestParameters")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
+
+/// The ChallengeParameters class holds the parameters that are required to conduct the challenge process.
+SWIFT_CLASS_NAMED("R3DS2AuthenticationResponse")
+@interface R3DS2AuthenticationResponse : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSNumber;
 
 /// Provides methods to pass UI customization parameters to the 3DS SDK.
@@ -1353,6 +1378,17 @@ typedef SWIFT_ENUM_NAMED(NSInteger, R3DS2ButtonType, "R3DS2ButtonType", open) {
 
 SWIFT_CLASS_NAMED("R3DS2ChallengeParameters")
 @interface R3DS2ChallengeParameters : NSObject
+- (nonnull instancetype)initWithAuthenticationResponse:(R3DS2AuthenticationResponse * _Nullable)authResponse;
+- (BOOL)set3DSServerTransactionIDWithThreeDSServerTransactionID:(NSString * _Nonnull)threeDSServerTransactionID error:(NSError * _Nullable * _Nullable)error;
+- (BOOL)setAcsTransactionIDWithAcsTransactionID:(NSString * _Nonnull)acsTransactionID error:(NSError * _Nullable * _Nullable)error;
+- (BOOL)setAcsRefNumberWithAcsReferenceNumber:(NSString * _Nonnull)acsReferenceNumber error:(NSError * _Nullable * _Nullable)error;
+- (BOOL)setAcsSignedContentWithAcsSignedContent:(NSString * _Nonnull)acsSignedContent error:(NSError * _Nullable * _Nullable)error;
+- (BOOL)setThreeDSRequestorAppURLWithThreeDSRequestorAppURL:(NSString * _Nonnull)threeDSRequestorAppURL error:(NSError * _Nullable * _Nullable)error;
+- (NSString * _Nonnull)get3DSServerTransactionID SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getAcsTransactionID SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getAcsRefNumber SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getAcsSignedContent SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)getThreeDSRequestorAppURL SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
