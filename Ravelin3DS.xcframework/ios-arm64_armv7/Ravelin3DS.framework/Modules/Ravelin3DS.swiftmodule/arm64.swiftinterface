@@ -305,9 +305,9 @@ extension HMAC {
 }
 @_inheritsConvenienceInitializers @objc(R3DS2ConfigParameters) @objcMembers public class R3DS2ConfigParameters : ObjectiveC.NSObject {
   @objc override dynamic public init()
-  @objc public func addParam(_ paramName: Swift.String, value paramValue: Swift.String, group paramGroup: Swift.String? = nil) throws
-  public func getParamValue(_ paramName: Swift.String, group paramGroup: Swift.String? = nil) throws -> Swift.String?
-  public func removeParam(_ paramName: Swift.String, group paramGroup: Swift.String? = nil) throws -> Swift.String?
+  @objc public func addParam(group: Swift.String? = nil, paramName: Swift.String, paramValue: Swift.String) throws
+  public func getParamValue(group: Swift.String? = nil, paramName: Swift.String) throws -> Swift.String?
+  public func removeParam(group: Swift.String? = nil, paramName: Swift.String) throws -> Swift.String?
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class AEADChaCha20Poly1305 : Ravelin3DS.AEAD {
@@ -2478,11 +2478,14 @@ public struct SymmetricDecryptionContext {
   @objc deinit
 }
 @objc(R3DS2ErrorMessage) @objcMembers public class R3DS2ErrorMessage : ObjectiveC.NSObject {
-  @objc public init(_ transactionID: Swift.String, _ errorCode: Swift.String, _ errorDescription: Swift.String, _ errorDetail: Swift.String)
+  @objc public init(transactionID: Swift.String, errorCode: Swift.String, errorComponent: Swift.String, errorDescription: Swift.String, errorDetail: Swift.String, errorMessageType: Swift.String?, messageVersionNumber: Swift.String)
   @objc public func getTransactionID() -> Swift.String
   @objc public func getErrorCode() -> Swift.String
+  @objc public func getErrorComponent() -> Swift.String
   @objc public func getErrorDescription() -> Swift.String
-  @objc public func getErrorDetails() -> Swift.String
+  @objc public func getErrorDetail() -> Swift.String
+  @objc public func getErrorMessageType() -> Swift.String
+  @objc public func getMessageVersionNumber() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
