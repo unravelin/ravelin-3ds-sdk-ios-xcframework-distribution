@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iJMEsxCYolo1eYxOkaqXtjXakYc=
+		MY7l9FyEI4RKREk/enUvE222J08=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FpAM3oZ46V4y7DIDc/RjECqiDyU=
+		IBAh6L6UUekNQX6Q+sqbXwZyHNs=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		FpAM3oZ46V4y7DIDc/RjECqiDyU=
+		IBAh6L6UUekNQX6Q+sqbXwZyHNs=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		azXnovy/1ursEOLX2aqo3LHG2Ms=
+		RR1O9AP46kgKgDL1SfL2DNHZyNw=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		azXnovy/1ursEOLX2aqo3LHG2Ms=
+		RR1O9AP46kgKgDL1SfL2DNHZyNw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -143,11 +143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FpAM3oZ46V4y7DIDc/RjECqiDyU=
+			IBAh6L6UUekNQX6Q+sqbXwZyHNs=
 			</data>
 			<key>hash2</key>
 			<data>
-			U42YzQJ6SayjL4/111CxYN17qJkjr8tA9BOuCUcE3Xo=
+			mXD2tNvYxdyUVk8D8uaUQ1ULJtu76uQke9uwGpzMX8U=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64.swiftdoc</key>
@@ -176,11 +176,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FpAM3oZ46V4y7DIDc/RjECqiDyU=
+			IBAh6L6UUekNQX6Q+sqbXwZyHNs=
 			</data>
 			<key>hash2</key>
 			<data>
-			U42YzQJ6SayjL4/111CxYN17qJkjr8tA9BOuCUcE3Xo=
+			mXD2tNvYxdyUVk8D8uaUQ1ULJtu76uQke9uwGpzMX8U=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -275,11 +275,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			azXnovy/1ursEOLX2aqo3LHG2Ms=
+			RR1O9AP46kgKgDL1SfL2DNHZyNw=
 			</data>
 			<key>hash2</key>
 			<data>
-			IWSz9Mia9sBZxN4l+JwjeRZCb34ShB+XIReAjYA5mWQ=
+			r9UEYHJxbINkbkuVFz1aAwpe4VvWMbIDFhhnKxXvLz8=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64.swiftdoc</key>
@@ -308,11 +308,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			azXnovy/1ursEOLX2aqo3LHG2Ms=
+			RR1O9AP46kgKgDL1SfL2DNHZyNw=
 			</data>
 			<key>hash2</key>
 			<data>
-			IWSz9Mia9sBZxN4l+JwjeRZCb34ShB+XIReAjYA5mWQ=
+			r9UEYHJxbINkbkuVFz1aAwpe4VvWMbIDFhhnKxXvLz8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
