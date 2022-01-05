@@ -1029,6 +1029,7 @@ SWIFT_CLASS("_TtC10Ravelin3DS28ScrollingStackViewController")
 
 
 
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
@@ -2065,6 +2066,7 @@ SWIFT_CLASS("_TtC10Ravelin3DS28ScrollingStackViewController")
 
 
 
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
@@ -3086,6 +3088,7 @@ SWIFT_CLASS("_TtC10Ravelin3DS28ScrollingStackViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
