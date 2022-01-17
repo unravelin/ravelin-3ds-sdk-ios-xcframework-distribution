@@ -212,6 +212,41 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 @class NSString;
+@protocol SDKChallengeProtocol;
+@class NSNumber;
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS24GenericChallengeProtocol_")
+@protocol GenericChallengeProtocol
+- (void)clickVerifyButton;
+- (NSString * _Nonnull)getChallengeType SWIFT_WARN_UNUSED_RESULT;
+- (void)clickCancelButton;
+- (void)setChallengeProtocolWithSdkChallengeProtocol:(id <SDKChallengeProtocol> _Nonnull)sdkChallengeProtocol;
+/// <p> Callback to notify the SDK to expand all text areas before RefApp takes a screenshot
+/// for Visual Test Cases. </p>
+/// *
+- (void)expandTextsBeforeScreenshot;
+/// <p> Callback to select the whitelist checkbox </p>
+/// *
+- (void)selectWhitelistCheckedWithChecked:(BOOL)checked;
+/// <p> Callback to notify the SDK to rotate the screen to lanscape orientation in order to
+/// execute the test case. </p>
+/// This function should simulate the device rotation changing screen to landscape
+/// paramenter true when the test case should be executed in landscape
+/// *
+- (void)setLandscapeOrientationWithLandscapeOrientation:(BOOL)landscapeOrientation;
+@end
+
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS28MultiSelectChallengeProtocol_")
+@protocol MultiSelectChallengeProtocol <GenericChallengeProtocol>
+- (void)selectIndex:(NSInteger)index;
+@end
+
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS26OutOfBandChallengeProtocol_")
+@protocol OutOfBandChallengeProtocol <GenericChallengeProtocol>
+@end
+
 
 /// transaction parameters that the App passes to the 3DS Server when creating the AReq
 SWIFT_CLASS_NAMED("R3DS2AuthenticationRequestParameters")
@@ -258,7 +293,6 @@ SWIFT_CLASS_NAMED("R3DS2AuthenticationResponse")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
-@class NSNumber;
 
 /// Provides methods to pass UI customization parameters to the 3DS SDK.
 SWIFT_CLASS_NAMED("R3DS2Customization")
@@ -1005,6 +1039,12 @@ SWIFT_CLASS_NAMED("R3DS2Warning")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS20SDKChallengeProtocol_")
+@protocol SDKChallengeProtocol
+- (void)handleChallenge;
+@end
+
 @class NSCoder;
 
 SWIFT_CLASS("_TtC10Ravelin3DS28ScrollingStackViewController")
@@ -1013,6 +1053,18 @@ SWIFT_CLASS("_TtC10Ravelin3DS28ScrollingStackViewController")
 - (void)viewDidLayoutSubviews;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS31SingleSelectorChallengeProtocol_")
+@protocol SingleSelectorChallengeProtocol <GenericChallengeProtocol>
+- (void)selectObject:(NSInteger)index;
+@end
+
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS21TextChallengeProtocol_")
+@protocol TextChallengeProtocol <GenericChallengeProtocol>
+- (void)typeTextChallengeValue:(NSString * _Nonnull)value;
 @end
 
 
@@ -1029,6 +1081,13 @@ SWIFT_CLASS("_TtC10Ravelin3DS28ScrollingStackViewController")
 
 
 
+
+@class WKWebView;
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS20WebChallengeProtocol_")
+@protocol WebChallengeProtocol <GenericChallengeProtocol>
+- (WKWebView * _Nonnull)getWebView SWIFT_WARN_UNUSED_RESULT;
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -1249,6 +1308,41 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 
 @class NSString;
+@protocol SDKChallengeProtocol;
+@class NSNumber;
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS24GenericChallengeProtocol_")
+@protocol GenericChallengeProtocol
+- (void)clickVerifyButton;
+- (NSString * _Nonnull)getChallengeType SWIFT_WARN_UNUSED_RESULT;
+- (void)clickCancelButton;
+- (void)setChallengeProtocolWithSdkChallengeProtocol:(id <SDKChallengeProtocol> _Nonnull)sdkChallengeProtocol;
+/// <p> Callback to notify the SDK to expand all text areas before RefApp takes a screenshot
+/// for Visual Test Cases. </p>
+/// *
+- (void)expandTextsBeforeScreenshot;
+/// <p> Callback to select the whitelist checkbox </p>
+/// *
+- (void)selectWhitelistCheckedWithChecked:(BOOL)checked;
+/// <p> Callback to notify the SDK to rotate the screen to lanscape orientation in order to
+/// execute the test case. </p>
+/// This function should simulate the device rotation changing screen to landscape
+/// paramenter true when the test case should be executed in landscape
+/// *
+- (void)setLandscapeOrientationWithLandscapeOrientation:(BOOL)landscapeOrientation;
+@end
+
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS28MultiSelectChallengeProtocol_")
+@protocol MultiSelectChallengeProtocol <GenericChallengeProtocol>
+- (void)selectIndex:(NSInteger)index;
+@end
+
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS26OutOfBandChallengeProtocol_")
+@protocol OutOfBandChallengeProtocol <GenericChallengeProtocol>
+@end
+
 
 /// transaction parameters that the App passes to the 3DS Server when creating the AReq
 SWIFT_CLASS_NAMED("R3DS2AuthenticationRequestParameters")
@@ -1295,7 +1389,6 @@ SWIFT_CLASS_NAMED("R3DS2AuthenticationResponse")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
-@class NSNumber;
 
 /// Provides methods to pass UI customization parameters to the 3DS SDK.
 SWIFT_CLASS_NAMED("R3DS2Customization")
@@ -2042,6 +2135,12 @@ SWIFT_CLASS_NAMED("R3DS2Warning")
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
 
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS20SDKChallengeProtocol_")
+@protocol SDKChallengeProtocol
+- (void)handleChallenge;
+@end
+
 @class NSCoder;
 
 SWIFT_CLASS("_TtC10Ravelin3DS28ScrollingStackViewController")
@@ -2050,6 +2149,18 @@ SWIFT_CLASS("_TtC10Ravelin3DS28ScrollingStackViewController")
 - (void)viewDidLayoutSubviews;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS31SingleSelectorChallengeProtocol_")
+@protocol SingleSelectorChallengeProtocol <GenericChallengeProtocol>
+- (void)selectObject:(NSInteger)index;
+@end
+
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS21TextChallengeProtocol_")
+@protocol TextChallengeProtocol <GenericChallengeProtocol>
+- (void)typeTextChallengeValue:(NSString * _Nonnull)value;
 @end
 
 
@@ -2066,6 +2177,13 @@ SWIFT_CLASS("_TtC10Ravelin3DS28ScrollingStackViewController")
 
 
 
+
+@class WKWebView;
+
+SWIFT_PROTOCOL("_TtP10Ravelin3DS20WebChallengeProtocol_")
+@protocol WebChallengeProtocol <GenericChallengeProtocol>
+- (WKWebView * _Nonnull)getWebView SWIFT_WARN_UNUSED_RESULT;
+@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

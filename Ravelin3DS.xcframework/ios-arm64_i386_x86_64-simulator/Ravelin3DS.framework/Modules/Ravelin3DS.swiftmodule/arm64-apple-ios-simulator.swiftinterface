@@ -329,6 +329,9 @@ extension Ravelin3DS.HMAC {
   public static func decrypt(_ cipherText: Swift.Array<Swift.UInt8>, key: Swift.Array<Swift.UInt8>, iv: Swift.Array<Swift.UInt8>, authenticationHeader: Swift.Array<Swift.UInt8>, authenticationTag: Swift.Array<Swift.UInt8>) throws -> (plainText: Swift.Array<Swift.UInt8>, success: Swift.Bool)
   @objc deinit
 }
+@objc public protocol TextChallengeProtocol : Ravelin3DS.GenericChallengeProtocol {
+  @objc func typeTextChallengeValue(_ value: Swift.String)
+}
 public enum SignatureAlgorithm : Swift.String {
   case HS256
   case HS384
@@ -899,6 +902,9 @@ extension Swift.Collection {
     BatchedCollection(base: self, size: size)
   }
 }
+@objc public protocol SingleSelectorChallengeProtocol : Ravelin3DS.GenericChallengeProtocol {
+  @objc func selectObject(_ index: Swift.Int)
+}
 extension Ravelin3DS.AES {
   convenience public init(key: Swift.String, iv: Swift.String, padding: Ravelin3DS.Padding = .pkcs7) throws
 }
@@ -1458,6 +1464,9 @@ extension Ravelin3DS.JWE : Ravelin3DS.CompactDeserializable {
   }
   public init(from deserializer: Ravelin3DS.CompactDeserializer) throws
 }
+@objc public protocol MultiSelectChallengeProtocol : Ravelin3DS.GenericChallengeProtocol {
+  @objc func selectIndex(_ index: Swift.Int)
+}
 final public class HMAC : Ravelin3DS.Authenticator {
   public enum Error : Swift.Error {
     case authenticateError
@@ -1625,6 +1634,15 @@ extension Ravelin3DS.Checksum {
     Checksum().crc16(message, seed: seed)
   }
 }
+@objc public protocol GenericChallengeProtocol {
+  @objc func clickVerifyButton()
+  @objc func getChallengeType() -> Swift.String
+  @objc func clickCancelButton()
+  @objc func setChallengeProtocol(sdkChallengeProtocol: Ravelin3DS.SDKChallengeProtocol)
+  @objc func expandTextsBeforeScreenshot()
+  @objc func selectWhitelistChecked(checked: Swift.Bool)
+  @objc func setLandscapeOrientation(landscapeOrientation: Swift.Bool)
+}
 extension Swift.String {
   @inlinable public var bytes: Swift.Array<Swift.UInt8> {
     get {
@@ -1742,6 +1760,9 @@ extension Swift.String {
     data += Array<UInt8>(repeating: 0, count: blockSize + max - 1 - (msgLength % blockSize))
   }
 }
+@objc public protocol WebChallengeProtocol : Ravelin3DS.GenericChallengeProtocol {
+  @objc func getWebView() -> WebKit.WKWebView
+}
 extension Swift.Collection where Self.Element == Swift.UInt8, Self.Index == Swift.Int {
   @inlinable internal func toUInt32Array() -> Swift.Array<Swift.UInt32> {
     guard !isEmpty else {
@@ -1780,6 +1801,8 @@ extension Swift.Collection where Self.Element == Swift.UInt8, Self.Index == Swif
 }
 @usableFromInline
 internal func strideCount(from: Swift.Int, to: Swift.Int, by: Swift.Int) -> Swift.Int
+@objc public protocol OutOfBandChallengeProtocol : Ravelin3DS.GenericChallengeProtocol {
+}
 extension Foundation.Data : Ravelin3DS.ExpressibleAsECPublicKeyComponents {
   public static func representing(ecPublicKeyComponents components: Ravelin3DS.ECPublicKeyComponents) throws -> Foundation.Data
   public func ecPublicKeyComponents() throws -> Ravelin3DS.ECPublicKeyComponents
@@ -2207,6 +2230,9 @@ public struct OFB : Ravelin3DS.BlockMode {
   public let customBlockSize: Swift.Int?
   public init(iv: Swift.Array<Swift.UInt8>)
   public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
+}
+@objc public protocol SDKChallengeProtocol {
+  @objc func handleChallenge()
 }
 extension Foundation.Data {
   public init?(base64URLEncoded base64URLString: Swift.String)
