@@ -1082,6 +1082,7 @@ SWIFT_PROTOCOL("_TtP10Ravelin3DS21TextChallengeProtocol_")
 
 
 
+
 @class WKWebView;
 
 SWIFT_PROTOCOL("_TtP10Ravelin3DS20WebChallengeProtocol_")
@@ -2178,6 +2179,7 @@ SWIFT_PROTOCOL("_TtP10Ravelin3DS21TextChallengeProtocol_")
 
 
 
+
 @class WKWebView;
 
 SWIFT_PROTOCOL("_TtP10Ravelin3DS20WebChallengeProtocol_")
@@ -3258,6 +3260,7 @@ SWIFT_PROTOCOL("_TtP10Ravelin3DS21TextChallengeProtocol_")
 @protocol TextChallengeProtocol <GenericChallengeProtocol>
 - (void)typeTextChallengeValue:(NSString * _Nonnull)value;
 @end
+
 
 
 
