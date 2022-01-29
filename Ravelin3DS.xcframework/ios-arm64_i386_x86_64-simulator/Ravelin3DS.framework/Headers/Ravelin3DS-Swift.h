@@ -192,7 +192,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -906,6 +905,7 @@ SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSData;
 
 /// Holds parameters that are required to create AReq messages and to perform the Challenge Flow
 SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
@@ -939,6 +939,7 @@ SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
 - (id <R3DS2ProgressDialog> _Nullable)getProgressViewAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// Cleans up resources that are held by the Transaction object.
 - (BOOL)closeAndReturnError:(NSError * _Nullable * _Nullable)error;
+- (BOOL)presentChallengeData:(NSData * _Nonnull)data challengeStatusReceiver:(id <R3DS2ChallengeStatusReceiver> _Nonnull)challengeStatusReceiver timeOut:(NSInteger)timeOut challengeView:(id <R3DS2ChallengeView> _Nonnull)challengeView error:(NSError * _Nullable * _Nullable)error;
 @end
 
 
@@ -1045,16 +1046,6 @@ SWIFT_PROTOCOL("_TtP10Ravelin3DS20SDKChallengeProtocol_")
 - (void)handleChallenge;
 @end
 
-@class NSCoder;
-
-SWIFT_CLASS("_TtC10Ravelin3DS28ScrollingStackViewController")
-@interface ScrollingStackViewController : UIViewController
-- (void)viewDidLoad;
-- (void)viewDidLayoutSubviews;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 SWIFT_PROTOCOL("_TtP10Ravelin3DS31SingleSelectorChallengeProtocol_")
 @protocol SingleSelectorChallengeProtocol <GenericChallengeProtocol>
@@ -1066,8 +1057,6 @@ SWIFT_PROTOCOL("_TtP10Ravelin3DS21TextChallengeProtocol_")
 @protocol TextChallengeProtocol <GenericChallengeProtocol>
 - (void)typeTextChallengeValue:(NSString * _Nonnull)value;
 @end
-
-
 
 
 
@@ -1289,7 +1278,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -2003,6 +1991,7 @@ SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSData;
 
 /// Holds parameters that are required to create AReq messages and to perform the Challenge Flow
 SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
@@ -2036,6 +2025,7 @@ SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
 - (id <R3DS2ProgressDialog> _Nullable)getProgressViewAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// Cleans up resources that are held by the Transaction object.
 - (BOOL)closeAndReturnError:(NSError * _Nullable * _Nullable)error;
+- (BOOL)presentChallengeData:(NSData * _Nonnull)data challengeStatusReceiver:(id <R3DS2ChallengeStatusReceiver> _Nonnull)challengeStatusReceiver timeOut:(NSInteger)timeOut challengeView:(id <R3DS2ChallengeView> _Nonnull)challengeView error:(NSError * _Nullable * _Nullable)error;
 @end
 
 
@@ -2142,16 +2132,6 @@ SWIFT_PROTOCOL("_TtP10Ravelin3DS20SDKChallengeProtocol_")
 - (void)handleChallenge;
 @end
 
-@class NSCoder;
-
-SWIFT_CLASS("_TtC10Ravelin3DS28ScrollingStackViewController")
-@interface ScrollingStackViewController : UIViewController
-- (void)viewDidLoad;
-- (void)viewDidLayoutSubviews;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 SWIFT_PROTOCOL("_TtP10Ravelin3DS31SingleSelectorChallengeProtocol_")
 @protocol SingleSelectorChallengeProtocol <GenericChallengeProtocol>
@@ -2163,8 +2143,6 @@ SWIFT_PROTOCOL("_TtP10Ravelin3DS21TextChallengeProtocol_")
 @protocol TextChallengeProtocol <GenericChallengeProtocol>
 - (void)typeTextChallengeValue:(NSString * _Nonnull)value;
 @end
-
-
 
 
 
@@ -2386,7 +2364,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import ObjectiveC;
-@import UIKit;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -3100,6 +3077,7 @@ SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSData;
 
 /// Holds parameters that are required to create AReq messages and to perform the Challenge Flow
 SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
@@ -3133,6 +3111,7 @@ SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
 - (id <R3DS2ProgressDialog> _Nullable)getProgressViewAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// Cleans up resources that are held by the Transaction object.
 - (BOOL)closeAndReturnError:(NSError * _Nullable * _Nullable)error;
+- (BOOL)presentChallengeData:(NSData * _Nonnull)data challengeStatusReceiver:(id <R3DS2ChallengeStatusReceiver> _Nonnull)challengeStatusReceiver timeOut:(NSInteger)timeOut challengeView:(id <R3DS2ChallengeView> _Nonnull)challengeView error:(NSError * _Nullable * _Nullable)error;
 @end
 
 
@@ -3239,16 +3218,6 @@ SWIFT_PROTOCOL("_TtP10Ravelin3DS20SDKChallengeProtocol_")
 - (void)handleChallenge;
 @end
 
-@class NSCoder;
-
-SWIFT_CLASS("_TtC10Ravelin3DS28ScrollingStackViewController")
-@interface ScrollingStackViewController : UIViewController
-- (void)viewDidLoad;
-- (void)viewDidLayoutSubviews;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 SWIFT_PROTOCOL("_TtP10Ravelin3DS31SingleSelectorChallengeProtocol_")
 @protocol SingleSelectorChallengeProtocol <GenericChallengeProtocol>
@@ -3260,8 +3229,6 @@ SWIFT_PROTOCOL("_TtP10Ravelin3DS21TextChallengeProtocol_")
 @protocol TextChallengeProtocol <GenericChallengeProtocol>
 - (void)typeTextChallengeValue:(NSString * _Nonnull)value;
 @end
-
-
 
 
 

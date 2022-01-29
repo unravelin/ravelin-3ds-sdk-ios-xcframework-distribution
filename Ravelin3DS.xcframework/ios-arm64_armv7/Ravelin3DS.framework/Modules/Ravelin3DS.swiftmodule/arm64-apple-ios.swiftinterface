@@ -86,40 +86,6 @@ public struct RAV3DS2Scheme : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class ScrollingStackViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) final public let scrollView: UIKit.UIScrollView
-  @_Concurrency.MainActor(unsafe) final public let stackViewBackgroundView: UIKit.UIView
-  @_Concurrency.MainActor(unsafe) final public let stackView: UIKit.UIStackView
-  @_Concurrency.MainActor(unsafe) public var spacingColor: UIKit.UIColor {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) public var borderColor: UIKit.UIColor {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) public var borderWidth: CoreGraphics.CGFloat {
-    get
-    set
-  }
-  @_Concurrency.MainActor(unsafe) public static func defaultAnimate(_ animations: @escaping () -> (), completion: ((Swift.Bool) -> Swift.Void)?)
-  @_Concurrency.MainActor(unsafe) public var animate: (@escaping () -> (), ((Swift.Bool) -> Swift.Void)?) -> ()
-  @_Concurrency.MainActor(unsafe) public static func defaultScrollAnimate(_ animations: @escaping () -> (), completion: ((Swift.Bool) -> Swift.Void)?)
-  @_Concurrency.MainActor(unsafe) public var scrollAnimate: (@escaping () -> (), ((Swift.Bool) -> Swift.Void)?) -> ()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) open func add(viewController: UIKit.UIViewController)
-  @_Concurrency.MainActor(unsafe) open func add(viewController: UIKit.UIViewController, edgeInsets: UIKit.UIEdgeInsets)
-  @_Concurrency.MainActor(unsafe) open func insert(viewController: UIKit.UIViewController, at index: Swift.Int)
-  @_Concurrency.MainActor(unsafe) open func insert(viewController: UIKit.UIViewController, edgeInsets: UIKit.UIEdgeInsets, at index: Swift.Int)
-  @_Concurrency.MainActor(unsafe) open func remove(viewController: UIKit.UIViewController)
-  @_Concurrency.MainActor(unsafe) open func show(viewController: UIKit.UIViewController, _ action: (() -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) open func hide(viewController: UIKit.UIViewController, _ action: (() -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) open func scrollTo(viewController: UIKit.UIViewController, _ action: (() -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
-  @objc deinit
-}
 public struct CTR {
   public enum Error : Swift.Error {
     case invalidInitializationVector
@@ -1582,6 +1548,7 @@ extension Ravelin3DS.SHA1 : Ravelin3DS.Updatable {
   @objc func doChallenge(challengeParameters: Ravelin3DS.R3DS2ChallengeParameters, challengeStatusReceiver: Ravelin3DS.R3DS2ChallengeStatusReceiver, timeOut: Swift.Int, challengeView: Ravelin3DS.R3DS2ChallengeView) throws
   @objc func getProgressView() throws -> Ravelin3DS.R3DS2ProgressDialog
   @objc func close() throws
+  @objc func presentChallengeData(_ data: Foundation.Data, challengeStatusReceiver: Ravelin3DS.R3DS2ChallengeStatusReceiver, timeOut: Swift.Int, challengeView: Ravelin3DS.R3DS2ChallengeView) throws
 }
 final public class Checksum {
   @usableFromInline
