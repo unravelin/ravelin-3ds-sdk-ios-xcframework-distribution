@@ -420,7 +420,6 @@ typedef SWIFT_ENUM_NAMED(NSInteger, R3DS2ButtonType, "R3DS2ButtonType", open) {
 };
 
 
-/// The ChallengeParameters class holds the parameters that are required to conduct the challenge process.
 SWIFT_CLASS_NAMED("R3DS2ChallengeParameters")
 @interface R3DS2ChallengeParameters : NSObject
 - (nonnull instancetype)initWithAuthenticationResponse:(R3DS2AuthenticationResponse * _Nullable)authResponse;
@@ -1057,6 +1056,8 @@ SWIFT_PROTOCOL("_TtP10Ravelin3DS21TextChallengeProtocol_")
 @protocol TextChallengeProtocol <GenericChallengeProtocol>
 - (void)typeTextChallengeValue:(NSString * _Nonnull)value;
 @end
+
+
 
 
 
@@ -1506,7 +1507,6 @@ typedef SWIFT_ENUM_NAMED(NSInteger, R3DS2ButtonType, "R3DS2ButtonType", open) {
 };
 
 
-/// The ChallengeParameters class holds the parameters that are required to conduct the challenge process.
 SWIFT_CLASS_NAMED("R3DS2ChallengeParameters")
 @interface R3DS2ChallengeParameters : NSObject
 - (nonnull instancetype)initWithAuthenticationResponse:(R3DS2AuthenticationResponse * _Nullable)authResponse;
@@ -2143,6 +2143,8 @@ SWIFT_PROTOCOL("_TtP10Ravelin3DS21TextChallengeProtocol_")
 @protocol TextChallengeProtocol <GenericChallengeProtocol>
 - (void)typeTextChallengeValue:(NSString * _Nonnull)value;
 @end
+
+
 
 
 
@@ -2592,7 +2594,6 @@ typedef SWIFT_ENUM_NAMED(NSInteger, R3DS2ButtonType, "R3DS2ButtonType", open) {
 };
 
 
-/// The ChallengeParameters class holds the parameters that are required to conduct the challenge process.
 SWIFT_CLASS_NAMED("R3DS2ChallengeParameters")
 @interface R3DS2ChallengeParameters : NSObject
 - (nonnull instancetype)initWithAuthenticationResponse:(R3DS2AuthenticationResponse * _Nullable)authResponse;
@@ -3229,6 +3230,8 @@ SWIFT_PROTOCOL("_TtP10Ravelin3DS21TextChallengeProtocol_")
 @protocol TextChallengeProtocol <GenericChallengeProtocol>
 - (void)typeTextChallengeValue:(NSString * _Nonnull)value;
 @end
+
+
 
 
 
