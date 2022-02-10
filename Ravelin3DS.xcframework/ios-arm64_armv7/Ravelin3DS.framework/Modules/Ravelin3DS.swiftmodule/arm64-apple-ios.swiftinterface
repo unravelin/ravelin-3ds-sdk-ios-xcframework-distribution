@@ -416,7 +416,7 @@ extension Foundation.Data {
   public func toHexString() -> Swift.String
 }
 extension UIKit.UIColor {
-  convenience public init?(hexColorCode: Swift.String)
+  convenience public init?(hexColorCode: Swift.String?)
 }
 public struct JWEHeader {
   public init(keyManagementAlgorithm: Ravelin3DS.KeyManagementAlgorithm, contentEncryptionAlgorithm: Ravelin3DS.ContentEncryptionAlgorithm)
