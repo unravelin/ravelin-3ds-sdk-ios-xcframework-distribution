@@ -393,6 +393,7 @@ SWIFT_CLASS_NAMED("R3DS2ButtonCustomization")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 /// Enum type describing the types of buttons
 /// <ul>
 ///   <li>
@@ -490,6 +491,7 @@ SWIFT_CLASS_NAMED("R3DS2ConfigParameters")
 /// @param error InvalidInput This exception shall be thrown if paramName is not provided or if a variable already exists in the dictionary.
 - (BOOL)addParamWithGroup:(NSString * _Nullable)group paramName:(NSString * _Nonnull)paramName paramValue:(NSString * _Nonnull)paramValue error:(NSError * _Nullable * _Nullable)error;
 @end
+
 
 
 
@@ -620,6 +622,7 @@ SWIFT_CLASS_NAMED("R3DS2LabelCustomization")
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 /// Protocol containing functions for the progress view.
@@ -849,6 +852,7 @@ SWIFT_CLASS_NAMED("R3DS2TextBoxCustomization")
 @end
 
 
+
 /// Provides methods for the 3DS Requestor App to pass toolbar customization parameters to the 3DS SDK.
 SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
 @interface R3DS2ToolbarCustomization : R3DS2Customization
@@ -903,6 +907,7 @@ SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 @class NSData;
 
@@ -1482,6 +1487,7 @@ SWIFT_CLASS_NAMED("R3DS2ButtonCustomization")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 /// Enum type describing the types of buttons
 /// <ul>
 ///   <li>
@@ -1579,6 +1585,7 @@ SWIFT_CLASS_NAMED("R3DS2ConfigParameters")
 /// @param error InvalidInput This exception shall be thrown if paramName is not provided or if a variable already exists in the dictionary.
 - (BOOL)addParamWithGroup:(NSString * _Nullable)group paramName:(NSString * _Nonnull)paramName paramValue:(NSString * _Nonnull)paramValue error:(NSError * _Nullable * _Nullable)error;
 @end
+
 
 
 
@@ -1709,6 +1716,7 @@ SWIFT_CLASS_NAMED("R3DS2LabelCustomization")
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 /// Protocol containing functions for the progress view.
@@ -1938,6 +1946,7 @@ SWIFT_CLASS_NAMED("R3DS2TextBoxCustomization")
 @end
 
 
+
 /// Provides methods for the 3DS Requestor App to pass toolbar customization parameters to the 3DS SDK.
 SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
 @interface R3DS2ToolbarCustomization : R3DS2Customization
@@ -1992,6 +2001,7 @@ SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 @class NSData;
 
