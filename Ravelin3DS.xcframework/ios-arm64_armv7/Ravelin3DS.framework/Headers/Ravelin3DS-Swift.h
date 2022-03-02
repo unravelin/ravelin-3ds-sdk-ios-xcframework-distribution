@@ -215,7 +215,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 /// transaction parameters that the App passes to the 3DS Server when creating the AReq
 SWIFT_CLASS_NAMED("R3DS2AuthenticationRequestParameters")
 @interface R3DS2AuthenticationRequestParameters : NSObject
-- (nullable instancetype)initWithSdkTransactionId:(NSString * _Nonnull)sdkTransactionId deviceData:(NSString * _Nonnull)deviceData sdkEphemeralPublicKey:(NSString * _Nonnull)sdkEphemeralPublicKey sdkAppId:(NSString * _Nonnull)sdkAppId sdkReferenceNumber:(NSString * _Nonnull)sdkReferenceNumber messageVersion:(NSString * _Nonnull)messageVersion error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithSdkTransactionId:(NSString * _Nonnull)sdkTransactionId deviceData:(NSString * _Nonnull)deviceData sdkEphemeralPublicKey:(NSString * _Nonnull)sdkEphemeralPublicKey sdkAppId:(NSString * _Nonnull)sdkAppId sdkReferenceNumber:(NSString * _Nonnull)sdkReferenceNumber messageVersion:(NSString * _Nonnull)messageVersion directoryServerId:(NSString * _Nonnull)directoryServerId error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
 /// Returns a string that represents the encrypted device data
 ///
 /// returns:
@@ -875,7 +875,6 @@ SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
 @end
 
 
-@class NSData;
 
 /// Holds parameters that are required to create AReq messages and to perform the Challenge Flow
 SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
@@ -909,7 +908,6 @@ SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
 - (id <R3DS2ProgressDialog> _Nullable)getProgressViewAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// Cleans up resources that are held by the Transaction object.
 - (BOOL)closeAndReturnError:(NSError * _Nullable * _Nullable)error;
-- (BOOL)presentChallengeData:(NSData * _Nonnull)data challengeStatusReceiver:(id <R3DS2ChallengeStatusReceiver> _Nonnull)challengeStatusReceiver timeOut:(NSInteger)timeOut challengeView:(id <R3DS2ChallengeView> _Nonnull)challengeView error:(NSError * _Nullable * _Nullable)error;
 @end
 
 
@@ -1250,7 +1248,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 /// transaction parameters that the App passes to the 3DS Server when creating the AReq
 SWIFT_CLASS_NAMED("R3DS2AuthenticationRequestParameters")
 @interface R3DS2AuthenticationRequestParameters : NSObject
-- (nullable instancetype)initWithSdkTransactionId:(NSString * _Nonnull)sdkTransactionId deviceData:(NSString * _Nonnull)deviceData sdkEphemeralPublicKey:(NSString * _Nonnull)sdkEphemeralPublicKey sdkAppId:(NSString * _Nonnull)sdkAppId sdkReferenceNumber:(NSString * _Nonnull)sdkReferenceNumber messageVersion:(NSString * _Nonnull)messageVersion error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithSdkTransactionId:(NSString * _Nonnull)sdkTransactionId deviceData:(NSString * _Nonnull)deviceData sdkEphemeralPublicKey:(NSString * _Nonnull)sdkEphemeralPublicKey sdkAppId:(NSString * _Nonnull)sdkAppId sdkReferenceNumber:(NSString * _Nonnull)sdkReferenceNumber messageVersion:(NSString * _Nonnull)messageVersion directoryServerId:(NSString * _Nonnull)directoryServerId error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
 /// Returns a string that represents the encrypted device data
 ///
 /// returns:
@@ -1910,7 +1908,6 @@ SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
 @end
 
 
-@class NSData;
 
 /// Holds parameters that are required to create AReq messages and to perform the Challenge Flow
 SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
@@ -1944,7 +1941,6 @@ SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
 - (id <R3DS2ProgressDialog> _Nullable)getProgressViewAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// Cleans up resources that are held by the Transaction object.
 - (BOOL)closeAndReturnError:(NSError * _Nullable * _Nullable)error;
-- (BOOL)presentChallengeData:(NSData * _Nonnull)data challengeStatusReceiver:(id <R3DS2ChallengeStatusReceiver> _Nonnull)challengeStatusReceiver timeOut:(NSInteger)timeOut challengeView:(id <R3DS2ChallengeView> _Nonnull)challengeView error:(NSError * _Nullable * _Nullable)error;
 @end
 
 
