@@ -875,6 +875,7 @@ SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
 @end
 
 
+@class NSData;
 
 /// Holds parameters that are required to create AReq messages and to perform the Challenge Flow
 SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
@@ -908,6 +909,7 @@ SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
 - (id <R3DS2ProgressDialog> _Nullable)getProgressViewAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// Cleans up resources that are held by the Transaction object.
 - (BOOL)closeAndReturnError:(NSError * _Nullable * _Nullable)error;
+- (BOOL)presentChallengeData:(NSData * _Nonnull)data challengeStatusReceiver:(id <R3DS2ChallengeStatusReceiver> _Nonnull)challengeStatusReceiver timeOut:(NSInteger)timeOut challengeView:(id <R3DS2ChallengeView> _Nonnull)challengeView error:(NSError * _Nullable * _Nullable)error;
 @end
 
 
@@ -1908,6 +1910,7 @@ SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
 @end
 
 
+@class NSData;
 
 /// Holds parameters that are required to create AReq messages and to perform the Challenge Flow
 SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
@@ -1941,6 +1944,7 @@ SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
 - (id <R3DS2ProgressDialog> _Nullable)getProgressViewAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// Cleans up resources that are held by the Transaction object.
 - (BOOL)closeAndReturnError:(NSError * _Nullable * _Nullable)error;
+- (BOOL)presentChallengeData:(NSData * _Nonnull)data challengeStatusReceiver:(id <R3DS2ChallengeStatusReceiver> _Nonnull)challengeStatusReceiver timeOut:(NSInteger)timeOut challengeView:(id <R3DS2ChallengeView> _Nonnull)challengeView error:(NSError * _Nullable * _Nullable)error;
 @end
 
 
@@ -2941,6 +2945,7 @@ SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
 @end
 
 
+@class NSData;
 
 /// Holds parameters that are required to create AReq messages and to perform the Challenge Flow
 SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
@@ -2974,6 +2979,7 @@ SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
 - (id <R3DS2ProgressDialog> _Nullable)getProgressViewAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
 /// Cleans up resources that are held by the Transaction object.
 - (BOOL)closeAndReturnError:(NSError * _Nullable * _Nullable)error;
+- (BOOL)presentChallengeData:(NSData * _Nonnull)data challengeStatusReceiver:(id <R3DS2ChallengeStatusReceiver> _Nonnull)challengeStatusReceiver timeOut:(NSInteger)timeOut challengeView:(id <R3DS2ChallengeView> _Nonnull)challengeView error:(NSError * _Nullable * _Nullable)error;
 @end
 
 
