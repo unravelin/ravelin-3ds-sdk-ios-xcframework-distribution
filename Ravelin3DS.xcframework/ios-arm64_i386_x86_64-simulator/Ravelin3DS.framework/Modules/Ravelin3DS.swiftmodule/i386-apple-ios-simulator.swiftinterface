@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target i386-apple-ios10.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Ravelin3DS
 import AdSupport
 import CommonCrypto
@@ -74,15 +74,14 @@ extension Security.SecKey : Ravelin3DS.ExpressibleAsECPublicKeyComponents {
   public static func representing(ecPublicKeyComponents components: Ravelin3DS.ECPublicKeyComponents) throws -> Self
   public func ecPublicKeyComponents() throws -> Ravelin3DS.ECPublicKeyComponents
 }
-public struct RAV3DS2Config : Swift.Codable {
+public struct R3DS2Config : Swift.Codable {
   public func jsonData() throws -> Foundation.Data
   public func params() -> [Swift.String : Any]?
-  public func with(logLevel: Swift.String, schemes: [Ravelin3DS.RAV3DS2Scheme]) -> Ravelin3DS.RAV3DS2Config
+  public static func readConfigFromFile(_ configFile: Swift.String) -> Ravelin3DS.R3DS2Config?
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public struct RAV3DS2Scheme : Swift.Codable {
-  public func with(name: Swift.String, logoImageName: Swift.String, ids: [Swift.String]? = nil, encryptionKeyValue: Swift.String, rootCertificate: Swift.String? = nil, timeoutMinutes: Swift.String? = nil) -> Ravelin3DS.RAV3DS2Scheme
+public struct R3DS2Scheme : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -281,11 +280,14 @@ public struct Payload : Ravelin3DS.DataConvertible {
 extension Ravelin3DS.HMAC {
   convenience public init(key: Swift.String, variant: Ravelin3DS.HMAC.Variant = .md5) throws
 }
+public let kConfigDefaultGroupName: Swift.String
 @_inheritsConvenienceInitializers @objc(R3DS2ConfigParameters) @objcMembers public class R3DS2ConfigParameters : ObjectiveC.NSObject {
   @objc override dynamic public init()
+  @objc convenience public init(parameters: [Swift.String : Any]?, group: Swift.String = kConfigDefaultGroupName)
   @objc public func addParam(group: Swift.String? = nil, paramName: Swift.String, paramValue: Swift.String) throws
   public func getParamValue(group: Swift.String? = nil, paramName: Swift.String) throws -> Swift.String?
   public func removeParam(group: Swift.String? = nil, paramName: Swift.String) throws -> Swift.String?
+  @objc public static func loadFromFile(_ configFile: Swift.String = "config") -> Ravelin3DS.R3DS2ConfigParameters
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class AEADChaCha20Poly1305 : Ravelin3DS.AEAD {
@@ -1925,7 +1927,7 @@ public protocol FinalizingDecryptModeWorker : Ravelin3DS.CipherModeWorker {
   @objc override dynamic public init()
   @objc deinit
 }
-public enum RAV3DS2ErrorCode : Swift.String, Swift.Equatable, Swift.Hashable, Swift.RawRepresentable {
+public enum R3DS2ErrorCode : Swift.String, Swift.Equatable, Swift.Hashable, Swift.RawRepresentable {
   case transactionIsAlreadyClosed
   case challengeAlreadyInProgress
   case transactioRAVnnotBeClosedChallengeInProdgress
