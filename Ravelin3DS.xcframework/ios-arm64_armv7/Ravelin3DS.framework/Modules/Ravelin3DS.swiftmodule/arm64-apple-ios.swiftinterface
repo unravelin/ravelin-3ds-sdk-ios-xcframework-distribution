@@ -8,12 +8,15 @@ import CoreLocation
 import Darwin
 import Foundation
 import LocalAuthentication
+import OSLog
 @_exported import Ravelin3DS
 import Security
 import Swift
 import UIKit
 import WebKit
 import _Concurrency
+import os.log
+import os
 public struct JWS {
   public let header: Ravelin3DS.JWSHeader
   public let payload: Ravelin3DS.Payload
