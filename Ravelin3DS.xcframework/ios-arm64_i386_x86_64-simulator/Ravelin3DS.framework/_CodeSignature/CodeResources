@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		t59RxsfL/tyQR6RnR9cy67ezpw4=
+		kFCb+XUxAFkFe7LW8Lq8ZZoYKyY=
 		</data>
 		<key>Headers/Ravelin3DS-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		s6oscmUCdj7x3e68uia4plWIiug=
+		VAScNCi2WgGw1IMVmdNgE21wh7Q=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -67,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t59RxsfL/tyQR6RnR9cy67ezpw4=
+			kFCb+XUxAFkFe7LW8Lq8ZZoYKyY=
 			</data>
 			<key>hash2</key>
 			<data>
-			FdT+sJveDwK0U3lyonwh7t2U/n5rUpuzp74k3Fm2w+Y=
+			NwtcDo2eloBs1fqJKKmxfBd27GqHIdPP6LbD3skG1ww=
 			</data>
 		</dict>
 		<key>Headers/Ravelin3DS-Swift.h</key>
