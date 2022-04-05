@@ -1544,7 +1544,6 @@ extension Ravelin3DS.SHA1 : Ravelin3DS.Updatable {
   @objc func doChallenge(challengeParameters: Ravelin3DS.R3DS2ChallengeParameters, challengeStatusReceiver: Ravelin3DS.R3DS2ChallengeStatusReceiver, timeOut: Swift.Int, challengeView: Ravelin3DS.R3DS2ChallengeView) throws
   @objc func getProgressView() throws -> Ravelin3DS.R3DS2ProgressDialog
   @objc func close() throws
-  @objc func presentChallengeData(_ data: Foundation.Data, challengeStatusReceiver: Ravelin3DS.R3DS2ChallengeStatusReceiver, timeOut: Swift.Int, challengeView: Ravelin3DS.R3DS2ChallengeView) throws
 }
 final public class Checksum {
   @usableFromInline
