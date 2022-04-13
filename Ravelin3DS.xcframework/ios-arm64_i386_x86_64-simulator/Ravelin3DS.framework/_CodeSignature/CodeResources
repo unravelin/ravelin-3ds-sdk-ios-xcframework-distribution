@@ -6,7 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		kFCb+XUxAFkFe7LW8Lq8ZZoYKyY=
+		qT7w/tUaLB7yU2xuhpPzS+4KmSg=
+		</data>
+		<key>Futura.plist</key>
+		<data>
+		EvdbPJpvAul3arusQ61Fk5vbRVM=
 		</data>
 		<key>Headers/Ravelin3DS-Swift.h</key>
 		<data>
@@ -18,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Z7WHmO0OzBlWpexPpUQ2WQeoopQ=
+		/bPN8HJd8BvPUf4iFF2+xSugKEo=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,7 +34,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YGu0qv9Q6z1FG7K2fV1PybSa89g=
+		+pUqshlI2BgPV/osP68Wxbgoc/w=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,7 +46,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		52tEFrNQT8y/58bD3ZJRysHGg4E=
+		MoakG7J/Ue6WezI/enzePEB2Oao=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,11 +58,79 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		I+s/24q5aGAJsZ4u9IoMVEuJkRo=
+		ooG2twxuiXQopKu46JHNdY9KwkY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		RbL7OYLcu4IS/DPCwEYY/BQ8av8=
+		</data>
+		<key>Noteworthy.plist</key>
+		<data>
+		nQbRELeVrbqS489zwPROQklYLFM=
+		</data>
+		<key>NotoSerif-Bold.ttf</key>
+		<data>
+		CsGvBgczciPUUUaFKJ8HgV9XNWQ=
+		</data>
+		<key>NotoSerif-Regular.ttf</key>
+		<data>
+		PxVQnHl6lXdpMW4FTE9/Q+8dlWM=
+		</data>
+		<key>NotoSerif.plist</key>
+		<data>
+		xsA18XS4iJI3D+ZagM4owGucR8Q=
+		</data>
+		<key>OpenSans-Bold.ttf</key>
+		<data>
+		t/hE4/vFknGXUJVqfpoZ8O3mLHg=
+		</data>
+		<key>OpenSans-BoldItalic.ttf</key>
+		<data>
+		1uPPo4fSeUUQgoPMz7DUZy8dvNs=
+		</data>
+		<key>OpenSans-ExtraBold.ttf</key>
+		<data>
+		TCBKQeB/wARypLh1SmJIz1mD+/c=
+		</data>
+		<key>OpenSans-ExtraBoldItalic.ttf</key>
+		<data>
+		mpIlpftLaB9twVPkB5k/MkTKWek=
+		</data>
+		<key>OpenSans-Italic.ttf</key>
+		<data>
+		U8Myzwaxt+wzFOE8cesMqqEvTe0=
+		</data>
+		<key>OpenSans-Light.ttf</key>
+		<data>
+		vvNxwro6yMwu8namXMO+RkFNH/0=
+		</data>
+		<key>OpenSans-LightItalic.ttf</key>
+		<data>
+		qN40DdtZb1mWKlShgJwG7jMsFRY=
+		</data>
+		<key>OpenSans-Medium.ttf</key>
+		<data>
+		cecjtvYc1ANLK9Nz8/NGp9hoDsI=
+		</data>
+		<key>OpenSans-MediumItalic.ttf</key>
+		<data>
+		B19bx4ju/5/aIoYFHrULVF2eUDA=
+		</data>
+		<key>OpenSans-Regular.ttf</key>
+		<data>
+		szQgn0NCY3S3CeQuMYXcRkeKlro=
+		</data>
+		<key>OpenSans-SemiBold.ttf</key>
+		<data>
+		RZdM+ay9G+EY8rQmx8+rM+5YTjw=
+		</data>
+		<key>OpenSans-SemiBoldItalic.ttf</key>
+		<data>
+		t40zBEm+8ZY8VUhu9kf0BxUx5nw=
+		</data>
+		<key>OpenSans.plist</key>
+		<data>
+		fyaVY7FCYgBTUi7HuYPokl3ELL8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -67,11 +139,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kFCb+XUxAFkFe7LW8Lq8ZZoYKyY=
+			qT7w/tUaLB7yU2xuhpPzS+4KmSg=
 			</data>
 			<key>hash2</key>
 			<data>
-			NwtcDo2eloBs1fqJKKmxfBd27GqHIdPP6LbD3skG1ww=
+			0fRLhfyIDjZHk9SU6rkHNdnv5tzq8hikA4VTd8zSMKE=
+			</data>
+		</dict>
+		<key>Futura.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EvdbPJpvAul3arusQ61Fk5vbRVM=
+			</data>
+			<key>hash2</key>
+			<data>
+			dRBChdig3gUCERMblHPGkMkft+mpCGwLfevvcl5B2fk=
 			</data>
 		</dict>
 		<key>Headers/Ravelin3DS-Swift.h</key>
@@ -122,11 +205,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YGu0qv9Q6z1FG7K2fV1PybSa89g=
+			+pUqshlI2BgPV/osP68Wxbgoc/w=
 			</data>
 			<key>hash2</key>
 			<data>
-			0VR4Fj5NfwDsZDW8qxfwrhoa9HMaZAjDioKBb+MxH68=
+			XPxVlpw9ikTTHrPtfbv3dUHcLr+I2iaanosw1OpHI2o=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -155,11 +238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			52tEFrNQT8y/58bD3ZJRysHGg4E=
+			MoakG7J/Ue6WezI/enzePEB2Oao=
 			</data>
 			<key>hash2</key>
 			<data>
-			iDFBqb529SSGKsSf4o6dBdRB36nM9YQkspbUKJ/AW3o=
+			htPwavVE3729jGfpJlUuM5Xo5LQEICRoQzv47aGp9sU=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -188,11 +271,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I+s/24q5aGAJsZ4u9IoMVEuJkRo=
+			ooG2twxuiXQopKu46JHNdY9KwkY=
 			</data>
 			<key>hash2</key>
 			<data>
-			NBwoIEnoGqOYx1lTDuor64f5tLoQOlMMhf22NSI9Z1E=
+			wUBkgG+bsQ1gzCf9rxWGTxA5HNk/feAyAxkKeBN7kQw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -204,6 +287,193 @@
 			<key>hash2</key>
 			<data>
 			cBW78UEOXlcQr0syvdUyPc0rmadtLnph8hsq2bF82Sk=
+			</data>
+		</dict>
+		<key>Noteworthy.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nQbRELeVrbqS489zwPROQklYLFM=
+			</data>
+			<key>hash2</key>
+			<data>
+			0HTp/eU3qYxruIxWs/N/qHG+0+UI7lPccbXfbEoRGAc=
+			</data>
+		</dict>
+		<key>NotoSerif-Bold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CsGvBgczciPUUUaFKJ8HgV9XNWQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			d4l1WUpOWfL25ynbL5FiFhbt5Scvj5M2r0fqWZ9qaIs=
+			</data>
+		</dict>
+		<key>NotoSerif-Regular.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PxVQnHl6lXdpMW4FTE9/Q+8dlWM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Zq4/vDxSrLZYwVlLk6KB86jlyN3vsivoGfkBCcEVpIU=
+			</data>
+		</dict>
+		<key>NotoSerif.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xsA18XS4iJI3D+ZagM4owGucR8Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			wXBHxOni1dYuWJ/QMl2DDkQq5uCztvaWUsAnM6YYBwc=
+			</data>
+		</dict>
+		<key>OpenSans-Bold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t/hE4/vFknGXUJVqfpoZ8O3mLHg=
+			</data>
+			<key>hash2</key>
+			<data>
+			2CKfggagtJotx0ggp4OA6vgHw9DyBmpTVi0rZQqiETk=
+			</data>
+		</dict>
+		<key>OpenSans-BoldItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1uPPo4fSeUUQgoPMz7DUZy8dvNs=
+			</data>
+			<key>hash2</key>
+			<data>
+			zqiJ/H6RbL6ulbYSSo2lnLHmYk3SNkc12roN3s4PzO4=
+			</data>
+		</dict>
+		<key>OpenSans-ExtraBold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TCBKQeB/wARypLh1SmJIz1mD+/c=
+			</data>
+			<key>hash2</key>
+			<data>
+			Tj8dT3CGCWUJE7P6ecXfg8Sv5R4XDrl1Fuc6m3jGUFY=
+			</data>
+		</dict>
+		<key>OpenSans-ExtraBoldItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mpIlpftLaB9twVPkB5k/MkTKWek=
+			</data>
+			<key>hash2</key>
+			<data>
+			1xEgmy3YEJQ7hsASUualZEeYUKk6/nxw/mh3U3ZV4zo=
+			</data>
+		</dict>
+		<key>OpenSans-Italic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U8Myzwaxt+wzFOE8cesMqqEvTe0=
+			</data>
+			<key>hash2</key>
+			<data>
+			nI/gTed6ELFZD/Wqdt02JUhf2MHDEOiDNHGBTsWH0LY=
+			</data>
+		</dict>
+		<key>OpenSans-Light.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vvNxwro6yMwu8namXMO+RkFNH/0=
+			</data>
+			<key>hash2</key>
+			<data>
+			NgvjFQaT6PGzjGiSSxS1WSqseLyN9c0jrK7cCvvUb2s=
+			</data>
+		</dict>
+		<key>OpenSans-LightItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qN40DdtZb1mWKlShgJwG7jMsFRY=
+			</data>
+			<key>hash2</key>
+			<data>
+			Fs8/qmiAKFz+Ve9trLnkbT/mPaeP7s4JGLVt3NNNeRg=
+			</data>
+		</dict>
+		<key>OpenSans-Medium.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cecjtvYc1ANLK9Nz8/NGp9hoDsI=
+			</data>
+			<key>hash2</key>
+			<data>
+			XtKOS7bA+iaIXy0+nSfhgEne/pWUz1SmKs/nMLX2c5c=
+			</data>
+		</dict>
+		<key>OpenSans-MediumItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			B19bx4ju/5/aIoYFHrULVF2eUDA=
+			</data>
+			<key>hash2</key>
+			<data>
+			ROAl6xqy1WFUYFZumEnRBq1lmWgIWr1xAlJcmc+o194=
+			</data>
+		</dict>
+		<key>OpenSans-Regular.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			szQgn0NCY3S3CeQuMYXcRkeKlro=
+			</data>
+			<key>hash2</key>
+			<data>
+			jCPNT4/qGcXGKX9Tmbkcb/pAojyoWTm4FAq+XXVb4uY=
+			</data>
+		</dict>
+		<key>OpenSans-SemiBold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RZdM+ay9G+EY8rQmx8+rM+5YTjw=
+			</data>
+			<key>hash2</key>
+			<data>
+			YFGs72jYu83IcMLuXbS0RQU6/sFV/CWbkHXXVQQRJYA=
+			</data>
+		</dict>
+		<key>OpenSans-SemiBoldItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			t40zBEm+8ZY8VUhu9kf0BxUx5nw=
+			</data>
+			<key>hash2</key>
+			<data>
+			G9jxzK20yVm8ZALc+SVTp3Aj5F9R+rNubJoyRa90QEk=
+			</data>
+		</dict>
+		<key>OpenSans.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fyaVY7FCYgBTUi7HuYPokl3ELL8=
+			</data>
+			<key>hash2</key>
+			<data>
+			YR2z9SXXr3wVmR86hcKtx4Y4Nqgv/ffM7l1VRafcPBo=
 			</data>
 		</dict>
 	</dict>
