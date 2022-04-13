@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		CuIBeu+1NRYKggaaaLAIlUvoOl0=
+		QC0y9M8sBlW04Bfq0fEPlmnitrE=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NFv0XuyGjRdtSFTulk0hiPkPqTY=
+		Bk0xjotuOa33vG50AfXg53UtaU0=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4xpBTiciZ3467mq2X+5cr1BNA4U=
+		SIqnpsIvW9mHTlAARpmb6bILkmc=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NKJCWOOsQEhD9RHttj6Bk1Np5Ek=
+		Bxt43oYEbz3+BjopQtXWn7e8LxI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -205,11 +205,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NFv0XuyGjRdtSFTulk0hiPkPqTY=
+			Bk0xjotuOa33vG50AfXg53UtaU0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RXBbIM07HL4xHk30PgWdYvq3gkk0/PVaES6F8eNXoi4=
+			wmdiUKTsLpWHgIXNelGpDOfBHCAJ+KOoTTFsHqp1ipI=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -238,11 +238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4xpBTiciZ3467mq2X+5cr1BNA4U=
+			SIqnpsIvW9mHTlAARpmb6bILkmc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ixIGOx3tcFovIvtWe4RwXKMgZKg7e+UHXREwn5s8r6g=
+			EiY/qc2F4r88kJDhwnss3pW0F7bEj9EF+FZh6gAH6fo=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -271,11 +271,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NKJCWOOsQEhD9RHttj6Bk1Np5Ek=
+			Bxt43oYEbz3+BjopQtXWn7e8LxI=
 			</data>
 			<key>hash2</key>
 			<data>
-			LMC6iFFgaQa799ayKLFFe/mgFpd77S7xts/QfyRekfY=
+			bakMxzcwKR48BZl13In85G8A+uEOrCSsQABYS6h2pEU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
