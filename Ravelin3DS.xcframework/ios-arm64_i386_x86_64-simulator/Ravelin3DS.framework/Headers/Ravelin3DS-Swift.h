@@ -1034,6 +1034,8 @@ SWIFT_CLASS_NAMED("R3DS2Warning")
 
 
 
+
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
@@ -2075,6 +2077,8 @@ SWIFT_CLASS_NAMED("R3DS2Warning")
 
 
 
+
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
@@ -3097,6 +3101,8 @@ SWIFT_CLASS_NAMED("R3DS2Warning")
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
+
+
 
 
 
