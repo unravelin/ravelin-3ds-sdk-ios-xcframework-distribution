@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		vLyy9f3WclizB3aNIZPSCzhU2UE=
+		PYtNP7Rj3tqvVQX4XkyD/ZPNi/M=
 		</data>
 		<key>Futura.plist</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		eLpqLj2T8bIFfmgLjcJ3SdaM9ME=
+		B4+rLGx56FsisY9qivP+72eGLBo=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		N9cMao+3xWO/RBisPDanTb6bUm0=
+		AMTgPXs2GWDTHt8ynoESsgPyH9k=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HSHiiPtyLpCtkYZv7W0HgYvgkjI=
+		LKo1wWZ8tA17nSJhzq4nD7QlB5g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -127,7 +127,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rTFpb0xPawHzYj3m5ELTSrMGPReyZgZjgmMaOjGlziA=
+			ui2BQNOUpa5uLIWPpZJa7967m7eK8AIZT2yeSPyQkbw=
 			</data>
 		</dict>
 		<key>Futura.plist</key>
@@ -169,7 +169,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gMIa0zGzIABdi748on8lQ+qyMzKi8xVytD0iXcHeJuM=
+			45ap8DYdEiHCKkjvSQlStFrrqFrm+69Bvvdm7+zNG04=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -190,7 +190,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LhZw+VGNdnrxujEFsZRUVljJ8/HkC4jdqpflIvohFjo=
+			dFgIPUqZFusPZhUGtdT+MCGewyfLpwLwdKv66mtDkcY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
