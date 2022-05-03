@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nuwwVocf67+hUPXYCYPeM87qERg=
+		eLpqLj2T8bIFfmgLjcJ3SdaM9ME=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IHi3leHiRMtO8K3dyX05T4LQ/FA=
+		N9cMao+3xWO/RBisPDanTb6bUm0=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		y2X8hhb4mw0DHgRJTNehnOSSa3U=
+		HSHiiPtyLpCtkYZv7W0HgYvgkjI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -169,7 +169,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C7fTeUaggnLicyOkjGRYwyfO6dzzKq0hP3dqvAGqP4A=
+			gMIa0zGzIABdi748on8lQ+qyMzKi8xVytD0iXcHeJuM=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -190,7 +190,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FibAphc0YOCKz0ybqf7Z3gg+tN2kb+TQYRDfTKQL040=
+			LhZw+VGNdnrxujEFsZRUVljJ8/HkC4jdqpflIvohFjo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
