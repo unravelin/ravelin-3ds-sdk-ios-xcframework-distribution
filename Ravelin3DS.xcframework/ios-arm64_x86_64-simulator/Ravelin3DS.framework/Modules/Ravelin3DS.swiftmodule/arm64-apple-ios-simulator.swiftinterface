@@ -46,9 +46,9 @@ extension Ravelin3DS.JWS : Ravelin3DS.CompactDeserializable {
   }
   public init(from deserializer: Ravelin3DS.CompactDeserializer) throws
 }
-@objc(R3DS2ProgressDialog) public protocol R3DS2ProgressDialog {
-  @objc func start()
-  @objc func stop()
+public protocol R3DS2ProgressDialog {
+  func start()
+  func stop()
 }
 extension Ravelin3DS.Rabbit {
   convenience public init(key: Swift.String) throws
@@ -155,11 +155,11 @@ extension Swift.Array where Element == Swift.UInt8 {
   public func toBase64() -> Swift.String
   public init(base64: Swift.String)
 }
-@objc(R3DS2Warning) @objcMembers public class R3DS2Warning : ObjectiveC.NSObject {
-  @objc public init(warningId: Swift.String, message: Swift.String, severity: Ravelin3DS.R3DS2Severity)
-  @objc public func getID() -> Swift.String
-  @objc public func getMessage() -> Swift.String
-  @objc public func getSeverity() -> Ravelin3DS.R3DS2Severity
+public class R3DS2Warning {
+  public init(warningId: Swift.String, message: Swift.String, severity: Ravelin3DS.R3DS2Severity)
+  public func getID() -> Swift.String
+  public func getMessage() -> Swift.String
+  public func getSeverity() -> Ravelin3DS.R3DS2Severity
   @objc deinit
 }
 extension Ravelin3DS.RSAPublicKey : Swift.Encodable {
@@ -266,31 +266,31 @@ public struct Payload : Ravelin3DS.DataConvertible {
   public init(_ payload: Foundation.Data)
   public func data() -> Foundation.Data
 }
-@_inheritsConvenienceInitializers @objc(R3DS2ButtonCustomization) @objcMembers public class R3DS2ButtonCustomization : Ravelin3DS.R3DS2Customization {
-  @objc public func setBackgroundColor(hexColorCode: Swift.String) throws
-  @objc public func setDarkBackgroundColor(hexColorCode: Swift.String) throws
-  @objc public func setCornerRadius(cornerRadius: Swift.Int) throws
-  @objc public func getBackgroundColor() -> Swift.String
-  @objc public func getDarkBackgroundColor() -> Swift.String
-  @objc public func getCornerRadius() -> Swift.Int
+@objc @_inheritsConvenienceInitializers public class R3DS2ButtonCustomization : Ravelin3DS.R3DS2Customization {
+  public func setBackgroundColor(hexColorCode: Swift.String) throws
+  public func setDarkBackgroundColor(hexColorCode: Swift.String) throws
+  public func setCornerRadius(cornerRadius: Swift.Int) throws
+  public func getBackgroundColor() -> Swift.String
+  public func getDarkBackgroundColor() -> Swift.String
+  public func getCornerRadius() -> Swift.Int
   @objc override public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc override dynamic public init()
   @objc deinit
 }
-@objc(R3DS2ChallengeView) public protocol R3DS2ChallengeView {
-  @objc var viewController: UIKit.UIViewController { get }
+public protocol R3DS2ChallengeView {
+  var viewController: UIKit.UIViewController { get }
 }
 extension Ravelin3DS.HMAC {
   convenience public init(key: Swift.String, variant: Ravelin3DS.HMAC.Variant = .md5) throws
 }
 public let kConfigDefaultGroupName: Swift.String
-@_inheritsConvenienceInitializers @objc(R3DS2ConfigParameters) @objcMembers public class R3DS2ConfigParameters : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers public class R3DS2ConfigParameters : ObjectiveC.NSObject {
   @objc override dynamic public init()
-  @objc convenience public init(parameters: [Swift.String : Any]?, group: Swift.String = kConfigDefaultGroupName)
-  @objc public func addParam(group: Swift.String? = nil, paramName: Swift.String, paramValue: Swift.String) throws
+  convenience public init(parameters: [Swift.String : Any]?, group: Swift.String = kConfigDefaultGroupName)
+  public func addParam(group: Swift.String? = nil, paramName: Swift.String, paramValue: Swift.String) throws
   public func getParamValue(group: Swift.String? = nil, paramName: Swift.String) throws -> Swift.String?
   public func removeParam(group: Swift.String? = nil, paramName: Swift.String) throws -> Swift.String?
-  @objc public static func loadFromFile(_ configFile: Swift.String = "config") -> Ravelin3DS.R3DS2ConfigParameters
+  public static func loadFromFile(_ configFile: Swift.String = "config") -> Ravelin3DS.R3DS2ConfigParameters
   @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class AEADChaCha20Poly1305 : Ravelin3DS.AEAD {
@@ -380,16 +380,16 @@ public enum CompressionAlgorithm : Swift.String {
 public typealias AsymmetricKeyAlgorithm = Ravelin3DS.KeyManagementAlgorithm
 @available(*, deprecated, message: "Use `ContentEncryptionAlgorithm` instead")
 public typealias SymmetricKeyAlgorithm = Ravelin3DS.ContentEncryptionAlgorithm
-@_inheritsConvenienceInitializers @objc(R3DS2Customization) @objcMembers public class R3DS2Customization : ObjectiveC.NSObject, Foundation.NSCopying {
-  @objc convenience public init(with base: Ravelin3DS.R3DS2Customization)
-  @objc public func setTextFontName(fontName: Swift.String) throws
-  @objc public func setTextColor(hexColorCode: Swift.String) throws
-  @objc public func setDarkTextColor(hexColorCode: Swift.String) throws
-  @objc public func setTextFontSize(fontSize: Swift.Int) throws
-  @objc public func getTextFontName() -> Swift.String
-  @objc public func getTextColor() -> Swift.String
-  @objc public func getDarkTextColor() -> Swift.String
-  @objc public func getTextFontSize() -> Swift.Int
+@objc @_inheritsConvenienceInitializers public class R3DS2Customization : ObjectiveC.NSObject, Foundation.NSCopying {
+  convenience public init(with base: Ravelin3DS.R3DS2Customization)
+  public func setTextFontName(fontName: Swift.String) throws
+  public func setTextColor(hexColorCode: Swift.String) throws
+  public func setDarkTextColor(hexColorCode: Swift.String) throws
+  public func setTextFontSize(fontSize: Swift.Int) throws
+  public func getTextFontName() -> Swift.String
+  public func getTextColor() -> Swift.String
+  public func getDarkTextColor() -> Swift.String
+  public func getTextFontSize() -> Swift.Int
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc override dynamic public init()
   @objc deinit
@@ -945,17 +945,17 @@ extension Swift.UInt8 {
 public protocol Cryptor {
   mutating func seek(to: Swift.Int) throws
 }
-@_inheritsConvenienceInitializers @objc(R3DS2UiCustomization) @objcMembers public class R3DS2UiCustomization : ObjectiveC.NSObject, Foundation.NSCopying {
-  @objc public func setButtonCustomization(buttonCustomization: Ravelin3DS.R3DS2ButtonCustomization, buttonType: Ravelin3DS.R3DS2ButtonType) throws
-  @objc public func setButtonCustomization(buttonCustomization: Ravelin3DS.R3DS2ButtonCustomization, btnType: Swift.String) throws
-  @objc public func setToolbarCustomization(toolbarCustomization: Ravelin3DS.R3DS2ToolbarCustomization)
-  @objc public func setLabelCustomization(labelCustomization: Ravelin3DS.R3DS2LabelCustomization)
-  @objc public func setTextBoxCustomization(textBoxCustomization: Ravelin3DS.R3DS2TextBoxCustomization)
-  @objc public func getButtonCustomization(buttonType: Ravelin3DS.R3DS2ButtonType) -> Ravelin3DS.R3DS2ButtonCustomization?
-  @objc public func getButtonCustomization(btnType: Swift.String) -> Ravelin3DS.R3DS2ButtonCustomization?
-  @objc public func getToolbarCustomization() -> Ravelin3DS.R3DS2ToolbarCustomization?
-  @objc public func getLabelCustomization() -> Ravelin3DS.R3DS2LabelCustomization?
-  @objc public func getTextboxCustomization() -> Ravelin3DS.R3DS2TextBoxCustomization?
+@objc @_inheritsConvenienceInitializers public class R3DS2UiCustomization : ObjectiveC.NSObject, Foundation.NSCopying {
+  public func setButtonCustomization(buttonCustomization: Ravelin3DS.R3DS2ButtonCustomization, buttonType: Ravelin3DS.R3DS2ButtonType) throws
+  public func setButtonCustomization(buttonCustomization: Ravelin3DS.R3DS2ButtonCustomization, btnType: Swift.String) throws
+  public func setToolbarCustomization(toolbarCustomization: Ravelin3DS.R3DS2ToolbarCustomization)
+  public func setLabelCustomization(labelCustomization: Ravelin3DS.R3DS2LabelCustomization)
+  public func setTextBoxCustomization(textBoxCustomization: Ravelin3DS.R3DS2TextBoxCustomization)
+  public func getButtonCustomization(buttonType: Ravelin3DS.R3DS2ButtonType) -> Ravelin3DS.R3DS2ButtonCustomization?
+  public func getButtonCustomization(btnType: Swift.String) -> Ravelin3DS.R3DS2ButtonCustomization?
+  public func getToolbarCustomization() -> Ravelin3DS.R3DS2ToolbarCustomization?
+  public func getLabelCustomization() -> Ravelin3DS.R3DS2LabelCustomization?
+  public func getTextboxCustomization() -> Ravelin3DS.R3DS2TextBoxCustomization?
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc override dynamic public init()
   @objc deinit
@@ -966,15 +966,15 @@ public struct ECB : Ravelin3DS.BlockMode {
   public init()
   public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
 }
-@_inheritsConvenienceInitializers @objc(R3DS2ToolbarCustomization) @objcMembers public class R3DS2ToolbarCustomization : Ravelin3DS.R3DS2Customization {
-  @objc public func setBackgroundColor(hexColorCode: Swift.String) throws
-  @objc public func setDarkBackgroundColor(hexColorCode: Swift.String) throws
-  @objc public func setHeaderText(headerText: Swift.String) throws
-  @objc public func setButtonText(buttonText: Swift.String) throws
-  @objc public func getBackgroundColor() -> Swift.String
-  @objc public func getDarkBackgroundColor() -> Swift.String
-  @objc public func getHeaderText() -> Swift.String
-  @objc public func getButtonText() -> Swift.String
+@objc @_inheritsConvenienceInitializers public class R3DS2ToolbarCustomization : Ravelin3DS.R3DS2Customization {
+  public func setBackgroundColor(hexColorCode: Swift.String) throws
+  public func setDarkBackgroundColor(hexColorCode: Swift.String) throws
+  public func setHeaderText(headerText: Swift.String) throws
+  public func setButtonText(buttonText: Swift.String) throws
+  public func getBackgroundColor() -> Swift.String
+  public func getDarkBackgroundColor() -> Swift.String
+  public func getHeaderText() -> Swift.String
+  public func getButtonText() -> Swift.String
   @objc override public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc override dynamic public init()
   @objc deinit
@@ -985,7 +985,7 @@ extension Foundation.Data : Ravelin3DS.ExpressibleAsECPrivateKeyComponents {
 }
 public enum PKCS7 {
 }
-@objc(R3DS2ButtonType) public enum R3DS2ButtonType : Swift.Int, Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable {
+public enum R3DS2ButtonType : Swift.Int, Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable {
   case SUBMIT
   case CONTINUE
   case NEXT
@@ -1118,20 +1118,20 @@ public struct RSAPrivateKey : Ravelin3DS.JWK {
   public func withThumbprintAsKeyId(algorithm: Ravelin3DS.JWKThumbprintAlgorithm = .SHA256) throws -> Ravelin3DS.RSAPrivateKey
 }
 public typealias RSAKeyPair = Ravelin3DS.RSAPrivateKey
-@_inheritsConvenienceInitializers @objc(R3DS2LabelCustomization) @objcMembers public class R3DS2LabelCustomization : Ravelin3DS.R3DS2Customization {
-  @objc public func setHeadingTextColor(hexColorCode: Swift.String) throws
-  @objc public func setHeadingDarkTextColor(hexColorCode: Swift.String) throws
-  @objc public func setHeadingTextFontName(fontName: Swift.String) throws
-  @objc public func setHeadingTextFontSize(fontSize: Swift.Int) throws
-  @objc public func getHeadingTextColor() -> Swift.String
-  @objc public func getHeadingDarkTextColor() -> Swift.String
-  @objc public func getHeadingTextFontName() -> Swift.String
-  @objc public func getHeadingTextFontSize() -> Swift.Int
+@objc @_inheritsConvenienceInitializers public class R3DS2LabelCustomization : Ravelin3DS.R3DS2Customization {
+  public func setHeadingTextColor(hexColorCode: Swift.String) throws
+  public func setHeadingDarkTextColor(hexColorCode: Swift.String) throws
+  public func setHeadingTextFontName(fontName: Swift.String) throws
+  public func setHeadingTextFontSize(fontSize: Swift.Int) throws
+  public func getHeadingTextColor() -> Swift.String
+  public func getHeadingDarkTextColor() -> Swift.String
+  public func getHeadingTextFontName() -> Swift.String
+  public func getHeadingTextFontSize() -> Swift.Int
   @objc override public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc override dynamic public init()
   @objc deinit
 }
-@_hasMissingDesignatedInitializers @objc(R3DS2AuthenticationResponse) @objcMembers public class R3DS2AuthenticationResponse : ObjectiveC.NSObject, Swift.Codable {
+@objc @_hasMissingDesignatedInitializers public class R3DS2AuthenticationResponse : ObjectiveC.NSObject, Swift.Codable {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
@@ -1539,11 +1539,11 @@ extension Ravelin3DS.SHA1 : Ravelin3DS.Updatable {
     return result
   }
 }
-@objc(R3DS2Transaction) public protocol R3DS2Transaction {
-  @objc func getAuthenticationRequestParameters() throws -> Ravelin3DS.R3DS2AuthenticationRequestParameters
-  @objc func doChallenge(challengeParameters: Ravelin3DS.R3DS2ChallengeParameters, challengeStatusReceiver: Ravelin3DS.R3DS2ChallengeStatusReceiver, timeOut: Swift.Int, challengeView: Ravelin3DS.R3DS2ChallengeView) throws
-  @objc func getProgressView() throws -> Ravelin3DS.R3DS2ProgressDialog
-  @objc func close() throws
+public protocol R3DS2Transaction {
+  func getAuthenticationRequestParameters() throws -> Ravelin3DS.R3DS2AuthenticationRequestParameters
+  func doChallenge(challengeParameters: Ravelin3DS.R3DS2ChallengeParameters, challengeStatusReceiver: Ravelin3DS.R3DS2ChallengeStatusReceiver, timeOut: Swift.Int, challengeView: Ravelin3DS.R3DS2ChallengeView) throws
+  func getProgressView() throws -> Ravelin3DS.R3DS2ProgressDialog
+  func close() throws
 }
 final public class Checksum {
   @usableFromInline
@@ -1773,7 +1773,7 @@ public struct CCM {
   public init(iv: Swift.Array<Swift.UInt8>, tagLength: Swift.Int, messageLength: Swift.Int, authenticationTag: Swift.Array<Swift.UInt8>, additionalAuthenticatedData: Swift.Array<Swift.UInt8>? = nil)
   public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
 }
-@objc(R3DS2Severity) public enum R3DS2Severity : Swift.Int, Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable {
+public enum R3DS2Severity : Swift.Int, Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable {
   case LOW
   case MEDIUM
   case HIGH
@@ -1921,11 +1921,11 @@ public protocol FinalizingDecryptModeWorker : Ravelin3DS.CipherModeWorker {
   mutating func didDecryptLast(bytes plaintext: Swift.ArraySlice<Swift.UInt8>) throws -> Swift.ArraySlice<Swift.UInt8>
   mutating func finalize(decrypt plaintext: Swift.ArraySlice<Swift.UInt8>) throws -> Swift.ArraySlice<Swift.UInt8>
 }
-@_inheritsConvenienceInitializers @objc(R3DS2Error) @objcMembers public class R3DS2Error : ObjectiveC.NSObject {
-  @objc public static func InvalidInput(message: Swift.String, cause: Swift.Error?) -> Swift.Error
-  @objc public static func SDKAlreadyInitialized(message: Swift.String, cause: Swift.Error?) -> Swift.Error
-  @objc public static func SDKNotInitialized(message: Swift.String, cause: Swift.Error?) -> Swift.Error
-  @objc public static func SDKRuntime(message: Swift.String, errorCode: Swift.String?, cause: Swift.Error?) -> Swift.Error
+@objc @_inheritsConvenienceInitializers public class R3DS2Error : ObjectiveC.NSObject {
+  public static func InvalidInput(message: Swift.String, cause: Swift.Error?) -> Swift.Error
+  public static func SDKAlreadyInitialized(message: Swift.String, cause: Swift.Error?) -> Swift.Error
+  public static func SDKNotInitialized(message: Swift.String, cause: Swift.Error?) -> Swift.Error
+  public static func SDKRuntime(message: Swift.String, errorCode: Swift.String?, cause: Swift.Error?) -> Swift.Error
   @objc override dynamic public init()
   @objc deinit
 }
@@ -2067,18 +2067,18 @@ extension Swift.Array where Element == Swift.UInt8 {
   public func decrypt(cipher: Ravelin3DS.Cipher) throws -> [Element]
   public func authenticate<A>(with authenticator: A) throws -> [Element] where A : Ravelin3DS.Authenticator
 }
-@_inheritsConvenienceInitializers @objc(R3DS2ChallengeParameters) @objcMembers public class R3DS2ChallengeParameters : ObjectiveC.NSObject {
-  @objc convenience public init(authenticationResponse authResponse: Ravelin3DS.R3DS2AuthenticationResponse?)
-  @objc public func set3DSServerTransactionID(_ threeDSServerTransactionID: Swift.String)
-  @objc public func setAcsTransactionID(_ acsTransactionID: Swift.String)
-  @objc public func setAcsRefNumber(_ acsReferenceNumber: Swift.String)
-  @objc public func setAcsSignedContent(_ acsSignedContent: Swift.String)
-  @objc public func setThreeDSRequestorAppURL(_ threeDSRequestorAppURL: Swift.String)
-  @objc public func get3DSServerTransactionID() -> Swift.String
-  @objc public func getAcsTransactionID() -> Swift.String
-  @objc public func getAcsRefNumber() -> Swift.String
-  @objc public func getAcsSignedContent() -> Swift.String
-  @objc public func getThreeDSRequestorAppURL() -> Swift.String
+@objc @_inheritsConvenienceInitializers public class R3DS2ChallengeParameters : ObjectiveC.NSObject {
+  convenience public init(authenticationResponse authResponse: Ravelin3DS.R3DS2AuthenticationResponse?)
+  public func set3DSServerTransactionID(_ threeDSServerTransactionID: Swift.String)
+  public func setAcsTransactionID(_ acsTransactionID: Swift.String)
+  public func setAcsRefNumber(_ acsReferenceNumber: Swift.String)
+  public func setAcsSignedContent(_ acsSignedContent: Swift.String)
+  public func setThreeDSRequestorAppURL(_ threeDSRequestorAppURL: Swift.String)
+  public func get3DSServerTransactionID() -> Swift.String
+  public func getAcsTransactionID() -> Swift.String
+  public func getAcsRefNumber() -> Swift.String
+  public func getAcsSignedContent() -> Swift.String
+  public func getThreeDSRequestorAppURL() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
@@ -2193,14 +2193,14 @@ extension Foundation.Data : Ravelin3DS.ExpressibleAsSymmetricKeyComponents {
   public static func representing(symmetricKeyComponents components: Ravelin3DS.SymmetricKeyComponents) throws -> Foundation.Data
   public func symmetricKeyComponents() throws -> Ravelin3DS.SymmetricKeyComponents
 }
-@objc(R3DS2AuthenticationRequestParameters) @objcMembers public class R3DS2AuthenticationRequestParameters : ObjectiveC.NSObject {
-  @objc public init(sdkTransactionId: Swift.String, deviceData: Swift.String, sdkEphemeralPublicKey: Swift.String, sdkAppId: Swift.String, sdkReferenceNumber: Swift.String, messageVersion: Swift.String, directoryServerId: Swift.String) throws
-  @objc public func getDeviceData() -> Swift.String
-  @objc public func getSDKTransactionId() -> Swift.String
-  @objc public func getSDKAppID() -> Swift.String
-  @objc public func getSDKReferenceNumber() -> Swift.String
-  @objc public func getSDKEphemeralPublicKey() -> Swift.String
-  @objc public func getMessageVersion() -> Swift.String
+@objc public class R3DS2AuthenticationRequestParameters : ObjectiveC.NSObject {
+  public init(sdkTransactionId: Swift.String, deviceData: Swift.String, sdkEphemeralPublicKey: Swift.String, sdkAppId: Swift.String, sdkReferenceNumber: Swift.String, messageVersion: Swift.String, directoryServerId: Swift.String) throws
+  public func getDeviceData() -> Swift.String
+  public func getSDKTransactionId() -> Swift.String
+  public func getSDKAppID() -> Swift.String
+  public func getSDKReferenceNumber() -> Swift.String
+  public func getSDKEphemeralPublicKey() -> Swift.String
+  public func getMessageVersion() -> Swift.String
   @objc deinit
 }
 public struct CFB : Ravelin3DS.BlockMode {
@@ -2226,15 +2226,15 @@ public struct CFB : Ravelin3DS.BlockMode {
   public init(iv: Swift.Array<Swift.UInt8>, segmentSize: Ravelin3DS.CFB.SegmentSize = .cfb128)
   public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
 }
-@_inheritsConvenienceInitializers @objc(R3DS2TextBoxCustomization) @objcMembers public class R3DS2TextBoxCustomization : Ravelin3DS.R3DS2Customization {
-  @objc public func setBorderWidth(borderWidth: Swift.Int) throws
-  @objc public func setBorderColor(hexColorCode: Swift.String) throws
-  @objc public func setDarkBorderColor(hexColorCode: Swift.String) throws
-  @objc public func setCornerRadius(cornerRadius: Swift.Int) throws
-  @objc public func getBorderWidth() -> Swift.Int
-  @objc public func getBorderColor() -> Swift.String
-  @objc public func getDarkBorderColor() -> Swift.String
-  @objc public func getCornerRadius() -> Swift.Int
+@objc @_inheritsConvenienceInitializers public class R3DS2TextBoxCustomization : Ravelin3DS.R3DS2Customization {
+  public func setBorderWidth(borderWidth: Swift.Int) throws
+  public func setBorderColor(hexColorCode: Swift.String) throws
+  public func setDarkBorderColor(hexColorCode: Swift.String) throws
+  public func setCornerRadius(cornerRadius: Swift.Int) throws
+  public func getBorderWidth() -> Swift.Int
+  public func getBorderColor() -> Swift.String
+  public func getDarkBorderColor() -> Swift.String
+  public func getCornerRadius() -> Swift.Int
   @objc override public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc override dynamic public init()
   @objc deinit
@@ -2446,40 +2446,40 @@ public struct DecryptionContext {
 @available(*, deprecated, message: "This type will be removed with the next major release.")
 public struct SymmetricDecryptionContext {
 }
-@objc(R3DS2ChallengeStatusReceiver) public protocol R3DS2ChallengeStatusReceiver {
-  @objc func completed(completionEvent: Ravelin3DS.R3DS2CompletionEvent)
-  @objc func cancelled()
-  @objc func timedout()
-  @objc func protocolError(protocolErrorEvent: Ravelin3DS.R3DS2ProtocolErrorEvent)
-  @objc func runtimeError(runtimeErrorEvent: Ravelin3DS.R3DS2RuntimeErrorEvent)
+public protocol R3DS2ChallengeStatusReceiver : AnyObject {
+  func completed(completionEvent: Ravelin3DS.R3DS2CompletionEvent)
+  func cancelled()
+  func timedout()
+  func protocolError(protocolErrorEvent: Ravelin3DS.R3DS2ProtocolErrorEvent)
+  func runtimeError(runtimeErrorEvent: Ravelin3DS.R3DS2RuntimeErrorEvent)
 }
-@objc(R3DS2RuntimeErrorEvent) @objcMembers public class R3DS2RuntimeErrorEvent : ObjectiveC.NSObject {
-  @objc public init(_ errorCode: Swift.String?, _ errorMessage: Swift.String)
-  @objc public func getErrorCode() -> Swift.String?
-  @objc public func getErrorMessage() -> Swift.String
+@objc public class R3DS2RuntimeErrorEvent : ObjectiveC.NSObject {
+  public init(_ errorCode: Swift.String?, _ errorMessage: Swift.String)
+  public func getErrorCode() -> Swift.String?
+  public func getErrorMessage() -> Swift.String
   @objc deinit
 }
-@objc(R3DS2ErrorMessage) @objcMembers public class R3DS2ErrorMessage : ObjectiveC.NSObject {
-  @objc public init(transactionID: Swift.String, errorCode: Swift.String, errorComponent: Swift.String, errorDescription: Swift.String, errorDetail: Swift.String, errorMessageType: Swift.String?, messageVersionNumber: Swift.String)
-  @objc public func getTransactionID() -> Swift.String
-  @objc public func getErrorCode() -> Swift.String
-  @objc public func getErrorComponent() -> Swift.String
-  @objc public func getErrorDescription() -> Swift.String
-  @objc public func getErrorDetail() -> Swift.String
-  @objc public func getErrorMessageType() -> Swift.String
-  @objc public func getMessageVersionNumber() -> Swift.String
+@objc public class R3DS2ErrorMessage : ObjectiveC.NSObject {
+  public init(transactionID: Swift.String, errorCode: Swift.String, errorComponent: Swift.String, errorDescription: Swift.String, errorDetail: Swift.String, errorMessageType: Swift.String?, messageVersionNumber: Swift.String)
+  public func getTransactionID() -> Swift.String
+  public func getErrorCode() -> Swift.String
+  public func getErrorComponent() -> Swift.String
+  public func getErrorDescription() -> Swift.String
+  public func getErrorDetail() -> Swift.String
+  public func getErrorMessageType() -> Swift.String
+  public func getMessageVersionNumber() -> Swift.String
   @objc deinit
 }
-@objc(R3DS2ProtocolErrorEvent) @objcMembers public class R3DS2ProtocolErrorEvent : ObjectiveC.NSObject {
-  @objc public init(_ sdkTransactionID: Swift.String, _ errorMessage: Ravelin3DS.R3DS2ErrorMessage)
-  @objc public func getErrorMessage() -> Ravelin3DS.R3DS2ErrorMessage
-  @objc public func getSDKTransactionID() -> Swift.String
+@objc public class R3DS2ProtocolErrorEvent : ObjectiveC.NSObject {
+  public init(_ sdkTransactionID: Swift.String, _ errorMessage: Ravelin3DS.R3DS2ErrorMessage)
+  public func getErrorMessage() -> Ravelin3DS.R3DS2ErrorMessage
+  public func getSDKTransactionID() -> Swift.String
   @objc deinit
 }
-@objc(R3DS2CompletionEvent) @objcMembers public class R3DS2CompletionEvent : ObjectiveC.NSObject {
-  @objc public init(_ sdkTransactionID: Swift.String, _ transactionStatus: Swift.String)
-  @objc public func getSDKTransactionID() -> Swift.String
-  @objc public func getTransactionStatus() -> Swift.String
+@objc public class R3DS2CompletionEvent : ObjectiveC.NSObject {
+  public init(_ sdkTransactionID: Swift.String, _ transactionStatus: Swift.String)
+  public func getSDKTransactionID() -> Swift.String
+  public func getTransactionStatus() -> Swift.String
   @objc deinit
 }
 @usableFromInline
@@ -2582,23 +2582,23 @@ extension Ravelin3DS.PKCS5 {
 
   return bytes
 }
-@objc(R3DS2Service) public protocol R3DS2Service {
-  @objc func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?) throws
-  @objc func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?, completion: ((Swift.Bool) -> Swift.Void)?) throws
-  @objc func createTransaction(directoryServerID: Swift.String, messageVersion: Swift.String?) throws -> Ravelin3DS.R3DS2Transaction
-  @objc func getWarnings() throws -> [Ravelin3DS.R3DS2Warning]
-  @objc func getSDKVersion() throws -> Swift.String
-  @objc func cleanup() throws
+public protocol R3DS2Service {
+  func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?) throws
+  func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?, completion: ((Swift.Bool) -> Swift.Void)?) throws
+  func createTransaction(directoryServerID: Swift.String, messageVersion: Swift.String?) throws -> Ravelin3DS.R3DS2Transaction
+  func getWarnings() throws -> [Ravelin3DS.R3DS2Warning]
+  func getSDKVersion() throws -> Swift.String
+  func cleanup() throws
 }
-@_inheritsConvenienceInitializers @objc(R3DS2ServiceSDK) public class R3DS2ServiceSDK : ObjectiveC.NSObject, Ravelin3DS.R3DS2Service {
+@objc @_inheritsConvenienceInitializers public class R3DS2ServiceSDK : ObjectiveC.NSObject, Ravelin3DS.R3DS2Service {
   @objc override dynamic public init()
-  @objc public init(bundle: Foundation.Bundle)
-  @objc public func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?, completion: ((Swift.Bool) -> Swift.Void)?) throws
-  @objc public func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?) throws
-  @objc public func createTransaction(directoryServerID directoryServerId: Swift.String, messageVersion: Swift.String?) throws -> Ravelin3DS.R3DS2Transaction
-  @objc public func getWarnings() throws -> [Ravelin3DS.R3DS2Warning]
-  @objc public func getSDKVersion() throws -> Swift.String
-  @objc public func cleanup() throws
+  public init(bundle: Foundation.Bundle)
+  public func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?, completion: ((Swift.Bool) -> Swift.Void)?) throws
+  public func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?) throws
+  public func createTransaction(directoryServerID directoryServerId: Swift.String, messageVersion: Swift.String?) throws -> Ravelin3DS.R3DS2Transaction
+  public func getWarnings() throws -> [Ravelin3DS.R3DS2Warning]
+  public func getSDKVersion() throws -> Swift.String
+  public func cleanup() throws
   @objc deinit
 }
 extension Swift.FixedWidthInteger {

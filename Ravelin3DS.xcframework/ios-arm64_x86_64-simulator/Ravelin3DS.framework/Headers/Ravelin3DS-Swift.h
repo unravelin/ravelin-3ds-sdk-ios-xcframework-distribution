@@ -217,48 +217,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-@class NSString;
 
 /// transaction parameters that the App passes to the 3DS Server when creating the AReq
-SWIFT_CLASS_NAMED("R3DS2AuthenticationRequestParameters")
+SWIFT_CLASS("_TtC10Ravelin3DS36R3DS2AuthenticationRequestParameters")
 @interface R3DS2AuthenticationRequestParameters : NSObject
-- (nullable instancetype)initWithSdkTransactionId:(NSString * _Nonnull)sdkTransactionId deviceData:(NSString * _Nonnull)deviceData sdkEphemeralPublicKey:(NSString * _Nonnull)sdkEphemeralPublicKey sdkAppId:(NSString * _Nonnull)sdkAppId sdkReferenceNumber:(NSString * _Nonnull)sdkReferenceNumber messageVersion:(NSString * _Nonnull)messageVersion directoryServerId:(NSString * _Nonnull)directoryServerId error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
-/// Returns a string that represents the encrypted device data
-///
-/// returns:
-/// The encrypted device data as a JWE string
-- (NSString * _Nonnull)getDeviceData SWIFT_WARN_UNUSED_RESULT;
-/// Returns the SDK Transaction ID
-///
-/// returns:
-/// Returns the SDK Transaction ID as a string
-- (NSString * _Nonnull)getSDKTransactionId SWIFT_WARN_UNUSED_RESULT;
-/// Returns the SDK App ID
-///
-/// returns:
-/// Returns the SDK App ID as a string
-- (NSString * _Nonnull)getSDKAppID SWIFT_WARN_UNUSED_RESULT;
-/// Returns the SDK Reference Number
-///
-/// returns:
-/// The SDK Reference Number as a string
-- (NSString * _Nonnull)getSDKReferenceNumber SWIFT_WARN_UNUSED_RESULT;
-/// Returns the SDK Ephemeral Public Key as a String representation of a JWK object
-///
-/// returns:
-/// The public key component of the ephemeral key pair as a String representation of a JWK object
-- (NSString * _Nonnull)getSDKEphemeralPublicKey SWIFT_WARN_UNUSED_RESULT;
-/// Returns the protocol version that is used for the transaction
-///
-/// returns:
-/// the protocol version as a string
-- (NSString * _Nonnull)getMessageVersion SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-SWIFT_CLASS_NAMED("R3DS2AuthenticationResponse")
+SWIFT_CLASS("_TtC10Ravelin3DS27R3DS2AuthenticationResponse")
 @interface R3DS2AuthenticationResponse : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -266,204 +234,39 @@ SWIFT_CLASS_NAMED("R3DS2AuthenticationResponse")
 
 
 /// Provides methods to pass UI customization parameters to the 3DS SDK.
-SWIFT_CLASS_NAMED("R3DS2Customization")
+SWIFT_CLASS("_TtC10Ravelin3DS18R3DS2Customization")
 @interface R3DS2Customization : NSObject <NSCopying>
-- (nonnull instancetype)initWith:(R3DS2Customization * _Nonnull)base;
-/// Setter for the text font name
-/// \param fontName The name of the font
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setTextFontNameWithFontName:(NSString * _Nonnull)fontName error:(NSError * _Nullable * _Nullable)error;
-/// Setter for the text color
-/// \param hexColorCode a hex code representation of the required color as String
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setTextColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Setter for the dark text color
-/// \param hexColorCode a hex code representation of the required color as String
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setDarkTextColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Setter fot the text font size
-/// \param fontSize the font size given as an integer value
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setTextFontSizeWithFontSize:(NSInteger)fontSize error:(NSError * _Nullable * _Nullable)error;
-/// Returns the text font name
-///
-/// returns:
-/// String value of the font name or empty string if non specified
-- (NSString * _Nonnull)getTextFontName SWIFT_WARN_UNUSED_RESULT;
-/// Returns the text color as a hex code representation of the given color or empty string if non specified
-///
-/// returns:
-/// String of the color in hex code format
-- (NSString * _Nonnull)getTextColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the dark text color as a hex code representation of the given color or empty string if none specified
-///
-/// returns:
-/// String of the color in hex code format
-- (NSString * _Nonnull)getDarkTextColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the text font size
-///
-/// returns:
-/// Integer value representing the font size or 0 if not set
-- (NSInteger)getTextFontSize SWIFT_WARN_UNUSED_RESULT;
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 /// Provide methods for the 3DS Requestor App to pass button customization parameters to the 3DS SDK.
-SWIFT_CLASS_NAMED("R3DS2ButtonCustomization")
+SWIFT_CLASS("_TtC10Ravelin3DS24R3DS2ButtonCustomization")
 @interface R3DS2ButtonCustomization : R3DS2Customization
-/// Sets the background color of the button.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setBackgroundColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Set the dark background color of the button.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setDarkBackgroundColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the radius of the button corners.
-/// \param cornerRadius Radius (integer value) for the button corners.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setCornerRadiusWithCornerRadius:(NSInteger)cornerRadius error:(NSError * _Nullable * _Nullable)error;
-/// Returns the background color of the button.
-///
-/// returns:
-/// background color code (as a string) of the button.
-- (NSString * _Nonnull)getBackgroundColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the dark background color of the button.
-///
-/// returns:
-/// dark background color code (as a string) of the button.
-- (NSString * _Nonnull)getDarkBackgroundColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the radius of the button corners.
-///
-/// returns:
-/// the radius (as an integer) of the button corners.
-- (NSInteger)getCornerRadius SWIFT_WARN_UNUSED_RESULT;
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-/// Enum type describing the types of buttons
-/// <ul>
-///   <li>
-///     SUBMIT: Submit button
-///   </li>
-///   <li>
-///     CONTINUE: Continue button
-///   </li>
-///   <li>
-///     NEXT: Next button
-///   </li>
-///   <li>
-///     CANCEL: Cancelation button
-///   </li>
-///   <li>
-///     RESEND: Resend button
-///   </li>
-/// </ul>
-typedef SWIFT_ENUM_NAMED(NSInteger, R3DS2ButtonType, "R3DS2ButtonType", open) {
-  R3DS2ButtonTypeSUBMIT = 0,
-  R3DS2ButtonTypeCONTINUE = 1,
-  R3DS2ButtonTypeNEXT = 2,
-  R3DS2ButtonTypeCANCEL = 3,
-  R3DS2ButtonTypeRESEND = 4,
-};
 
-
-SWIFT_CLASS_NAMED("R3DS2ChallengeParameters")
+SWIFT_CLASS("_TtC10Ravelin3DS24R3DS2ChallengeParameters")
 @interface R3DS2ChallengeParameters : NSObject
-- (nonnull instancetype)initWithAuthenticationResponse:(R3DS2AuthenticationResponse * _Nullable)authResponse;
-- (void)set3DSServerTransactionID:(NSString * _Nonnull)threeDSServerTransactionID;
-- (void)setAcsTransactionID:(NSString * _Nonnull)acsTransactionID;
-- (void)setAcsRefNumber:(NSString * _Nonnull)acsReferenceNumber;
-- (void)setAcsSignedContent:(NSString * _Nonnull)acsSignedContent;
-- (void)setThreeDSRequestorAppURL:(NSString * _Nonnull)threeDSRequestorAppURL;
-- (NSString * _Nonnull)get3DSServerTransactionID SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getAcsTransactionID SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getAcsRefNumber SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getAcsSignedContent SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getThreeDSRequestorAppURL SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class R3DS2CompletionEvent;
-@class R3DS2ProtocolErrorEvent;
-@class R3DS2RuntimeErrorEvent;
 
-/// Holds methods which correspond to events that can take place during the authentication process.
-SWIFT_PROTOCOL_NAMED("R3DS2ChallengeStatusReceiver")
-@protocol R3DS2ChallengeStatusReceiver
-/// Method called when the challenge process is completed.
-/// \param completionEvent Information about completion of the challenge process.
-///
-- (void)completedWithCompletionEvent:(R3DS2CompletionEvent * _Nonnull)completionEvent;
-/// Method called when the Cardholder selects the option to cancel the transaction on the challenge screen.
-- (void)cancelled;
-/// Method called when the challenge process reaches or exceeds the specified timeout.
-- (void)timedout;
-/// Method called when the 3DS SDK receives an EMV 3-D Secure protocol-defined error message from the ACS.
-/// \param protocolErrorEvent Error code and details.
-///
-- (void)protocolErrorWithProtocolErrorEvent:(R3DS2ProtocolErrorEvent * _Nonnull)protocolErrorEvent;
-/// Method called when the 3DS SDK encounters errors during the challenge process.
-/// \param runtimeErrorEvent Error code and details.
-///
-- (void)runtimeErrorWithRuntimeErrorEvent:(R3DS2RuntimeErrorEvent * _Nonnull)runtimeErrorEvent;
-@end
-
-@class UIViewController;
-
-SWIFT_PROTOCOL_NAMED("R3DS2ChallengeView")
-@protocol R3DS2ChallengeView
-@property (nonatomic, readonly, strong) UIViewController * _Nonnull viewController;
-@end
-
-
-SWIFT_CLASS_NAMED("R3DS2CompletionEvent")
+SWIFT_CLASS("_TtC10Ravelin3DS20R3DS2CompletionEvent")
 @interface R3DS2CompletionEvent : NSObject
-- (nonnull instancetype)init:(NSString * _Nonnull)sdkTransactionID :(NSString * _Nonnull)transactionStatus OBJC_DESIGNATED_INITIALIZER;
-- (NSString * _Nonnull)getSDKTransactionID SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getTransactionStatus SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
 /// Represents additional configuration parameters that can be passed to the 3DS2 SDK during initialization.
-SWIFT_CLASS_NAMED("R3DS2ConfigParameters")
+SWIFT_CLASS("_TtC10Ravelin3DS21R3DS2ConfigParameters")
 @interface R3DS2ConfigParameters : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithParameters:(NSDictionary<NSString *, id> * _Nullable)parameters group:(NSString * _Nonnull)group;
-/// The addParam method shall add a configuration parameter either to the specified group or to the default group.
-/// @param group Group to which the configuration parameter is to be added.
-/// @param paramName Name of the configuration parameter.
-/// @param paramValue Value of the configuration parameter.
-/// @param error InvalidInput This exception shall be thrown if paramName is not provided or if a variable already exists in the dictionary.
-- (BOOL)addParamWithGroup:(NSString * _Nullable)group paramName:(NSString * _Nonnull)paramName paramValue:(NSString * _Nonnull)paramValue error:(NSError * _Nullable * _Nullable)error;
-+ (R3DS2ConfigParameters * _Nonnull)loadFromFile:(NSString * _Nonnull)configFile SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -484,343 +287,53 @@ SWIFT_CLASS_NAMED("R3DS2ConfigParameters")
 ///     SDKRuntime: represents an error that is thrown when an internal error is encountered by the 3DS SDK.
 ///   </li>
 /// </ul>
-SWIFT_CLASS_NAMED("R3DS2Error")
+SWIFT_CLASS("_TtC10Ravelin3DS10R3DS2Error")
 @interface R3DS2Error : NSObject
-+ (NSError * _Nonnull)InvalidInputWithMessage:(NSString * _Nonnull)message cause:(NSError * _Nullable)cause SWIFT_WARN_UNUSED_RESULT;
-+ (NSError * _Nonnull)SDKAlreadyInitializedWithMessage:(NSString * _Nonnull)message cause:(NSError * _Nullable)cause SWIFT_WARN_UNUSED_RESULT;
-+ (NSError * _Nonnull)SDKNotInitializedWithMessage:(NSString * _Nonnull)message cause:(NSError * _Nullable)cause SWIFT_WARN_UNUSED_RESULT;
-+ (NSError * _Nonnull)SDKRuntimeWithMessage:(NSString * _Nonnull)message errorCode:(NSString * _Nullable)errorCode cause:(NSError * _Nullable)cause SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 /// Holds an error message that is returned by the ACS to the 3DS SDK or an error message that is
 /// generated by the 3DS SDK to be returned to the ACS.
-SWIFT_CLASS_NAMED("R3DS2ErrorMessage")
+SWIFT_CLASS("_TtC10Ravelin3DS17R3DS2ErrorMessage")
 @interface R3DS2ErrorMessage : NSObject
-/// Initialization of the ErrorMessage class.
-/// \param errorCode The error code.
-///
-/// \param errorDescription The text describing the error.
-///
-/// \param errorDetail Additional error details.
-///
-- (nonnull instancetype)initWithTransactionID:(NSString * _Nonnull)transactionID errorCode:(NSString * _Nonnull)errorCode errorComponent:(NSString * _Nonnull)errorComponent errorDescription:(NSString * _Nonnull)errorDescription errorDetail:(NSString * _Nonnull)errorDetail errorMessageType:(NSString * _Nullable)errorMessageType messageVersionNumber:(NSString * _Nonnull)messageVersionNumber OBJC_DESIGNATED_INITIALIZER;
-- (NSString * _Nonnull)getTransactionID SWIFT_WARN_UNUSED_RESULT;
-/// Returns the error code.
-///
-/// returns:
-/// The error code.
-- (NSString * _Nonnull)getErrorCode SWIFT_WARN_UNUSED_RESULT;
-/// Returns the component tht identified the error.
-///
-/// returns:
-/// The error component.
-- (NSString * _Nonnull)getErrorComponent SWIFT_WARN_UNUSED_RESULT;
-/// Returns the error description.
-///
-/// returns:
-/// The error description.
-- (NSString * _Nonnull)getErrorDescription SWIFT_WARN_UNUSED_RESULT;
-/// Returns the error details.
-///
-/// returns:
-/// The error details.
-- (NSString * _Nonnull)getErrorDetail SWIFT_WARN_UNUSED_RESULT;
-/// Returns the Message Type that was identified as erroneous.
-///
-/// returns:
-/// The type of the error message.
-- (NSString * _Nonnull)getErrorMessageType SWIFT_WARN_UNUSED_RESULT;
-/// Returns the protocol version identifier.
-///
-/// returns:
-/// The protocol version identifier.
-- (NSString * _Nonnull)getMessageVersionNumber SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
 /// Provide methods for the 3DS Requestor App to pass text box customization parameters to the 3DS SDK.
-SWIFT_CLASS_NAMED("R3DS2LabelCustomization")
+SWIFT_CLASS("_TtC10Ravelin3DS23R3DS2LabelCustomization")
 @interface R3DS2LabelCustomization : R3DS2Customization
-/// Sets the color of the heading label text.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setHeadingTextColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the dark color of the heading label text.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setHeadingDarkTextColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the font type of the heading label text.
-/// \param fontName Font type for the heading label text.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setHeadingTextFontNameWithFontName:(NSString * _Nonnull)fontName error:(NSError * _Nullable * _Nullable)error;
-/// Sets the font size of the heading label text.
-/// \param fontSize Font size for the heading label text.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setHeadingTextFontSizeWithFontSize:(NSInteger)fontSize error:(NSError * _Nullable * _Nullable)error;
-/// Returns the colour of the heading label text.
-///
-/// returns:
-/// The hex color code of the heading label text as a string.
-- (NSString * _Nonnull)getHeadingTextColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the dark colour of the heading label text.
-///
-/// returns:
-/// The hex color code of the heading label text as a string.
-- (NSString * _Nonnull)getHeadingDarkTextColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the font type of the heading label text.
-///
-/// returns:
-/// The font type of the heading label text as a string.
-- (NSString * _Nonnull)getHeadingTextFontName SWIFT_WARN_UNUSED_RESULT;
-/// Returns the font size of the heading label text.
-///
-/// returns:
-/// The heading text font size as an integer.
-- (NSInteger)getHeadingTextFontSize SWIFT_WARN_UNUSED_RESULT;
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 
-/// Protocol containing functions for the progress view.
-SWIFT_PROTOCOL_NAMED("R3DS2ProgressDialog")
-@protocol R3DS2ProgressDialog
-/// Start the progress dialog as overlay on top of the screens.
-- (void)start;
-/// Stops the progress dialog.
-- (void)stop;
-@end
-
-
-SWIFT_CLASS_NAMED("R3DS2ProtocolErrorEvent")
+SWIFT_CLASS("_TtC10Ravelin3DS23R3DS2ProtocolErrorEvent")
 @interface R3DS2ProtocolErrorEvent : NSObject
-- (nonnull instancetype)init:(NSString * _Nonnull)sdkTransactionID :(R3DS2ErrorMessage * _Nonnull)errorMessage OBJC_DESIGNATED_INITIALIZER;
-- (R3DS2ErrorMessage * _Nonnull)getErrorMessage SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getSDKTransactionID SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-SWIFT_CLASS_NAMED("R3DS2RuntimeErrorEvent")
+SWIFT_CLASS("_TtC10Ravelin3DS22R3DS2RuntimeErrorEvent")
 @interface R3DS2RuntimeErrorEvent : NSObject
-- (nonnull instancetype)init:(NSString * _Nullable)errorCode :(NSString * _Nonnull)errorMessage OBJC_DESIGNATED_INITIALIZER;
-- (NSString * _Nullable)getErrorCode SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getErrorMessage SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class R3DS2UiCustomization;
-@protocol R3DS2Transaction;
-@class R3DS2Warning;
 
-/// The main 3DS SDK interface.
-/// It provides methods to process transactions.
-SWIFT_PROTOCOL_NAMED("R3DS2Service")
-@protocol R3DS2Service
-/// Initializes the 3DS SDK instance.
-/// \param configParameters Configuration information that shall be used during initialization.
-///
-/// \param locale String that represents the locale for the app’s user interface.
-///
-/// \param uiCustomization UI configuration information that is used to specify the UI layout and theme. For example, font style and font size.
-///
-///
-/// throws:
-/// InvalidInput, SDKAlreadyInitialized, SDKRuntime
-- (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error;
-/// Initializes the 3DS SDK instance.
-/// \param configParameters Configuration information that shall be used during initialization.
-///
-/// \param locale String that represents the locale for the app’s user interface.
-///
-/// \param uiCustomization UI configuration information that is used to specify the UI layout and theme. For example, font style and font size.
-///
-/// \param completion 
-///
-///
-/// throws:
-/// InvalidInput, SDKAlreadyInitialized, SDKRuntime
-- (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error completion:(void (^ _Nullable)(BOOL))completion;
-/// Creates an instance of Transaction through which the 3DS Requestor App gets the data that
-/// is required to perform the transaction.
-/// \param directoryServerId Registered Application Provider Identifier (RID) that is unique to
-/// the Payment System.
-///
-/// \param messageVersion Protocol version according to which the transaction shall be created.
-///
-///
-/// throws:
-/// InvalidInput, SDKNotInitialized, SDKRuntime.
-- (id <R3DS2Transaction> _Nullable)createTransactionWithDirectoryServerID:(NSString * _Nonnull)directoryServerID messageVersion:(NSString * _Nullable)messageVersion error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Returns the warnings produced by the 3DS SDK during initialization.
-///
-/// throws:
-/// SDKNotInitialized.
-///
-/// returns:
-/// Returns an Array of warnings produced by the 3DS SDK during initialization.
-- (NSArray<R3DS2Warning *> * _Nullable)getWarningsAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Returns the version of the 3DS SDK that is integrated with the 3DS Requestor App.
-///
-/// throws:
-/// SDKNotInitialized, SDKRuntime
-///
-/// returns:
-/// returns (as a string) the version of the 3DS SDK that is integrated with the 3DS
-/// Requestor App.
-- (NSString * _Nullable)getSDKVersionAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Frees up resources that are used by the 3DS Requestor App until it is closed. It shall be called only once during a single 3DS Requestor App session.
-///
-/// throws:
-/// SDKNotInitialized
-- (BOOL)cleanupAndReturnError:(NSError * _Nullable * _Nullable)error;
-@end
-
-@class NSBundle;
-
-SWIFT_CLASS_NAMED("R3DS2ServiceSDK")
-@interface R3DS2ServiceSDK : NSObject <R3DS2Service>
+SWIFT_CLASS("_TtC10Ravelin3DS15R3DS2ServiceSDK")
+@interface R3DS2ServiceSDK : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-/// Creates 3DS SDK object
-/// \param bundle The bundle from which the SDK will read resources
-///
-- (nonnull instancetype)initWithBundle:(NSBundle * _Nonnull)bundle OBJC_DESIGNATED_INITIALIZER;
-/// Initializes the 3DS SDK instance.
-/// \param configParameters Configuration information that shall be used during initialization.
-///
-/// \param locale String that represents the locale for the app’s user interface.
-///
-/// \param uiCustomization UI configuration information that is used to specify the UI layout and theme. For example, font style and font size.
-///
-/// \param completion 
-///
-///
-/// throws:
-/// InvalidInput, SDKAlreadyInitialized, SDKRuntime
-- (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error completion:(void (^ _Nullable)(BOOL))completion;
-- (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error;
-/// The createTransaction method creates an instance of Transaction through which the 3DS Requestor App gets the data that is required to perform the transaction.
-/// \param directoryServerId Registered Application Provider Identifier (RID) that is unique to the Payment System.
-///
-/// \param messageVersion Protocol version according to which the transaction shall be created.
-///
-///
-/// throws:
-/// InvalidInput, SDKNotInitialized, SDKRuntime.
-- (id <R3DS2Transaction> _Nullable)createTransactionWithDirectoryServerID:(NSString * _Nonnull)directoryServerId messageVersion:(NSString * _Nullable)messageVersion error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Returns the warnings produced by the 3DS SDK during initialization.
-///
-/// throws:
-/// SDKNotInitialized.
-///
-/// returns:
-/// Returns an Array of warnings produced by the 3DS SDK during initialization.
-- (NSArray<R3DS2Warning *> * _Nullable)getWarningsAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// The getSDKVersion method returns the version of the 3DS SDK that is integrated with the 3DS Requestor App.
-///
-/// throws:
-/// SDKNotInitialized, SDKRuntime
-///
-/// returns:
-/// returns (as a string) the version of the 3DS SDK that is integrated with the 3DS Requestor App.
-- (NSString * _Nullable)getSDKVersionAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// The cleanup method frees up resources that are used by the 3DS SDK.
-/// It is called only once during a single 3DS Requestor App session.
-///
-/// throws:
-/// SDKNotInitialized
-- (BOOL)cleanupAndReturnError:(NSError * _Nullable * _Nullable)error;
 @end
-
-/// Severity enum  defines the severity levels of warnings produced by the 3DS SDK while conducting security checks during initialization.
-/// <ul>
-///   <li>
-///     LOW:  A low-severity warning
-///   </li>
-///   <li>
-///     MEDIUM:  A medium-severity warning
-///   </li>
-///   <li>
-///     HIGH:  A high-severity warning
-///   </li>
-/// </ul>
-typedef SWIFT_ENUM_NAMED(NSInteger, R3DS2Severity, "R3DS2Severity", open) {
-  R3DS2SeverityLOW = 0,
-  R3DS2SeverityMEDIUM = 1,
-  R3DS2SeverityHIGH = 2,
-};
 
 
 /// Class holding the UI details specific for a TextBox
-SWIFT_CLASS_NAMED("R3DS2TextBoxCustomization")
+SWIFT_CLASS("_TtC10Ravelin3DS25R3DS2TextBoxCustomization")
 @interface R3DS2TextBoxCustomization : R3DS2Customization
-/// Sets the width of the text box border.
-/// \param borderWidth Width (integer value) of the text box border.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setBorderWidthWithBorderWidth:(NSInteger)borderWidth error:(NSError * _Nullable * _Nullable)error;
-/// Sets the color of the text box border.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setBorderColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the dark color of the text box border.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setDarkBorderColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the corner radius of the text box corners.
-/// \param cornerRadius Radius (integer value) for the text box corners.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setCornerRadiusWithCornerRadius:(NSInteger)cornerRadius error:(NSError * _Nullable * _Nullable)error;
-/// Returns the width of the text box border.
-///
-/// returns:
-/// The width (as an integer) of the text box border.
-- (NSInteger)getBorderWidth SWIFT_WARN_UNUSED_RESULT;
-/// Returns the color of the text box border in hex colour code.
-///
-/// returns:
-/// the hex color code (as a string) of the text box border.
-- (NSString * _Nonnull)getBorderColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the dark color of the text box border in hex colour code.
-///
-/// returns:
-/// the hex color code (as a string) of the text box border.
-- (NSString * _Nonnull)getDarkBorderColor SWIFT_WARN_UNUSED_RESULT;
-/// Gets the corner radius of the text box corners.
-///
-/// returns:
-/// The radius (as an integer) of the text box corners
-- (NSInteger)getCornerRadius SWIFT_WARN_UNUSED_RESULT;
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -828,153 +341,17 @@ SWIFT_CLASS_NAMED("R3DS2TextBoxCustomization")
 
 
 /// Provides methods for the 3DS Requestor App to pass toolbar customization parameters to the 3DS SDK.
-SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
+SWIFT_CLASS("_TtC10Ravelin3DS25R3DS2ToolbarCustomization")
 @interface R3DS2ToolbarCustomization : R3DS2Customization
-/// Sets the background color for the toolbar.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setBackgroundColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the dark background color for the toolbar.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setDarkBackgroundColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the header text of the toolbar.
-/// \param headerText Text for the header.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setHeaderTextWithHeaderText:(NSString * _Nonnull)headerText error:(NSError * _Nullable * _Nullable)error;
-/// Sets the button text of the toolbar.
-/// \param buttonText Text for the button. For example, “Cancel”.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setButtonTextWithButtonText:(NSString * _Nonnull)buttonText error:(NSError * _Nullable * _Nullable)error;
-/// Returns the background colour for the toolbar.
-///
-/// returns:
-/// Background colour code (as a String) for the toolbar.
-- (NSString * _Nonnull)getBackgroundColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the dark background colour for the toolbar.
-///
-/// returns:
-/// Background colour code (as a String) for the toolbar.
-- (NSString * _Nonnull)getDarkBackgroundColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the header text of the toolbar.
-///
-/// returns:
-/// The header text (as a String) of the toolbar.
-- (NSString * _Nonnull)getHeaderText SWIFT_WARN_UNUSED_RESULT;
-/// Returns the button text of the toolbar.
-///
-/// returns:
-/// The button text (as a String) of the toolbar.
-- (NSString * _Nonnull)getButtonText SWIFT_WARN_UNUSED_RESULT;
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 
-/// Holds parameters that are required to create AReq messages and to perform the Challenge Flow
-SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
-@protocol R3DS2Transaction
-/// Returns device and 3DS SDK information to the 3DS Requestor App.
-///
-/// throws:
-/// SDKRuntime exception.
-///
-/// returns:
-/// Returns an AuthenticationRequestParameters object that contains device information and 3DS SDK information.
-- (R3DS2AuthenticationRequestParameters * _Nullable)getAuthenticationRequestParametersAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Initiates the challenge process.
-/// \param challengeParameters ACS details required by the 3DS SDK to conduct the challenge
-/// process during the transaction.
-///
-/// \param challengeStatusReceiver Callback object for notifying the 3DS Requestor App about the
-/// challenge status.
-///
-/// \param timeOut Timeout interval (in minutes) within which the challenge process must be
-/// completed. The minimum timeout interval shall be 5 minutes.
-///
-///
-/// throws:
-/// Invalid input exception.
-- (BOOL)doChallengeWithChallengeParameters:(R3DS2ChallengeParameters * _Nonnull)challengeParameters challengeStatusReceiver:(id <R3DS2ChallengeStatusReceiver> _Nonnull)challengeStatusReceiver timeOut:(NSInteger)timeOut challengeView:(id <R3DS2ChallengeView> _Nonnull)challengeView error:(NSError * _Nullable * _Nullable)error;
-/// Returns an instance of Progress View (processing screen) that the 3DS Requestor App uses.
-///
-/// returns:
-/// Returns a ProgressDialog object.
-- (id <R3DS2ProgressDialog> _Nullable)getProgressViewAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Cleans up resources that are held by the Transaction object.
-- (BOOL)closeAndReturnError:(NSError * _Nullable * _Nullable)error;
-@end
-
-
 /// Provides the functionality required for 3DS SDK UI customization.
-SWIFT_CLASS_NAMED("R3DS2UiCustomization")
+SWIFT_CLASS("_TtC10Ravelin3DS20R3DS2UiCustomization")
 @interface R3DS2UiCustomization : NSObject <NSCopying>
-/// Sets the attributes of a ButtonCustomization object for a particular button type.
-/// \param buttonCustomization A ButtonCustomization object.
-///
-/// \param buttonType The ButtonType.
-///
-- (BOOL)setButtonCustomizationWithButtonCustomization:(R3DS2ButtonCustomization * _Nonnull)buttonCustomization buttonType:(enum R3DS2ButtonType)buttonType error:(NSError * _Nullable * _Nullable)error;
-/// Sets the attributes of a ButtonCustomization object for an implementer-specific button type.
-/// \param buttonCustomization A ButtonCustomization object.
-///
-/// \param btnType Implementer-specific button type.
-///
-- (BOOL)setButtonCustomizationWithButtonCustomization:(R3DS2ButtonCustomization * _Nonnull)buttonCustomization btnType:(NSString * _Nonnull)btnType error:(NSError * _Nullable * _Nullable)error;
-/// Sets the attributes of a ToolbarCustomization object.
-/// \param toolbarCustomization A ToolbarCustomization object.
-///
-- (void)setToolbarCustomizationWithToolbarCustomization:(R3DS2ToolbarCustomization * _Nonnull)toolbarCustomization;
-/// Sets the attributes of a LabelCustomization object.
-/// \param labelCustomization A LabelCustomization object.
-///
-- (void)setLabelCustomizationWithLabelCustomization:(R3DS2LabelCustomization * _Nonnull)labelCustomization;
-/// Sets the attributes of a TextBoxCustomization object.
-/// \param textBoxCustomization A TextBoxCustomization object.
-///
-- (void)setTextBoxCustomizationWithTextBoxCustomization:(R3DS2TextBoxCustomization * _Nonnull)textBoxCustomization;
-/// Returns a ButtonCustomization object.
-/// \param buttonType A pre-defined list of button types.
-///
-///
-/// returns:
-/// returns A Button Customization object.
-- (R3DS2ButtonCustomization * _Nullable)getButtonCustomizationWithButtonType:(enum R3DS2ButtonType)buttonType SWIFT_WARN_UNUSED_RESULT;
-/// Returns a ButtonCustomization object for an implementer-specific button type.
-/// \param btnType Implementer-specific button type.
-///
-///
-/// returns:
-/// A ButtonCustomization object.
-- (R3DS2ButtonCustomization * _Nullable)getButtonCustomizationWithBtnType:(NSString * _Nonnull)btnType SWIFT_WARN_UNUSED_RESULT;
-/// Returns a ToolbarCustomization object.
-///
-/// returns:
-/// A ToolbarCustomization object.
-- (R3DS2ToolbarCustomization * _Nullable)getToolbarCustomization SWIFT_WARN_UNUSED_RESULT;
-/// Returns a LabelCustomization object.
-///
-/// returns:
-/// A LabelCustomization object.
-- (R3DS2LabelCustomization * _Nullable)getLabelCustomization SWIFT_WARN_UNUSED_RESULT;
-/// Returns a TextBoxCustomization object.
-///
-/// returns:
-/// A TextBoxCustomization object.
-- (R3DS2TextBoxCustomization * _Nullable)getTextboxCustomization SWIFT_WARN_UNUSED_RESULT;
 /// Method creating a deep copy of the given object.
 /// \param zone Nil
 ///
@@ -983,37 +360,6 @@ SWIFT_CLASS_NAMED("R3DS2UiCustomization")
 /// Deep copy of the given object.
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-/// Warning represents a warning that is produced by the 3DS SDK while performing security checks during initialization.
-SWIFT_CLASS_NAMED("R3DS2Warning")
-@interface R3DS2Warning : NSObject
-/// Constructs a Warning object.
-/// \param warningId Warning ID
-///
-/// \param message Warning message
-///
-/// \param severity Warning severity level
-///
-- (nonnull instancetype)initWithWarningId:(NSString * _Nonnull)warningId message:(NSString * _Nonnull)message severity:(enum R3DS2Severity)severity OBJC_DESIGNATED_INITIALIZER;
-/// Return the warning ID
-///
-/// returns:
-/// The warning ID as a string.
-- (NSString * _Nonnull)getID SWIFT_WARN_UNUSED_RESULT;
-/// Returns the warning message.
-///
-/// returns:
-/// The warning message as a string.
-- (NSString * _Nonnull)getMessage SWIFT_WARN_UNUSED_RESULT;
-/// Return the severity level of the warning produced by the 3DS SDK.
-///
-/// returns:
-/// The severity level of the warning as a Severity enum type.
-- (enum R3DS2Severity)getSeverity SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -1260,48 +606,16 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
-@class NSString;
 
 /// transaction parameters that the App passes to the 3DS Server when creating the AReq
-SWIFT_CLASS_NAMED("R3DS2AuthenticationRequestParameters")
+SWIFT_CLASS("_TtC10Ravelin3DS36R3DS2AuthenticationRequestParameters")
 @interface R3DS2AuthenticationRequestParameters : NSObject
-- (nullable instancetype)initWithSdkTransactionId:(NSString * _Nonnull)sdkTransactionId deviceData:(NSString * _Nonnull)deviceData sdkEphemeralPublicKey:(NSString * _Nonnull)sdkEphemeralPublicKey sdkAppId:(NSString * _Nonnull)sdkAppId sdkReferenceNumber:(NSString * _Nonnull)sdkReferenceNumber messageVersion:(NSString * _Nonnull)messageVersion directoryServerId:(NSString * _Nonnull)directoryServerId error:(NSError * _Nullable * _Nullable)error OBJC_DESIGNATED_INITIALIZER;
-/// Returns a string that represents the encrypted device data
-///
-/// returns:
-/// The encrypted device data as a JWE string
-- (NSString * _Nonnull)getDeviceData SWIFT_WARN_UNUSED_RESULT;
-/// Returns the SDK Transaction ID
-///
-/// returns:
-/// Returns the SDK Transaction ID as a string
-- (NSString * _Nonnull)getSDKTransactionId SWIFT_WARN_UNUSED_RESULT;
-/// Returns the SDK App ID
-///
-/// returns:
-/// Returns the SDK App ID as a string
-- (NSString * _Nonnull)getSDKAppID SWIFT_WARN_UNUSED_RESULT;
-/// Returns the SDK Reference Number
-///
-/// returns:
-/// The SDK Reference Number as a string
-- (NSString * _Nonnull)getSDKReferenceNumber SWIFT_WARN_UNUSED_RESULT;
-/// Returns the SDK Ephemeral Public Key as a String representation of a JWK object
-///
-/// returns:
-/// The public key component of the ephemeral key pair as a String representation of a JWK object
-- (NSString * _Nonnull)getSDKEphemeralPublicKey SWIFT_WARN_UNUSED_RESULT;
-/// Returns the protocol version that is used for the transaction
-///
-/// returns:
-/// the protocol version as a string
-- (NSString * _Nonnull)getMessageVersion SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-SWIFT_CLASS_NAMED("R3DS2AuthenticationResponse")
+SWIFT_CLASS("_TtC10Ravelin3DS27R3DS2AuthenticationResponse")
 @interface R3DS2AuthenticationResponse : NSObject
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -1309,204 +623,39 @@ SWIFT_CLASS_NAMED("R3DS2AuthenticationResponse")
 
 
 /// Provides methods to pass UI customization parameters to the 3DS SDK.
-SWIFT_CLASS_NAMED("R3DS2Customization")
+SWIFT_CLASS("_TtC10Ravelin3DS18R3DS2Customization")
 @interface R3DS2Customization : NSObject <NSCopying>
-- (nonnull instancetype)initWith:(R3DS2Customization * _Nonnull)base;
-/// Setter for the text font name
-/// \param fontName The name of the font
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setTextFontNameWithFontName:(NSString * _Nonnull)fontName error:(NSError * _Nullable * _Nullable)error;
-/// Setter for the text color
-/// \param hexColorCode a hex code representation of the required color as String
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setTextColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Setter for the dark text color
-/// \param hexColorCode a hex code representation of the required color as String
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setDarkTextColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Setter fot the text font size
-/// \param fontSize the font size given as an integer value
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setTextFontSizeWithFontSize:(NSInteger)fontSize error:(NSError * _Nullable * _Nullable)error;
-/// Returns the text font name
-///
-/// returns:
-/// String value of the font name or empty string if non specified
-- (NSString * _Nonnull)getTextFontName SWIFT_WARN_UNUSED_RESULT;
-/// Returns the text color as a hex code representation of the given color or empty string if non specified
-///
-/// returns:
-/// String of the color in hex code format
-- (NSString * _Nonnull)getTextColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the dark text color as a hex code representation of the given color or empty string if none specified
-///
-/// returns:
-/// String of the color in hex code format
-- (NSString * _Nonnull)getDarkTextColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the text font size
-///
-/// returns:
-/// Integer value representing the font size or 0 if not set
-- (NSInteger)getTextFontSize SWIFT_WARN_UNUSED_RESULT;
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 /// Provide methods for the 3DS Requestor App to pass button customization parameters to the 3DS SDK.
-SWIFT_CLASS_NAMED("R3DS2ButtonCustomization")
+SWIFT_CLASS("_TtC10Ravelin3DS24R3DS2ButtonCustomization")
 @interface R3DS2ButtonCustomization : R3DS2Customization
-/// Sets the background color of the button.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setBackgroundColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Set the dark background color of the button.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setDarkBackgroundColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the radius of the button corners.
-/// \param cornerRadius Radius (integer value) for the button corners.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setCornerRadiusWithCornerRadius:(NSInteger)cornerRadius error:(NSError * _Nullable * _Nullable)error;
-/// Returns the background color of the button.
-///
-/// returns:
-/// background color code (as a string) of the button.
-- (NSString * _Nonnull)getBackgroundColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the dark background color of the button.
-///
-/// returns:
-/// dark background color code (as a string) of the button.
-- (NSString * _Nonnull)getDarkBackgroundColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the radius of the button corners.
-///
-/// returns:
-/// the radius (as an integer) of the button corners.
-- (NSInteger)getCornerRadius SWIFT_WARN_UNUSED_RESULT;
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-/// Enum type describing the types of buttons
-/// <ul>
-///   <li>
-///     SUBMIT: Submit button
-///   </li>
-///   <li>
-///     CONTINUE: Continue button
-///   </li>
-///   <li>
-///     NEXT: Next button
-///   </li>
-///   <li>
-///     CANCEL: Cancelation button
-///   </li>
-///   <li>
-///     RESEND: Resend button
-///   </li>
-/// </ul>
-typedef SWIFT_ENUM_NAMED(NSInteger, R3DS2ButtonType, "R3DS2ButtonType", open) {
-  R3DS2ButtonTypeSUBMIT = 0,
-  R3DS2ButtonTypeCONTINUE = 1,
-  R3DS2ButtonTypeNEXT = 2,
-  R3DS2ButtonTypeCANCEL = 3,
-  R3DS2ButtonTypeRESEND = 4,
-};
 
-
-SWIFT_CLASS_NAMED("R3DS2ChallengeParameters")
+SWIFT_CLASS("_TtC10Ravelin3DS24R3DS2ChallengeParameters")
 @interface R3DS2ChallengeParameters : NSObject
-- (nonnull instancetype)initWithAuthenticationResponse:(R3DS2AuthenticationResponse * _Nullable)authResponse;
-- (void)set3DSServerTransactionID:(NSString * _Nonnull)threeDSServerTransactionID;
-- (void)setAcsTransactionID:(NSString * _Nonnull)acsTransactionID;
-- (void)setAcsRefNumber:(NSString * _Nonnull)acsReferenceNumber;
-- (void)setAcsSignedContent:(NSString * _Nonnull)acsSignedContent;
-- (void)setThreeDSRequestorAppURL:(NSString * _Nonnull)threeDSRequestorAppURL;
-- (NSString * _Nonnull)get3DSServerTransactionID SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getAcsTransactionID SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getAcsRefNumber SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getAcsSignedContent SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getThreeDSRequestorAppURL SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class R3DS2CompletionEvent;
-@class R3DS2ProtocolErrorEvent;
-@class R3DS2RuntimeErrorEvent;
 
-/// Holds methods which correspond to events that can take place during the authentication process.
-SWIFT_PROTOCOL_NAMED("R3DS2ChallengeStatusReceiver")
-@protocol R3DS2ChallengeStatusReceiver
-/// Method called when the challenge process is completed.
-/// \param completionEvent Information about completion of the challenge process.
-///
-- (void)completedWithCompletionEvent:(R3DS2CompletionEvent * _Nonnull)completionEvent;
-/// Method called when the Cardholder selects the option to cancel the transaction on the challenge screen.
-- (void)cancelled;
-/// Method called when the challenge process reaches or exceeds the specified timeout.
-- (void)timedout;
-/// Method called when the 3DS SDK receives an EMV 3-D Secure protocol-defined error message from the ACS.
-/// \param protocolErrorEvent Error code and details.
-///
-- (void)protocolErrorWithProtocolErrorEvent:(R3DS2ProtocolErrorEvent * _Nonnull)protocolErrorEvent;
-/// Method called when the 3DS SDK encounters errors during the challenge process.
-/// \param runtimeErrorEvent Error code and details.
-///
-- (void)runtimeErrorWithRuntimeErrorEvent:(R3DS2RuntimeErrorEvent * _Nonnull)runtimeErrorEvent;
-@end
-
-@class UIViewController;
-
-SWIFT_PROTOCOL_NAMED("R3DS2ChallengeView")
-@protocol R3DS2ChallengeView
-@property (nonatomic, readonly, strong) UIViewController * _Nonnull viewController;
-@end
-
-
-SWIFT_CLASS_NAMED("R3DS2CompletionEvent")
+SWIFT_CLASS("_TtC10Ravelin3DS20R3DS2CompletionEvent")
 @interface R3DS2CompletionEvent : NSObject
-- (nonnull instancetype)init:(NSString * _Nonnull)sdkTransactionID :(NSString * _Nonnull)transactionStatus OBJC_DESIGNATED_INITIALIZER;
-- (NSString * _Nonnull)getSDKTransactionID SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getTransactionStatus SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
 /// Represents additional configuration parameters that can be passed to the 3DS2 SDK during initialization.
-SWIFT_CLASS_NAMED("R3DS2ConfigParameters")
+SWIFT_CLASS("_TtC10Ravelin3DS21R3DS2ConfigParameters")
 @interface R3DS2ConfigParameters : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithParameters:(NSDictionary<NSString *, id> * _Nullable)parameters group:(NSString * _Nonnull)group;
-/// The addParam method shall add a configuration parameter either to the specified group or to the default group.
-/// @param group Group to which the configuration parameter is to be added.
-/// @param paramName Name of the configuration parameter.
-/// @param paramValue Value of the configuration parameter.
-/// @param error InvalidInput This exception shall be thrown if paramName is not provided or if a variable already exists in the dictionary.
-- (BOOL)addParamWithGroup:(NSString * _Nullable)group paramName:(NSString * _Nonnull)paramName paramValue:(NSString * _Nonnull)paramValue error:(NSError * _Nullable * _Nullable)error;
-+ (R3DS2ConfigParameters * _Nonnull)loadFromFile:(NSString * _Nonnull)configFile SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -1527,343 +676,53 @@ SWIFT_CLASS_NAMED("R3DS2ConfigParameters")
 ///     SDKRuntime: represents an error that is thrown when an internal error is encountered by the 3DS SDK.
 ///   </li>
 /// </ul>
-SWIFT_CLASS_NAMED("R3DS2Error")
+SWIFT_CLASS("_TtC10Ravelin3DS10R3DS2Error")
 @interface R3DS2Error : NSObject
-+ (NSError * _Nonnull)InvalidInputWithMessage:(NSString * _Nonnull)message cause:(NSError * _Nullable)cause SWIFT_WARN_UNUSED_RESULT;
-+ (NSError * _Nonnull)SDKAlreadyInitializedWithMessage:(NSString * _Nonnull)message cause:(NSError * _Nullable)cause SWIFT_WARN_UNUSED_RESULT;
-+ (NSError * _Nonnull)SDKNotInitializedWithMessage:(NSString * _Nonnull)message cause:(NSError * _Nullable)cause SWIFT_WARN_UNUSED_RESULT;
-+ (NSError * _Nonnull)SDKRuntimeWithMessage:(NSString * _Nonnull)message errorCode:(NSString * _Nullable)errorCode cause:(NSError * _Nullable)cause SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 /// Holds an error message that is returned by the ACS to the 3DS SDK or an error message that is
 /// generated by the 3DS SDK to be returned to the ACS.
-SWIFT_CLASS_NAMED("R3DS2ErrorMessage")
+SWIFT_CLASS("_TtC10Ravelin3DS17R3DS2ErrorMessage")
 @interface R3DS2ErrorMessage : NSObject
-/// Initialization of the ErrorMessage class.
-/// \param errorCode The error code.
-///
-/// \param errorDescription The text describing the error.
-///
-/// \param errorDetail Additional error details.
-///
-- (nonnull instancetype)initWithTransactionID:(NSString * _Nonnull)transactionID errorCode:(NSString * _Nonnull)errorCode errorComponent:(NSString * _Nonnull)errorComponent errorDescription:(NSString * _Nonnull)errorDescription errorDetail:(NSString * _Nonnull)errorDetail errorMessageType:(NSString * _Nullable)errorMessageType messageVersionNumber:(NSString * _Nonnull)messageVersionNumber OBJC_DESIGNATED_INITIALIZER;
-- (NSString * _Nonnull)getTransactionID SWIFT_WARN_UNUSED_RESULT;
-/// Returns the error code.
-///
-/// returns:
-/// The error code.
-- (NSString * _Nonnull)getErrorCode SWIFT_WARN_UNUSED_RESULT;
-/// Returns the component tht identified the error.
-///
-/// returns:
-/// The error component.
-- (NSString * _Nonnull)getErrorComponent SWIFT_WARN_UNUSED_RESULT;
-/// Returns the error description.
-///
-/// returns:
-/// The error description.
-- (NSString * _Nonnull)getErrorDescription SWIFT_WARN_UNUSED_RESULT;
-/// Returns the error details.
-///
-/// returns:
-/// The error details.
-- (NSString * _Nonnull)getErrorDetail SWIFT_WARN_UNUSED_RESULT;
-/// Returns the Message Type that was identified as erroneous.
-///
-/// returns:
-/// The type of the error message.
-- (NSString * _Nonnull)getErrorMessageType SWIFT_WARN_UNUSED_RESULT;
-/// Returns the protocol version identifier.
-///
-/// returns:
-/// The protocol version identifier.
-- (NSString * _Nonnull)getMessageVersionNumber SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
 /// Provide methods for the 3DS Requestor App to pass text box customization parameters to the 3DS SDK.
-SWIFT_CLASS_NAMED("R3DS2LabelCustomization")
+SWIFT_CLASS("_TtC10Ravelin3DS23R3DS2LabelCustomization")
 @interface R3DS2LabelCustomization : R3DS2Customization
-/// Sets the color of the heading label text.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setHeadingTextColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the dark color of the heading label text.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setHeadingDarkTextColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the font type of the heading label text.
-/// \param fontName Font type for the heading label text.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setHeadingTextFontNameWithFontName:(NSString * _Nonnull)fontName error:(NSError * _Nullable * _Nullable)error;
-/// Sets the font size of the heading label text.
-/// \param fontSize Font size for the heading label text.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setHeadingTextFontSizeWithFontSize:(NSInteger)fontSize error:(NSError * _Nullable * _Nullable)error;
-/// Returns the colour of the heading label text.
-///
-/// returns:
-/// The hex color code of the heading label text as a string.
-- (NSString * _Nonnull)getHeadingTextColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the dark colour of the heading label text.
-///
-/// returns:
-/// The hex color code of the heading label text as a string.
-- (NSString * _Nonnull)getHeadingDarkTextColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the font type of the heading label text.
-///
-/// returns:
-/// The font type of the heading label text as a string.
-- (NSString * _Nonnull)getHeadingTextFontName SWIFT_WARN_UNUSED_RESULT;
-/// Returns the font size of the heading label text.
-///
-/// returns:
-/// The heading text font size as an integer.
-- (NSInteger)getHeadingTextFontSize SWIFT_WARN_UNUSED_RESULT;
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 
-/// Protocol containing functions for the progress view.
-SWIFT_PROTOCOL_NAMED("R3DS2ProgressDialog")
-@protocol R3DS2ProgressDialog
-/// Start the progress dialog as overlay on top of the screens.
-- (void)start;
-/// Stops the progress dialog.
-- (void)stop;
-@end
-
-
-SWIFT_CLASS_NAMED("R3DS2ProtocolErrorEvent")
+SWIFT_CLASS("_TtC10Ravelin3DS23R3DS2ProtocolErrorEvent")
 @interface R3DS2ProtocolErrorEvent : NSObject
-- (nonnull instancetype)init:(NSString * _Nonnull)sdkTransactionID :(R3DS2ErrorMessage * _Nonnull)errorMessage OBJC_DESIGNATED_INITIALIZER;
-- (R3DS2ErrorMessage * _Nonnull)getErrorMessage SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getSDKTransactionID SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
-SWIFT_CLASS_NAMED("R3DS2RuntimeErrorEvent")
+SWIFT_CLASS("_TtC10Ravelin3DS22R3DS2RuntimeErrorEvent")
 @interface R3DS2RuntimeErrorEvent : NSObject
-- (nonnull instancetype)init:(NSString * _Nullable)errorCode :(NSString * _Nonnull)errorMessage OBJC_DESIGNATED_INITIALIZER;
-- (NSString * _Nullable)getErrorCode SWIFT_WARN_UNUSED_RESULT;
-- (NSString * _Nonnull)getErrorMessage SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
-@class R3DS2UiCustomization;
-@protocol R3DS2Transaction;
-@class R3DS2Warning;
 
-/// The main 3DS SDK interface.
-/// It provides methods to process transactions.
-SWIFT_PROTOCOL_NAMED("R3DS2Service")
-@protocol R3DS2Service
-/// Initializes the 3DS SDK instance.
-/// \param configParameters Configuration information that shall be used during initialization.
-///
-/// \param locale String that represents the locale for the app’s user interface.
-///
-/// \param uiCustomization UI configuration information that is used to specify the UI layout and theme. For example, font style and font size.
-///
-///
-/// throws:
-/// InvalidInput, SDKAlreadyInitialized, SDKRuntime
-- (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error;
-/// Initializes the 3DS SDK instance.
-/// \param configParameters Configuration information that shall be used during initialization.
-///
-/// \param locale String that represents the locale for the app’s user interface.
-///
-/// \param uiCustomization UI configuration information that is used to specify the UI layout and theme. For example, font style and font size.
-///
-/// \param completion 
-///
-///
-/// throws:
-/// InvalidInput, SDKAlreadyInitialized, SDKRuntime
-- (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error completion:(void (^ _Nullable)(BOOL))completion;
-/// Creates an instance of Transaction through which the 3DS Requestor App gets the data that
-/// is required to perform the transaction.
-/// \param directoryServerId Registered Application Provider Identifier (RID) that is unique to
-/// the Payment System.
-///
-/// \param messageVersion Protocol version according to which the transaction shall be created.
-///
-///
-/// throws:
-/// InvalidInput, SDKNotInitialized, SDKRuntime.
-- (id <R3DS2Transaction> _Nullable)createTransactionWithDirectoryServerID:(NSString * _Nonnull)directoryServerID messageVersion:(NSString * _Nullable)messageVersion error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Returns the warnings produced by the 3DS SDK during initialization.
-///
-/// throws:
-/// SDKNotInitialized.
-///
-/// returns:
-/// Returns an Array of warnings produced by the 3DS SDK during initialization.
-- (NSArray<R3DS2Warning *> * _Nullable)getWarningsAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Returns the version of the 3DS SDK that is integrated with the 3DS Requestor App.
-///
-/// throws:
-/// SDKNotInitialized, SDKRuntime
-///
-/// returns:
-/// returns (as a string) the version of the 3DS SDK that is integrated with the 3DS
-/// Requestor App.
-- (NSString * _Nullable)getSDKVersionAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Frees up resources that are used by the 3DS Requestor App until it is closed. It shall be called only once during a single 3DS Requestor App session.
-///
-/// throws:
-/// SDKNotInitialized
-- (BOOL)cleanupAndReturnError:(NSError * _Nullable * _Nullable)error;
-@end
-
-@class NSBundle;
-
-SWIFT_CLASS_NAMED("R3DS2ServiceSDK")
-@interface R3DS2ServiceSDK : NSObject <R3DS2Service>
+SWIFT_CLASS("_TtC10Ravelin3DS15R3DS2ServiceSDK")
+@interface R3DS2ServiceSDK : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-/// Creates 3DS SDK object
-/// \param bundle The bundle from which the SDK will read resources
-///
-- (nonnull instancetype)initWithBundle:(NSBundle * _Nonnull)bundle OBJC_DESIGNATED_INITIALIZER;
-/// Initializes the 3DS SDK instance.
-/// \param configParameters Configuration information that shall be used during initialization.
-///
-/// \param locale String that represents the locale for the app’s user interface.
-///
-/// \param uiCustomization UI configuration information that is used to specify the UI layout and theme. For example, font style and font size.
-///
-/// \param completion 
-///
-///
-/// throws:
-/// InvalidInput, SDKAlreadyInitialized, SDKRuntime
-- (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error completion:(void (^ _Nullable)(BOOL))completion;
-- (BOOL)initializeWithConfigParameters:(R3DS2ConfigParameters * _Nonnull)configParameters locale:(NSString * _Nullable)locale uiCustomization:(R3DS2UiCustomization * _Nullable)uiCustomization error:(NSError * _Nullable * _Nullable)error;
-/// The createTransaction method creates an instance of Transaction through which the 3DS Requestor App gets the data that is required to perform the transaction.
-/// \param directoryServerId Registered Application Provider Identifier (RID) that is unique to the Payment System.
-///
-/// \param messageVersion Protocol version according to which the transaction shall be created.
-///
-///
-/// throws:
-/// InvalidInput, SDKNotInitialized, SDKRuntime.
-- (id <R3DS2Transaction> _Nullable)createTransactionWithDirectoryServerID:(NSString * _Nonnull)directoryServerId messageVersion:(NSString * _Nullable)messageVersion error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Returns the warnings produced by the 3DS SDK during initialization.
-///
-/// throws:
-/// SDKNotInitialized.
-///
-/// returns:
-/// Returns an Array of warnings produced by the 3DS SDK during initialization.
-- (NSArray<R3DS2Warning *> * _Nullable)getWarningsAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// The getSDKVersion method returns the version of the 3DS SDK that is integrated with the 3DS Requestor App.
-///
-/// throws:
-/// SDKNotInitialized, SDKRuntime
-///
-/// returns:
-/// returns (as a string) the version of the 3DS SDK that is integrated with the 3DS Requestor App.
-- (NSString * _Nullable)getSDKVersionAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// The cleanup method frees up resources that are used by the 3DS SDK.
-/// It is called only once during a single 3DS Requestor App session.
-///
-/// throws:
-/// SDKNotInitialized
-- (BOOL)cleanupAndReturnError:(NSError * _Nullable * _Nullable)error;
 @end
-
-/// Severity enum  defines the severity levels of warnings produced by the 3DS SDK while conducting security checks during initialization.
-/// <ul>
-///   <li>
-///     LOW:  A low-severity warning
-///   </li>
-///   <li>
-///     MEDIUM:  A medium-severity warning
-///   </li>
-///   <li>
-///     HIGH:  A high-severity warning
-///   </li>
-/// </ul>
-typedef SWIFT_ENUM_NAMED(NSInteger, R3DS2Severity, "R3DS2Severity", open) {
-  R3DS2SeverityLOW = 0,
-  R3DS2SeverityMEDIUM = 1,
-  R3DS2SeverityHIGH = 2,
-};
 
 
 /// Class holding the UI details specific for a TextBox
-SWIFT_CLASS_NAMED("R3DS2TextBoxCustomization")
+SWIFT_CLASS("_TtC10Ravelin3DS25R3DS2TextBoxCustomization")
 @interface R3DS2TextBoxCustomization : R3DS2Customization
-/// Sets the width of the text box border.
-/// \param borderWidth Width (integer value) of the text box border.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setBorderWidthWithBorderWidth:(NSInteger)borderWidth error:(NSError * _Nullable * _Nullable)error;
-/// Sets the color of the text box border.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setBorderColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the dark color of the text box border.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setDarkBorderColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the corner radius of the text box corners.
-/// \param cornerRadius Radius (integer value) for the text box corners.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setCornerRadiusWithCornerRadius:(NSInteger)cornerRadius error:(NSError * _Nullable * _Nullable)error;
-/// Returns the width of the text box border.
-///
-/// returns:
-/// The width (as an integer) of the text box border.
-- (NSInteger)getBorderWidth SWIFT_WARN_UNUSED_RESULT;
-/// Returns the color of the text box border in hex colour code.
-///
-/// returns:
-/// the hex color code (as a string) of the text box border.
-- (NSString * _Nonnull)getBorderColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the dark color of the text box border in hex colour code.
-///
-/// returns:
-/// the hex color code (as a string) of the text box border.
-- (NSString * _Nonnull)getDarkBorderColor SWIFT_WARN_UNUSED_RESULT;
-/// Gets the corner radius of the text box corners.
-///
-/// returns:
-/// The radius (as an integer) of the text box corners
-- (NSInteger)getCornerRadius SWIFT_WARN_UNUSED_RESULT;
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -1871,153 +730,17 @@ SWIFT_CLASS_NAMED("R3DS2TextBoxCustomization")
 
 
 /// Provides methods for the 3DS Requestor App to pass toolbar customization parameters to the 3DS SDK.
-SWIFT_CLASS_NAMED("R3DS2ToolbarCustomization")
+SWIFT_CLASS("_TtC10Ravelin3DS25R3DS2ToolbarCustomization")
 @interface R3DS2ToolbarCustomization : R3DS2Customization
-/// Sets the background color for the toolbar.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setBackgroundColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the dark background color for the toolbar.
-/// \param hexColorCode Color code in Hex format.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setDarkBackgroundColorWithHexColorCode:(NSString * _Nonnull)hexColorCode error:(NSError * _Nullable * _Nullable)error;
-/// Sets the header text of the toolbar.
-/// \param headerText Text for the header.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setHeaderTextWithHeaderText:(NSString * _Nonnull)headerText error:(NSError * _Nullable * _Nullable)error;
-/// Sets the button text of the toolbar.
-/// \param buttonText Text for the button. For example, “Cancel”.
-///
-///
-/// throws:
-/// InvalidInput
-- (BOOL)setButtonTextWithButtonText:(NSString * _Nonnull)buttonText error:(NSError * _Nullable * _Nullable)error;
-/// Returns the background colour for the toolbar.
-///
-/// returns:
-/// Background colour code (as a String) for the toolbar.
-- (NSString * _Nonnull)getBackgroundColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the dark background colour for the toolbar.
-///
-/// returns:
-/// Background colour code (as a String) for the toolbar.
-- (NSString * _Nonnull)getDarkBackgroundColor SWIFT_WARN_UNUSED_RESULT;
-/// Returns the header text of the toolbar.
-///
-/// returns:
-/// The header text (as a String) of the toolbar.
-- (NSString * _Nonnull)getHeaderText SWIFT_WARN_UNUSED_RESULT;
-/// Returns the button text of the toolbar.
-///
-/// returns:
-/// The button text (as a String) of the toolbar.
-- (NSString * _Nonnull)getButtonText SWIFT_WARN_UNUSED_RESULT;
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
 
-/// Holds parameters that are required to create AReq messages and to perform the Challenge Flow
-SWIFT_PROTOCOL_NAMED("R3DS2Transaction")
-@protocol R3DS2Transaction
-/// Returns device and 3DS SDK information to the 3DS Requestor App.
-///
-/// throws:
-/// SDKRuntime exception.
-///
-/// returns:
-/// Returns an AuthenticationRequestParameters object that contains device information and 3DS SDK information.
-- (R3DS2AuthenticationRequestParameters * _Nullable)getAuthenticationRequestParametersAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Initiates the challenge process.
-/// \param challengeParameters ACS details required by the 3DS SDK to conduct the challenge
-/// process during the transaction.
-///
-/// \param challengeStatusReceiver Callback object for notifying the 3DS Requestor App about the
-/// challenge status.
-///
-/// \param timeOut Timeout interval (in minutes) within which the challenge process must be
-/// completed. The minimum timeout interval shall be 5 minutes.
-///
-///
-/// throws:
-/// Invalid input exception.
-- (BOOL)doChallengeWithChallengeParameters:(R3DS2ChallengeParameters * _Nonnull)challengeParameters challengeStatusReceiver:(id <R3DS2ChallengeStatusReceiver> _Nonnull)challengeStatusReceiver timeOut:(NSInteger)timeOut challengeView:(id <R3DS2ChallengeView> _Nonnull)challengeView error:(NSError * _Nullable * _Nullable)error;
-/// Returns an instance of Progress View (processing screen) that the 3DS Requestor App uses.
-///
-/// returns:
-/// Returns a ProgressDialog object.
-- (id <R3DS2ProgressDialog> _Nullable)getProgressViewAndReturnError:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-/// Cleans up resources that are held by the Transaction object.
-- (BOOL)closeAndReturnError:(NSError * _Nullable * _Nullable)error;
-@end
-
-
 /// Provides the functionality required for 3DS SDK UI customization.
-SWIFT_CLASS_NAMED("R3DS2UiCustomization")
+SWIFT_CLASS("_TtC10Ravelin3DS20R3DS2UiCustomization")
 @interface R3DS2UiCustomization : NSObject <NSCopying>
-/// Sets the attributes of a ButtonCustomization object for a particular button type.
-/// \param buttonCustomization A ButtonCustomization object.
-///
-/// \param buttonType The ButtonType.
-///
-- (BOOL)setButtonCustomizationWithButtonCustomization:(R3DS2ButtonCustomization * _Nonnull)buttonCustomization buttonType:(enum R3DS2ButtonType)buttonType error:(NSError * _Nullable * _Nullable)error;
-/// Sets the attributes of a ButtonCustomization object for an implementer-specific button type.
-/// \param buttonCustomization A ButtonCustomization object.
-///
-/// \param btnType Implementer-specific button type.
-///
-- (BOOL)setButtonCustomizationWithButtonCustomization:(R3DS2ButtonCustomization * _Nonnull)buttonCustomization btnType:(NSString * _Nonnull)btnType error:(NSError * _Nullable * _Nullable)error;
-/// Sets the attributes of a ToolbarCustomization object.
-/// \param toolbarCustomization A ToolbarCustomization object.
-///
-- (void)setToolbarCustomizationWithToolbarCustomization:(R3DS2ToolbarCustomization * _Nonnull)toolbarCustomization;
-/// Sets the attributes of a LabelCustomization object.
-/// \param labelCustomization A LabelCustomization object.
-///
-- (void)setLabelCustomizationWithLabelCustomization:(R3DS2LabelCustomization * _Nonnull)labelCustomization;
-/// Sets the attributes of a TextBoxCustomization object.
-/// \param textBoxCustomization A TextBoxCustomization object.
-///
-- (void)setTextBoxCustomizationWithTextBoxCustomization:(R3DS2TextBoxCustomization * _Nonnull)textBoxCustomization;
-/// Returns a ButtonCustomization object.
-/// \param buttonType A pre-defined list of button types.
-///
-///
-/// returns:
-/// returns A Button Customization object.
-- (R3DS2ButtonCustomization * _Nullable)getButtonCustomizationWithButtonType:(enum R3DS2ButtonType)buttonType SWIFT_WARN_UNUSED_RESULT;
-/// Returns a ButtonCustomization object for an implementer-specific button type.
-/// \param btnType Implementer-specific button type.
-///
-///
-/// returns:
-/// A ButtonCustomization object.
-- (R3DS2ButtonCustomization * _Nullable)getButtonCustomizationWithBtnType:(NSString * _Nonnull)btnType SWIFT_WARN_UNUSED_RESULT;
-/// Returns a ToolbarCustomization object.
-///
-/// returns:
-/// A ToolbarCustomization object.
-- (R3DS2ToolbarCustomization * _Nullable)getToolbarCustomization SWIFT_WARN_UNUSED_RESULT;
-/// Returns a LabelCustomization object.
-///
-/// returns:
-/// A LabelCustomization object.
-- (R3DS2LabelCustomization * _Nullable)getLabelCustomization SWIFT_WARN_UNUSED_RESULT;
-/// Returns a TextBoxCustomization object.
-///
-/// returns:
-/// A TextBoxCustomization object.
-- (R3DS2TextBoxCustomization * _Nullable)getTextboxCustomization SWIFT_WARN_UNUSED_RESULT;
 /// Method creating a deep copy of the given object.
 /// \param zone Nil
 ///
@@ -2026,37 +749,6 @@ SWIFT_CLASS_NAMED("R3DS2UiCustomization")
 /// Deep copy of the given object.
 - (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-/// Warning represents a warning that is produced by the 3DS SDK while performing security checks during initialization.
-SWIFT_CLASS_NAMED("R3DS2Warning")
-@interface R3DS2Warning : NSObject
-/// Constructs a Warning object.
-/// \param warningId Warning ID
-///
-/// \param message Warning message
-///
-/// \param severity Warning severity level
-///
-- (nonnull instancetype)initWithWarningId:(NSString * _Nonnull)warningId message:(NSString * _Nonnull)message severity:(enum R3DS2Severity)severity OBJC_DESIGNATED_INITIALIZER;
-/// Return the warning ID
-///
-/// returns:
-/// The warning ID as a string.
-- (NSString * _Nonnull)getID SWIFT_WARN_UNUSED_RESULT;
-/// Returns the warning message.
-///
-/// returns:
-/// The warning message as a string.
-- (NSString * _Nonnull)getMessage SWIFT_WARN_UNUSED_RESULT;
-/// Return the severity level of the warning produced by the 3DS SDK.
-///
-/// returns:
-/// The severity level of the warning as a Severity enum type.
-- (enum R3DS2Severity)getSeverity SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
