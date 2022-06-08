@@ -6,6 +6,6 @@ framework module Ravelin3DS {
 }
 
 module Ravelin3DS.Swift {
-    header "Ravelin3DS-Swift.h"
-    requires objc
+  header "Ravelin3DS-Swift.h"
+  requires objc
 }
