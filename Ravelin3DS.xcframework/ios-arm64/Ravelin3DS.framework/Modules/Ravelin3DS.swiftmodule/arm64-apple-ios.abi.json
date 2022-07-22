@@ -533,6 +533,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -555,6 +556,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -573,6 +575,7 @@
                 "mangledName": "$s10Ravelin3DS3JWSV14componentCountSivgZ",
                 "moduleName": "Ravelin3DS",
                 "static": true,
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -602,6 +605,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Designated"
           }
@@ -1290,6 +1294,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1318,6 +1323,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Designated"
           }
@@ -2823,6 +2829,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -2869,6 +2876,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -3009,6 +3017,7 @@
               "AccessControl",
               "Available"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           },
           {
@@ -3066,6 +3075,7 @@
               "AccessControl",
               "Available"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           }
         ],
@@ -9207,6 +9217,7 @@
             "declAttributes": [
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9232,6 +9243,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV22keyManagementAlgorithmAA03KeyeF0OSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV22keyManagementAlgorithmAA03KeyeF0OSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -9263,6 +9275,7 @@
             "declAttributes": [
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9288,6 +9301,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV26contentEncryptionAlgorithmAA07ContenteF0OSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV26contentEncryptionAlgorithmAA07ContenteF0OSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -9319,6 +9333,7 @@
             "declAttributes": [
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9344,6 +9359,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV20compressionAlgorithmAA011CompressionE0OSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV20compressionAlgorithmAA011CompressionE0OSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -9375,6 +9391,7 @@
             "declAttributes": [
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9400,6 +9417,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3zipSSSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3zipSSSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -9431,6 +9449,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3zipSSSgvs",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3zipSSSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -9449,6 +9468,7 @@
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3zipSSSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -9481,6 +9501,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9506,6 +9527,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3jku10Foundation3URLVSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3jku10Foundation3URLVSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -9537,6 +9559,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3jku10Foundation3URLVSgvs",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3jku10Foundation3URLVSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -9555,6 +9578,7 @@
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3jku10Foundation3URLVSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -9587,6 +9611,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9612,6 +9637,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3jwkSSSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3jwkSSSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -9643,6 +9669,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3jwkSSSgvs",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3jwkSSSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -9661,6 +9688,7 @@
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3jwkSSSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -9693,6 +9721,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9718,6 +9747,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV8jwkTypedAA3JWK_pSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV8jwkTypedAA3JWK_pSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -9749,6 +9779,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV8jwkTypedAA3JWK_pSgvs",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV8jwkTypedAA3JWK_pSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -9767,6 +9798,7 @@
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV8jwkTypedAA3JWK_pSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -9799,6 +9831,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9824,6 +9857,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3kidSSSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3kidSSSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -9855,6 +9889,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3kidSSSgvs",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3kidSSSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -9873,6 +9908,7 @@
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3kidSSSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -9905,6 +9941,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9930,6 +9967,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3x5u10Foundation3URLVSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3x5u10Foundation3URLVSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -9961,6 +9999,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3x5u10Foundation3URLVSgvs",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3x5u10Foundation3URLVSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -9979,6 +10018,7 @@
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3x5u10Foundation3URLVSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -10019,6 +10059,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -10052,6 +10093,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3x5cSaySSGSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3x5cSaySSGSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -10091,6 +10133,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3x5cSaySSGSgvs",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3x5cSaySSGSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -10109,6 +10152,7 @@
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3x5cSaySSGSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -10141,6 +10185,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -10166,6 +10211,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3x5tSSSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3x5tSSSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -10197,6 +10243,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3x5tSSSgvs",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3x5tSSSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -10215,6 +10262,7 @@
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3x5tSSSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -10247,6 +10295,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -10272,6 +10321,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV7x5tS256SSSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV7x5tS256SSSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -10303,6 +10353,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV7x5tS256SSSgvs",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV7x5tS256SSSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -10321,6 +10372,7 @@
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV7x5tS256SSSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -10353,6 +10405,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -10378,6 +10431,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3typSSSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3typSSSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -10409,6 +10463,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3typSSSgvs",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3typSSSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -10427,6 +10482,7 @@
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3typSSSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -10459,6 +10515,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -10484,6 +10541,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3ctySSSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3ctySSSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -10515,6 +10573,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV3ctySSSgvs",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3ctySSSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -10533,6 +10592,7 @@
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV3ctySSSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -10573,6 +10633,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -10606,6 +10667,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV4critSaySSGSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV4critSaySSGSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -10645,6 +10707,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV4critSaySSGSgvs",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV4critSaySSGSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -10663,6 +10726,7 @@
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV4critSaySSGSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -10696,6 +10760,7 @@
               "Available",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -10721,6 +10786,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV9algorithmAA22KeyManagementAlgorithmOSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV9algorithmAA22KeyManagementAlgorithmOSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -10754,6 +10820,7 @@
               "Available",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -10779,6 +10846,7 @@
                 "usr": "s:10Ravelin3DS9JWEHeaderV19encryptionAlgorithmAA017ContentEncryptionE0OSgvg",
                 "mangledName": "$s10Ravelin3DS9JWEHeaderV19encryptionAlgorithmAA017ContentEncryptionE0OSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -10815,6 +10883,7 @@
             "declAttributes": [
               "Available"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           }
         ],
@@ -11333,6 +11402,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -11372,6 +11442,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -11415,6 +11486,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Convenience"
           }
@@ -13624,6 +13696,7 @@
               "UsableFromInline",
               "Inline"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -13669,6 +13742,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -13715,6 +13789,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -13758,6 +13833,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Convenience"
           },
@@ -13781,6 +13857,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -13804,6 +13881,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -15304,6 +15382,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -15531,6 +15610,7 @@
             "declAttributes": [
               "UsableFromInline"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -15581,6 +15661,7 @@
             "declAttributes": [
               "UsableFromInline"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -17950,6 +18031,7 @@
             "declAttributes": [
               "Inlinable"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -20343,6 +20425,7 @@
               "Final",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -21562,6 +21645,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -21590,6 +21674,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Designated"
           }
@@ -22184,6 +22269,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -22212,6 +22298,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Designated"
           }
@@ -22892,6 +22979,7 @@
               "AccessControl",
               "Available"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           }
         ],
@@ -24621,6 +24709,7 @@
               "AccessControl",
               "Available"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           }
         ],
@@ -25357,6 +25446,7 @@
             "moduleName": "Ravelin3DS",
             "genericSig": "<τ_0_0 where τ_0_0 : Ravelin3DS.JWK>",
             "sugared_genericSig": "<Self where Self : Ravelin3DS.JWK>",
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -25390,6 +25480,7 @@
                 "moduleName": "Ravelin3DS",
                 "genericSig": "<τ_0_0 where τ_0_0 : Ravelin3DS.JWK>",
                 "sugared_genericSig": "<Self where Self : Ravelin3DS.JWK>",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -25420,6 +25511,7 @@
             "moduleName": "Ravelin3DS",
             "genericSig": "<τ_0_0 where τ_0_0 : Ravelin3DS.JWK>",
             "sugared_genericSig": "<Self where Self : Ravelin3DS.JWK>",
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -25448,6 +25540,7 @@
             "moduleName": "Ravelin3DS",
             "genericSig": "<τ_0_0 where τ_0_0 : Ravelin3DS.JWK>",
             "sugared_genericSig": "<Self where Self : Ravelin3DS.JWK>",
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -25480,6 +25573,7 @@
               "AccessControl",
               "Available"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -26120,6 +26214,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "Mutating"
           },
@@ -26175,6 +26270,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "Mutating"
           },
@@ -26230,6 +26326,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "Mutating"
           },
@@ -26305,6 +26402,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "Mutating"
           },
@@ -26354,6 +26452,7 @@
               "Inlinable",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "Mutating"
           },
@@ -26402,6 +26501,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "Mutating"
           },
@@ -26437,6 +26537,7 @@
               "Inlinable",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "Mutating"
           },
@@ -26506,6 +26607,7 @@
               "Inlinable",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "Mutating"
           },
@@ -26574,6 +26676,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "Mutating"
           },
@@ -26629,6 +26732,7 @@
               "Inlinable",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "Mutating"
           }
@@ -27781,6 +27885,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -27806,6 +27911,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV9algorithmAA18SignatureAlgorithmOSgvg",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV9algorithmAA18SignatureAlgorithmOSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -27838,6 +27944,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -27863,6 +27970,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3jku10Foundation3URLVSgvg",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3jku10Foundation3URLVSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -27894,6 +28002,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3jku10Foundation3URLVSgvs",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3jku10Foundation3URLVSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -27912,6 +28021,7 @@
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3jku10Foundation3URLVSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -27944,6 +28054,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -27969,6 +28080,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3jwkSSSgvg",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3jwkSSSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -28000,6 +28112,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3jwkSSSgvs",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3jwkSSSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -28018,6 +28131,7 @@
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3jwkSSSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -28050,6 +28164,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -28075,6 +28190,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV8jwkTypedAA3JWK_pSgvg",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV8jwkTypedAA3JWK_pSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -28106,6 +28222,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV8jwkTypedAA3JWK_pSgvs",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV8jwkTypedAA3JWK_pSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -28124,6 +28241,7 @@
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV8jwkTypedAA3JWK_pSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -28156,6 +28274,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -28181,6 +28300,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3kidSSSgvg",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3kidSSSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -28212,6 +28332,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3kidSSSgvs",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3kidSSSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -28230,6 +28351,7 @@
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3kidSSSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -28262,6 +28384,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -28287,6 +28410,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3x5u10Foundation3URLVSgvg",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3x5u10Foundation3URLVSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -28318,6 +28442,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3x5u10Foundation3URLVSgvs",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3x5u10Foundation3URLVSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -28336,6 +28461,7 @@
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3x5u10Foundation3URLVSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -28376,6 +28502,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -28409,6 +28536,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3x5cSaySSGSgvg",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3x5cSaySSGSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -28448,6 +28576,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3x5cSaySSGSgvs",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3x5cSaySSGSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -28466,6 +28595,7 @@
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3x5cSaySSGSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -28498,6 +28628,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -28523,6 +28654,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3x5tSSSgvg",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3x5tSSSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -28554,6 +28686,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3x5tSSSgvs",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3x5tSSSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -28572,6 +28705,7 @@
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3x5tSSSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -28604,6 +28738,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -28629,6 +28764,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV7x5tS256SSSgvg",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV7x5tS256SSSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -28660,6 +28796,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV7x5tS256SSSgvs",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV7x5tS256SSSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -28678,6 +28815,7 @@
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV7x5tS256SSSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -28710,6 +28848,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -28735,6 +28874,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3typSSSgvg",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3typSSSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -28766,6 +28906,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3typSSSgvs",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3typSSSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -28784,6 +28925,7 @@
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3typSSSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -28816,6 +28958,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -28841,6 +28984,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3ctySSSgvg",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3ctySSSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -28872,6 +29016,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV3ctySSSgvs",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3ctySSSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -28890,6 +29035,7 @@
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV3ctySSSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -28930,6 +29076,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -28963,6 +29110,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV4critSaySSGSgvg",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV4critSaySSGSgvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               },
               {
@@ -29002,6 +29150,7 @@
                 "usr": "s:10Ravelin3DS9JWSHeaderV4critSaySSGSgvs",
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV4critSaySSGSgvs",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "set"
               },
               {
@@ -29020,6 +29169,7 @@
                 "mangledName": "$s10Ravelin3DS9JWSHeaderV4critSaySSGSgvM",
                 "moduleName": "Ravelin3DS",
                 "implicit": true,
+                "isFromExtension": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -29573,6 +29723,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -29595,6 +29746,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -29613,6 +29765,7 @@
                 "mangledName": "$s10Ravelin3DS3JWEV14componentCountSivgZ",
                 "moduleName": "Ravelin3DS",
                 "static": true,
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -29642,6 +29795,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Designated"
           }
@@ -30332,6 +30486,7 @@
               "Convenience",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Convenience"
           }
@@ -31441,6 +31596,7 @@
               "Inlinable",
               "DiscardableResult"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -32080,6 +32236,7 @@
               "Inlinable",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -32140,6 +32297,7 @@
               "Inlinable",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -32193,6 +32351,7 @@
               "Inlinable",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -35066,7 +35225,8 @@
             "moduleName": "Ravelin3DS",
             "declAttributes": [
               "RawDocComment"
-            ]
+            ],
+            "isFromExtension": true
           },
           {
             "kind": "TypeDecl",
@@ -35404,7 +35564,8 @@
             "moduleName": "Ravelin3DS",
             "declAttributes": [
               "RawDocComment"
-            ]
+            ],
+            "isFromExtension": true
           }
         ],
         "declKind": "Enum",
@@ -38220,6 +38381,7 @@
               "Convenience",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Convenience"
           },
@@ -38255,6 +38417,7 @@
               "Convenience",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Convenience"
           },
@@ -38300,6 +38463,7 @@
               "Final",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -38345,6 +38509,7 @@
               "Final",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -39308,6 +39473,7 @@
               "Final",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -39353,6 +39519,7 @@
               "Final",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -39448,6 +39615,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "conformances": [
               {
                 "kind": "Conformance",
@@ -39557,6 +39725,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "conformances": [
               {
                 "kind": "Conformance",
@@ -39594,6 +39763,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -39615,6 +39785,7 @@
               "Final",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -39649,6 +39820,7 @@
               "Convenience",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Convenience"
           }
@@ -41820,6 +41992,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -41848,6 +42021,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Designated"
           }
@@ -42493,6 +42667,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -42521,6 +42696,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Designated"
           }
@@ -46809,6 +46985,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -47272,6 +47449,7 @@
               "AccessControl",
               "Available"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           },
           {
@@ -47322,6 +47500,7 @@
               "AccessControl",
               "Available"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           }
         ],
@@ -49868,6 +50047,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -50505,6 +50685,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -50533,6 +50714,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "init_kind": "Designated"
           },
@@ -50555,6 +50737,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -50572,6 +50755,7 @@
                 "usr": "s:10Ravelin3DS6JWKSetV10startIndexSivg",
                 "mangledName": "$s10Ravelin3DS6JWKSetV10startIndexSivg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -50595,6 +50779,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -50612,6 +50797,7 @@
                 "usr": "s:10Ravelin3DS6JWKSetV8endIndexSivg",
                 "mangledName": "$s10Ravelin3DS6JWKSetV8endIndexSivg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -50641,6 +50827,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -50664,6 +50851,7 @@
                 "usr": "s:10Ravelin3DS6JWKSetVyAA3JWK_pSicig",
                 "mangledName": "$s10Ravelin3DS6JWKSetVyAA3JWK_pSicig",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -50693,6 +50881,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -50730,6 +50919,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -50765,6 +50955,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           }
         ],
@@ -51029,6 +51220,7 @@
               "Final",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -51070,6 +51262,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -51112,6 +51305,7 @@
               "Final",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -51147,6 +51341,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -51201,6 +51396,7 @@
               "Final",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -51248,6 +51444,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -51329,6 +51526,7 @@
             "moduleName": "Ravelin3DS",
             "genericSig": "<τ_0_0 where τ_0_0 == Swift.UInt8>",
             "sugared_genericSig": "<Element where Element == Swift.UInt8>",
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51362,6 +51560,7 @@
             "moduleName": "Ravelin3DS",
             "genericSig": "<τ_0_0 where τ_0_0 == Swift.UInt8>",
             "sugared_genericSig": "<Element where Element == Swift.UInt8>",
+            "isFromExtension": true,
             "init_kind": "Designated"
           },
           {
@@ -51398,6 +51597,7 @@
             "declAttributes": [
               "Inlinable"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           },
           {
@@ -51426,6 +51626,7 @@
             "declAttributes": [
               "Inlinable"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -51452,6 +51653,7 @@
                 "moduleName": "Ravelin3DS",
                 "genericSig": "<τ_0_0>",
                 "sugared_genericSig": "<Element>",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -51490,6 +51692,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           },
           {
@@ -51513,6 +51716,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51560,6 +51764,7 @@
               "Available",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51590,6 +51795,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51620,6 +51826,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51650,6 +51857,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51680,6 +51888,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51710,6 +51919,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51740,6 +51950,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51776,6 +51987,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51812,6 +52024,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51857,6 +52070,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51902,6 +52116,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51940,6 +52155,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -51976,6 +52192,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -52013,6 +52230,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -52049,6 +52267,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -52745,6 +52964,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -52780,6 +53000,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -52803,6 +53024,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -52824,6 +53046,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -52845,6 +53068,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -52866,6 +53090,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -52887,6 +53112,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -52908,6 +53134,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -52929,6 +53156,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -52956,6 +53184,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -52999,6 +53228,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -53042,6 +53272,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -53078,6 +53309,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -53105,6 +53337,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -53133,6 +53366,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -53161,6 +53395,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -53189,6 +53424,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           },
           {
@@ -53218,6 +53454,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -53243,6 +53480,7 @@
                 "usr": "s:10Foundation4DataV10Ravelin3DSE5bytesSays5UInt8VGvg",
                 "mangledName": "$s10Foundation4DataV10Ravelin3DSE5bytesSays5UInt8VGvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -53266,6 +53504,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -53319,6 +53558,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -53366,6 +53606,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -53414,6 +53655,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -53455,6 +53697,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -53492,6 +53735,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           },
           {
@@ -53528,6 +53772,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           },
           {
@@ -53550,6 +53795,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -53572,6 +53818,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -53599,6 +53846,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           },
           {
@@ -53620,6 +53868,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -53648,6 +53897,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -53670,6 +53920,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -54236,6 +54487,7 @@
               "Convenience",
               "AccessControl"
             ],
+            "isFromExtension": true,
             "init_kind": "Convenience"
           }
         ],
@@ -54356,6 +54608,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -54392,6 +54645,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -54423,6 +54677,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -54448,6 +54703,7 @@
                 "usr": "s:SS10Ravelin3DSE5bytesSays5UInt8VGvg",
                 "mangledName": "$sSS10Ravelin3DSE5bytesSays5UInt8VGvg",
                 "moduleName": "Ravelin3DS",
+                "isFromExtension": true,
                 "accessorKind": "get"
               }
             ]
@@ -54472,6 +54728,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -54494,6 +54751,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -54516,6 +54774,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -54538,6 +54797,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -54560,6 +54820,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -54582,6 +54843,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -54610,6 +54872,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -54654,6 +54917,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -54698,6 +54962,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -54735,6 +55000,7 @@
               "AccessControl",
               "Inlinable"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -54764,6 +55030,7 @@
               "Inlinable",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -54794,6 +55061,7 @@
               "Inlinable",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           },
@@ -54825,6 +55093,7 @@
               "Inlinable",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -55398,6 +55667,7 @@
             "declAttributes": [
               "Inlinable"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -55430,6 +55700,7 @@
               "Inlinable",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -55462,6 +55733,7 @@
               "Inlinable",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -55515,6 +55787,7 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -55536,6 +55809,7 @@
             "declAttributes": [
               "AccessControl"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -55945,6 +56219,7 @@
               "Inlinable",
               "Specialize"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           }
         ],
@@ -56340,6 +56615,7 @@
               "Inlinable",
               "Specialize"
             ],
+            "isFromExtension": true,
             "init_kind": "Designated"
           }
         ],
@@ -56746,6 +57022,7 @@
             "declAttributes": [
               "Inlinable"
             ],
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
@@ -56988,7 +57265,7 @@
         ]
       }
     ],
-    "json_format_version": 7
+    "json_format_version": 8
   },
   "ConstValues": [
     {
@@ -57036,7 +57313,7 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4087,
+      "offset": 4077,
       "length": 4,
       "value": "true"
     },
@@ -57127,7 +57404,7 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 9135,
+      "offset": 9121,
       "length": 5,
       "value": "false"
     },
@@ -60074,13 +60351,6 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2ProtocolVersion.swift",
       "kind": "StringLiteral",
-      "offset": 235,
-      "length": 26,
-      "value": "\"Latest supported version\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2ProtocolVersion.swift",
-      "kind": "StringLiteral",
       "offset": 185,
       "length": 7,
       "value": "\"2.1.0\""
@@ -60091,13 +60361,6 @@
       "offset": 209,
       "length": 7,
       "value": "\"2.2.0\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2ProtocolVersion.swift",
-      "kind": "StringLiteral",
-      "offset": 235,
-      "length": 26,
-      "value": "\"Latest supported version\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/JOSESwift\/JWSHeader.swift",
@@ -60116,14 +60379,14 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/UIViewController+activityIndicator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1169,
+      "offset": 1161,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/UIViewController+activityIndicator.swift",
       "kind": "FloatLiteral",
-      "offset": 1179,
+      "offset": 1171,
       "length": 3,
       "value": "0.5"
     },
@@ -60207,196 +60470,210 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2232,
+      "offset": 2236,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2355,
+      "offset": 2359,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2366,
+      "offset": 2370,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2756,
+      "offset": 2760,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2767,
+      "offset": 2771,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3132,
+      "offset": 3136,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3325,
+      "offset": 3329,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "Array",
-      "offset": 4351,
+      "offset": 4359,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4523,
+      "offset": 4531,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4580,
+      "offset": 4588,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4589,
+      "offset": 4597,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4600,
+      "offset": 4608,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4610,
+      "offset": 4618,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4668,
+      "offset": 4676,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4701,
+      "offset": 4709,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "Array",
-      "offset": 4856,
+      "offset": 4864,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5177,
+      "length": 31,
+      "value": "\"horizontalSizeClass - compact\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5298,
+      "length": 31,
+      "value": "\"horizontalSizeClass - regular\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5402,
+      "offset": 5538,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5459,
+      "offset": 5595,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5468,
+      "offset": 5604,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5479,
+      "offset": 5615,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5489,
+      "offset": 5625,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5547,
+      "offset": 5683,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5580,
+      "offset": 5716,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "Array",
-      "offset": 5812,
+      "offset": 5956,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5878,
+      "offset": 6022,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6145,
+      "offset": 6289,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7139,
+      "offset": 7323,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7719,
+      "offset": 7903,
       "length": 5,
       "value": "false"
     },
@@ -62209,63 +62486,63 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "StringLiteral",
-      "offset": 184,
+      "offset": 227,
       "length": 5,
       "value": "\"1.5\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "IntegerLiteral",
-      "offset": 247,
+      "offset": 290,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "StringLiteral",
-      "offset": 937,
+      "offset": 980,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "StringLiteral",
-      "offset": 1189,
+      "offset": 1232,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1692,
+      "offset": 1735,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "IntegerLiteral",
-      "offset": 1760,
+      "offset": 1803,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1838,
+      "offset": 1881,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "BooleanLiteral",
-      "offset": 3361,
+      "offset": 3404,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "StringLiteral",
-      "offset": 263,
+      "offset": 306,
       "length": 30,
       "value": "\"Ravelin3DS.R3DS2TransactionImplementation\""
     },
