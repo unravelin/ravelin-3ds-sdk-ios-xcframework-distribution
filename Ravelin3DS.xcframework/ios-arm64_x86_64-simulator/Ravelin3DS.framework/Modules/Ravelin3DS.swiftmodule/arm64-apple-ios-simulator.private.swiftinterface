@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.120.1 clang-1400.0.28.1)
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.123.7 clang-1400.0.29.50)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Ravelin3DS
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AdSupport
@@ -40,13 +40,13 @@ public struct JWS {
   public func isValid(for verifier: Ravelin3DS.Verifier) -> Swift.Bool
 }
 extension Ravelin3DS.JWS : Ravelin3DS.CompactSerializable {
-  public func serialize(to serializer: inout any Ravelin3DS.CompactSerializer)
+  public func serialize(to serializer: inout Ravelin3DS.CompactSerializer)
 }
 extension Ravelin3DS.JWS : Ravelin3DS.CompactDeserializable {
   public static var componentCount: Swift.Int {
     get
   }
-  public init(from deserializer: any Ravelin3DS.CompactDeserializer) throws
+  public init(from deserializer: Ravelin3DS.CompactDeserializer) throws
 }
 public protocol R3DS2ProgressDialog {
   func start()
@@ -69,7 +69,7 @@ public struct SymmetricKey : Ravelin3DS.JWK {
   }
   public let key: Swift.String
   public init(key: Foundation.Data, additionalParameters parameters: [Swift.String : Swift.String] = [:])
-  public init(key: any Ravelin3DS.ExpressibleAsSymmetricKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
+  public init(key: Ravelin3DS.ExpressibleAsSymmetricKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
   public init(data: Foundation.Data) throws
   public func converted<T>(to type: T.Type) throws -> T where T : Ravelin3DS.ExpressibleAsSymmetricKeyComponents
   @available(iOS 11.0, *)
@@ -83,12 +83,12 @@ public struct R3DS2Config : Swift.Codable {
   public func jsonData() throws -> Foundation.Data
   public func params() -> [Swift.String : Any]?
   public static func readConfigFromFile(_ configFile: Swift.String) -> Ravelin3DS.R3DS2Config?
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct R3DS2Scheme : Swift.Codable {
-  public func encode(to encoder: any Swift.Encoder) throws
-  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public struct CTR {
   public enum Error : Swift.Error {
@@ -102,7 +102,7 @@ public struct CTR {
   public let options: Ravelin3DS.BlockModeOption
   public let customBlockSize: Swift.Int?
   public init(iv: Swift.Array<Swift.UInt8>, counter: Swift.Int = 0)
-  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> any Ravelin3DS.CipherModeWorker
+  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
 }
 @_inheritsConvenienceInitializers final public class CBCMAC : Ravelin3DS.CMAC {
   override final public func authenticate(_ bytes: Swift.Array<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
@@ -165,16 +165,16 @@ public class R3DS2Warning {
   @objc deinit
 }
 extension Ravelin3DS.RSAPublicKey : Swift.Encodable {
-  public func encode(to encoder: any Swift.Encoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 extension Ravelin3DS.RSAPublicKey : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 extension Ravelin3DS.RSAPrivateKey : Swift.Encodable {
-  public func encode(to encoder: any Swift.Encoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 extension Ravelin3DS.RSAPrivateKey : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public enum SecureRandomError : Swift.Error {
   case failed(status: Darwin.OSStatus)
@@ -408,9 +408,9 @@ extension Foundation.Data {
   public func crc32(seed: Swift.UInt32? = nil, reflect: Swift.Bool = true) -> Foundation.Data
   public func crc32c(seed: Swift.UInt32? = nil, reflect: Swift.Bool = true) -> Foundation.Data
   public func crc16(seed: Swift.UInt16? = nil) -> Foundation.Data
-  public func encrypt(cipher: any Ravelin3DS.Cipher) throws -> Foundation.Data
-  public func decrypt(cipher: any Ravelin3DS.Cipher) throws -> Foundation.Data
-  public func authenticate(with authenticator: any Ravelin3DS.Authenticator) throws -> Foundation.Data
+  public func encrypt(cipher: Ravelin3DS.Cipher) throws -> Foundation.Data
+  public func decrypt(cipher: Ravelin3DS.Cipher) throws -> Foundation.Data
+  public func authenticate(with authenticator: Ravelin3DS.Authenticator) throws -> Foundation.Data
 }
 extension Foundation.Data {
   public init(hex: Swift.String)
@@ -450,7 +450,7 @@ extension Ravelin3DS.JWEHeader : Ravelin3DS.CommonHeaderParameterSpace {
     get
     set
   }
-  public var jwkTyped: (any Ravelin3DS.JWK)? {
+  public var jwkTyped: Ravelin3DS.JWK? {
     get
     set
   }
@@ -513,7 +513,7 @@ final public class Blowfish {
   }
   public static let blockSize: Swift.Int
   final public let keySize: Swift.Int
-  public init(key: Swift.Array<Swift.UInt8>, blockMode: any Ravelin3DS.BlockMode = CBC(iv: Array<UInt8>(repeating: 0, count: Blowfish.blockSize)), padding: Ravelin3DS.Padding) throws
+  public init(key: Swift.Array<Swift.UInt8>, blockMode: Ravelin3DS.BlockMode = CBC(iv: Array<UInt8>(repeating: 0, count: Blowfish.blockSize)), padding: Ravelin3DS.Padding) throws
   @objc deinit
 }
 extension Ravelin3DS.Blowfish : Ravelin3DS.Cipher {
@@ -549,7 +549,7 @@ final public class AES {
   final public let keySize: Swift.Int
   final public let variant: Ravelin3DS.AES.Variant
   @usableFromInline
-  final internal let blockMode: any Ravelin3DS.BlockMode
+  final internal let blockMode: Ravelin3DS.BlockMode
   @usableFromInline
   final internal let padding: Ravelin3DS.Padding
   @usableFromInline
@@ -586,7 +586,7 @@ final public class AES {
   internal static let U3: [Swift.UInt32]
   @usableFromInline
   internal static let U4: [Swift.UInt32]
-  public init(key: Swift.Array<Swift.UInt8>, blockMode: any Ravelin3DS.BlockMode, padding: Ravelin3DS.Padding = .pkcs7) throws
+  public init(key: Swift.Array<Swift.UInt8>, blockMode: Ravelin3DS.BlockMode, padding: Ravelin3DS.Padding = .pkcs7) throws
   @inlinable final internal func encrypt(block: Swift.ArraySlice<Swift.UInt8>) -> Swift.Array<Swift.UInt8>? {
     if self.blockMode.options.contains(.paddingRequired) && block.count != AES.blockSize {
       return Array(block)
@@ -732,10 +732,10 @@ extension Ravelin3DS.AES : Ravelin3DS.Cipher {
   }
 }
 extension Ravelin3DS.SymmetricKey : Swift.Encodable {
-  public func encode(to encoder: any Swift.Encoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 extension Ravelin3DS.SymmetricKey : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 @available(*, renamed: "Digest")
 public typealias Hash = Ravelin3DS.Digest
@@ -822,7 +822,7 @@ extension Ravelin3DS.SHA3 : Ravelin3DS.Updatable {
 @usableFromInline
 final internal class BlockEncryptor : Ravelin3DS.Cryptor, Ravelin3DS.Updatable {
   @usableFromInline
-  internal init(blockSize: Swift.Int, padding: Ravelin3DS.Padding, _ worker: any Ravelin3DS.CipherModeWorker) throws
+  internal init(blockSize: Swift.Int, padding: Ravelin3DS.Padding, _ worker: Ravelin3DS.CipherModeWorker) throws
   final public func update(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, isLast: Swift.Bool) throws -> Swift.Array<Swift.UInt8>
   @usableFromInline
   final internal func seek(to: Swift.Int) throws
@@ -919,7 +919,7 @@ public class CMAC : Ravelin3DS.Authenticator {
   }
   public init(key: Swift.Array<Swift.UInt8>) throws
   public func authenticate(_ bytes: Swift.Array<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
-  public func authenticate(_ bytes: Swift.Array<Swift.UInt8>, cipher: any Ravelin3DS.Cipher) throws -> Swift.Array<Swift.UInt8>
+  public func authenticate(_ bytes: Swift.Array<Swift.UInt8>, cipher: Ravelin3DS.Cipher) throws -> Swift.Array<Swift.UInt8>
   @objc deinit
 }
 public enum Bit : Swift.Int {
@@ -966,7 +966,7 @@ public struct ECB : Ravelin3DS.BlockMode {
   public let options: Ravelin3DS.BlockModeOption
   public let customBlockSize: Swift.Int?
   public init()
-  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> any Ravelin3DS.CipherModeWorker
+  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
 }
 @objc @_inheritsConvenienceInitializers public class R3DS2ToolbarCustomization : Ravelin3DS.R3DS2Customization {
   public func setBackgroundColor(hexColorCode: Swift.String) throws
@@ -1004,7 +1004,7 @@ public enum R3DS2ButtonType : Swift.Int, Swift.RawRepresentable, Swift.Equatable
   }
 }
 extension Ravelin3DS.AES : Ravelin3DS.Cryptors {
-  @inlinable final public func makeEncryptor() throws -> any Ravelin3DS.Cryptor & Ravelin3DS.Updatable {
+  @inlinable final public func makeEncryptor() throws -> Ravelin3DS.Cryptor & Ravelin3DS.Updatable {
     let blockSize = blockMode.customBlockSize ?? AES.blockSize
     let worker = try blockMode.worker(blockSize: blockSize, cipherOperation: encrypt, encryptionOperation: encrypt)
     if worker is StreamModeWorker {
@@ -1012,7 +1012,7 @@ extension Ravelin3DS.AES : Ravelin3DS.Cryptors {
     }
     return try BlockEncryptor(blockSize: blockSize, padding: padding, worker)
   }
-  @inlinable final public func makeDecryptor() throws -> any Ravelin3DS.Cryptor & Ravelin3DS.Updatable {
+  @inlinable final public func makeDecryptor() throws -> Ravelin3DS.Cryptor & Ravelin3DS.Updatable {
     let blockSize = blockMode.customBlockSize ?? AES.blockSize
     let cipherOperation: CipherOperationOnBlock = blockMode.options.contains(.useEncryptToDecrypt) == true ? encrypt : decrypt
     let worker = try blockMode.worker(blockSize: blockSize, cipherOperation: cipherOperation, encryptionOperation: encrypt)
@@ -1023,16 +1023,16 @@ extension Ravelin3DS.AES : Ravelin3DS.Cryptors {
   }
 }
 extension Ravelin3DS.ECPublicKey : Swift.Encodable {
-  public func encode(to encoder: any Swift.Encoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 extension Ravelin3DS.ECPublicKey : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 extension Ravelin3DS.ECPrivateKey : Swift.Encodable {
-  public func encode(to encoder: any Swift.Encoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 extension Ravelin3DS.ECPrivateKey : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 public enum ECCurveType : Swift.String, Swift.Codable {
   case P256
@@ -1076,7 +1076,7 @@ public struct CBC : Ravelin3DS.BlockMode {
   public let options: Ravelin3DS.BlockModeOption
   public let customBlockSize: Swift.Int?
   public init(iv: Swift.Array<Swift.UInt8>)
-  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> any Ravelin3DS.CipherModeWorker
+  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
 }
 public typealias RSAPublicKeyComponents = (modulus: Foundation.Data, exponent: Foundation.Data)
 public typealias RSAPrivateKeyComponents = (modulus: Foundation.Data, exponent: Foundation.Data, privateExponent: Foundation.Data)
@@ -1097,7 +1097,7 @@ public struct RSAPublicKey : Ravelin3DS.JWK {
   public let modulus: Swift.String
   public let exponent: Swift.String
   public init(modulus: Swift.String, exponent: Swift.String, additionalParameters parameters: [Swift.String : Swift.String] = [:])
-  public init(publicKey: any Ravelin3DS.ExpressibleAsRSAPublicKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
+  public init(publicKey: Ravelin3DS.ExpressibleAsRSAPublicKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
   public init(data: Foundation.Data) throws
   public func converted<T>(to type: T.Type) throws -> T where T : Ravelin3DS.ExpressibleAsRSAPublicKeyComponents
   @available(iOS 11.0, *)
@@ -1113,7 +1113,7 @@ public struct RSAPrivateKey : Ravelin3DS.JWK {
   public let exponent: Swift.String
   public let privateExponent: Swift.String
   public init(modulus: Swift.String, exponent: Swift.String, privateExponent: Swift.String, additionalParameters parameters: [Swift.String : Swift.String] = [:])
-  public init(privateKey: any Ravelin3DS.ExpressibleAsRSAPrivateKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
+  public init(privateKey: Ravelin3DS.ExpressibleAsRSAPrivateKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
   public init(data: Foundation.Data) throws
   public func converted<T>(to type: T.Type) throws -> T where T : Ravelin3DS.ExpressibleAsRSAPrivateKeyComponents
   @available(iOS 11.0, *)
@@ -1135,8 +1135,8 @@ public typealias RSAKeyPair = Ravelin3DS.RSAPrivateKey
 }
 @objc @_hasMissingDesignatedInitializers public class R3DS2AuthenticationResponse : ObjectiveC.NSObject, Swift.Codable {
   @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
 public struct Signer<KeyType> {
   public init?(signingAlgorithm: Ravelin3DS.SignatureAlgorithm, key: KeyType)
@@ -1193,7 +1193,7 @@ extension Ravelin3DS.Blowfish {
 }
 public protocol CompactDeserializable {
   static var componentCount: Swift.Int { get }
-  init(from deserializer: any Ravelin3DS.CompactDeserializer) throws
+  init(from deserializer: Ravelin3DS.CompactDeserializer) throws
 }
 public protocol CompactDeserializer {
   func deserialize<T>(_ type: T.Type, at index: Swift.Int) throws -> T where T : Ravelin3DS.DataConvertible
@@ -1207,7 +1207,7 @@ public enum ComponentCompactSerializedIndex {
 public protocol CommonHeaderParameterSpace {
   var jku: Foundation.URL? { get set }
   var jwk: Swift.String? { get set }
-  var jwkTyped: (any Ravelin3DS.JWK)? { get set }
+  var jwkTyped: Ravelin3DS.JWK? { get set }
   var kid: Swift.String? { get set }
   var x5u: Foundation.URL? { get set }
   var x5c: [Swift.String]? { get set }
@@ -1266,8 +1266,8 @@ final public class Poly1305 : Ravelin3DS.Authenticator {
   @objc deinit
 }
 extension Swift.String {
-  public func decryptBase64ToString(cipher: any Ravelin3DS.Cipher) throws -> Swift.String
-  public func decryptBase64(cipher: any Ravelin3DS.Cipher) throws -> Swift.Array<Swift.UInt8>
+  public func decryptBase64ToString(cipher: Ravelin3DS.Cipher) throws -> Swift.String
+  public func decryptBase64(cipher: Ravelin3DS.Cipher) throws -> Swift.Array<Swift.UInt8>
 }
 public protocol Updatable {
   mutating func update(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, isLast: Swift.Bool) throws -> Swift.Array<Swift.UInt8>
@@ -1335,14 +1335,14 @@ final public class GCM : Ravelin3DS.BlockMode {
   final public var authenticationTag: Swift.Array<Swift.UInt8>?
   public init(iv: Swift.Array<Swift.UInt8>, additionalAuthenticatedData: Swift.Array<Swift.UInt8>? = nil, tagLength: Swift.Int = 16, mode: Ravelin3DS.GCM.Mode = .detached)
   convenience public init(iv: Swift.Array<Swift.UInt8>, authenticationTag: Swift.Array<Swift.UInt8>, additionalAuthenticatedData: Swift.Array<Swift.UInt8>? = nil, mode: Ravelin3DS.GCM.Mode = .detached)
-  final public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> any Ravelin3DS.CipherModeWorker
+  final public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
   @objc deinit
 }
 extension Ravelin3DS.JWKSet : Swift.Encodable {
-  public func encode(to encoder: any Swift.Encoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
 }
 extension Ravelin3DS.JWKSet : Swift.Decodable {
-  public init(from decoder: any Swift.Decoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 extension Security.SecKey : Ravelin3DS.ExpressibleAsRSAPublicKeyComponents {
   public static func representing(rsaPublicKeyComponents components: Ravelin3DS.RSAPublicKeyComponents) throws -> Self
@@ -1366,7 +1366,7 @@ extension Ravelin3DS.JWSHeader : Ravelin3DS.CommonHeaderParameterSpace {
     get
     set
   }
-  public var jwkTyped: (any Ravelin3DS.JWK)? {
+  public var jwkTyped: Ravelin3DS.JWK? {
     get
     set
   }
@@ -1423,13 +1423,13 @@ public struct JWE {
   public func decrypt(using decrypter: Ravelin3DS.Decrypter) throws -> Ravelin3DS.Payload
 }
 extension Ravelin3DS.JWE : Ravelin3DS.CompactSerializable {
-  public func serialize(to serializer: inout any Ravelin3DS.CompactSerializer)
+  public func serialize(to serializer: inout Ravelin3DS.CompactSerializer)
 }
 extension Ravelin3DS.JWE : Ravelin3DS.CompactDeserializable {
   public static var componentCount: Swift.Int {
     get
   }
-  public init(from deserializer: any Ravelin3DS.CompactDeserializer) throws
+  public init(from deserializer: Ravelin3DS.CompactDeserializer) throws
 }
 final public class HMAC : Ravelin3DS.Authenticator {
   public enum Error : Swift.Error {
@@ -1543,8 +1543,8 @@ extension Ravelin3DS.SHA1 : Ravelin3DS.Updatable {
 }
 public protocol R3DS2Transaction {
   func getAuthenticationRequestParameters() throws -> Ravelin3DS.R3DS2AuthenticationRequestParameters
-  func doChallenge(challengeParameters: Ravelin3DS.R3DS2ChallengeParameters, challengeStatusReceiver: any Ravelin3DS.R3DS2ChallengeStatusReceiver, timeOut: Swift.Int, challengeView: any Ravelin3DS.R3DS2ChallengeView) throws
-  func getProgressView() throws -> any Ravelin3DS.R3DS2ProgressDialog
+  func doChallenge(challengeParameters: Ravelin3DS.R3DS2ChallengeParameters, challengeStatusReceiver: Ravelin3DS.R3DS2ChallengeStatusReceiver, timeOut: Swift.Int, challengeView: Ravelin3DS.R3DS2ChallengeView) throws
+  func getProgressView() throws -> Ravelin3DS.R3DS2ProgressDialog
   func close() throws
 }
 final public class Checksum {
@@ -1634,10 +1634,10 @@ extension Swift.String {
   @inlinable public func crc16(seed: Swift.UInt16? = nil) -> Swift.String {
     self.bytes.crc16(seed: seed).bytes().toHexString()
   }
-  @inlinable public func encrypt(cipher: any Ravelin3DS.Cipher) throws -> Swift.String {
+  @inlinable public func encrypt(cipher: Ravelin3DS.Cipher) throws -> Swift.String {
     try self.bytes.encrypt(cipher: cipher).toHexString()
   }
-  @inlinable public func encryptToBase64(cipher: any Ravelin3DS.Cipher) throws -> Swift.String {
+  @inlinable public func encryptToBase64(cipher: Ravelin3DS.Cipher) throws -> Swift.String {
     try self.bytes.encrypt(cipher: cipher).toBase64()
   }
   @inlinable public func authenticate<A>(with authenticator: A) throws -> Swift.String where A : Ravelin3DS.Authenticator {
@@ -1773,7 +1773,7 @@ public struct CCM {
   public var authenticationTag: Swift.Array<Swift.UInt8>?
   public init(iv: Swift.Array<Swift.UInt8>, tagLength: Swift.Int, messageLength: Swift.Int, additionalAuthenticatedData: Swift.Array<Swift.UInt8>? = nil)
   public init(iv: Swift.Array<Swift.UInt8>, tagLength: Swift.Int, messageLength: Swift.Int, authenticationTag: Swift.Array<Swift.UInt8>, additionalAuthenticatedData: Swift.Array<Swift.UInt8>? = nil)
-  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> any Ravelin3DS.CipherModeWorker
+  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
 }
 public enum R3DS2Severity : Swift.Int, Swift.RawRepresentable, Swift.Equatable, Swift.Hashable, Swift.CaseIterable {
   case LOW
@@ -1794,13 +1794,13 @@ final internal class StreamEncryptor : Ravelin3DS.Cryptor, Ravelin3DS.Updatable 
   @usableFromInline
   final internal let blockSize: Swift.Int
   @usableFromInline
-  final internal var worker: any Ravelin3DS.CipherModeWorker
+  final internal var worker: Ravelin3DS.CipherModeWorker
   @usableFromInline
   final internal let padding: Ravelin3DS.Padding
   @usableFromInline
   final internal var lastBlockRemainder: Swift.Int
   @usableFromInline
-  internal init(blockSize: Swift.Int, padding: Ravelin3DS.Padding, _ worker: any Ravelin3DS.CipherModeWorker) throws
+  internal init(blockSize: Swift.Int, padding: Ravelin3DS.Padding, _ worker: Ravelin3DS.CipherModeWorker) throws
   @inlinable final public func update(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, isLast: Swift.Bool) throws -> Swift.Array<Swift.UInt8> {
     var accumulated = Array(bytes)
     if isLast {
@@ -1837,11 +1837,11 @@ public class BlockDecryptor : Ravelin3DS.Cryptor, Ravelin3DS.Updatable {
   @usableFromInline
   final internal let padding: Ravelin3DS.Padding
   @usableFromInline
-  internal var worker: any Ravelin3DS.CipherModeWorker
+  internal var worker: Ravelin3DS.CipherModeWorker
   @usableFromInline
   internal var accumulated: [Swift.UInt8]
   @usableFromInline
-  internal init(blockSize: Swift.Int, padding: Ravelin3DS.Padding, _ worker: any Ravelin3DS.CipherModeWorker) throws
+  internal init(blockSize: Swift.Int, padding: Ravelin3DS.Padding, _ worker: Ravelin3DS.CipherModeWorker) throws
   @inlinable public func update(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, isLast: Swift.Bool = false) throws -> Swift.Array<Swift.UInt8> {
     self.accumulated += bytes
 
@@ -1924,10 +1924,10 @@ public protocol FinalizingDecryptModeWorker : Ravelin3DS.CipherModeWorker {
   mutating func finalize(decrypt plaintext: Swift.ArraySlice<Swift.UInt8>) throws -> Swift.ArraySlice<Swift.UInt8>
 }
 @objc @_inheritsConvenienceInitializers public class R3DS2Error : ObjectiveC.NSObject {
-  public static func InvalidInput(message: Swift.String, cause: (any Swift.Error)?) -> any Swift.Error
-  public static func SDKAlreadyInitialized(message: Swift.String, cause: (any Swift.Error)?) -> any Swift.Error
-  public static func SDKNotInitialized(message: Swift.String, cause: (any Swift.Error)?) -> any Swift.Error
-  public static func SDKRuntime(message: Swift.String, errorCode: Swift.String?, cause: (any Swift.Error)?) -> any Swift.Error
+  public static func InvalidInput(message: Swift.String, cause: Swift.Error?) -> Swift.Error
+  public static func SDKAlreadyInitialized(message: Swift.String, cause: Swift.Error?) -> Swift.Error
+  public static func SDKNotInitialized(message: Swift.String, cause: Swift.Error?) -> Swift.Error
+  public static func SDKRuntime(message: Swift.String, errorCode: Swift.String?, cause: Swift.Error?) -> Swift.Error
   @objc override dynamic public init()
   @objc deinit
 }
@@ -1990,7 +1990,7 @@ public struct PCBC : Ravelin3DS.BlockMode {
   public let options: Ravelin3DS.BlockModeOption
   public let customBlockSize: Swift.Int?
   public init(iv: Swift.Array<Swift.UInt8>)
-  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> any Ravelin3DS.CipherModeWorker
+  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
 }
 public protocol Authenticator {
   func authenticate(_ bytes: Swift.Array<Swift.UInt8>) throws -> Swift.Array<Swift.UInt8>
@@ -2027,13 +2027,13 @@ extension Ravelin3DS.ChaCha20 {
   }
 }
 extension Ravelin3DS.ChaCha20 : Ravelin3DS.Cryptors {
-  final public func makeEncryptor() -> any Ravelin3DS.Cryptor & Ravelin3DS.Updatable
-  final public func makeDecryptor() -> any Ravelin3DS.Cryptor & Ravelin3DS.Updatable
+  final public func makeEncryptor() -> Ravelin3DS.Cryptor & Ravelin3DS.Updatable
+  final public func makeDecryptor() -> Ravelin3DS.Cryptor & Ravelin3DS.Updatable
 }
 public typealias CipherOperationOnBlock = (_ block: Swift.ArraySlice<Swift.UInt8>) -> Swift.Array<Swift.UInt8>?
 public protocol BlockMode {
   var options: Ravelin3DS.BlockModeOption { get }
-  @inlinable func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> any Ravelin3DS.CipherModeWorker
+  @inlinable func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
   var customBlockSize: Swift.Int? { get }
 }
 extension Swift.Array {
@@ -2065,8 +2065,8 @@ extension Swift.Array where Element == Swift.UInt8 {
   public func crc32(seed: Swift.UInt32? = nil, reflect: Swift.Bool = true) -> Swift.UInt32
   public func crc32c(seed: Swift.UInt32? = nil, reflect: Swift.Bool = true) -> Swift.UInt32
   public func crc16(seed: Swift.UInt16? = nil) -> Swift.UInt16
-  public func encrypt(cipher: any Ravelin3DS.Cipher) throws -> [Element]
-  public func decrypt(cipher: any Ravelin3DS.Cipher) throws -> [Element]
+  public func encrypt(cipher: Ravelin3DS.Cipher) throws -> [Element]
+  public func decrypt(cipher: Ravelin3DS.Cipher) throws -> [Element]
   public func authenticate<A>(with authenticator: A) throws -> [Element] where A : Ravelin3DS.Authenticator
 }
 @objc @_inheritsConvenienceInitializers public class R3DS2ChallengeParameters : ObjectiveC.NSObject {
@@ -2122,7 +2122,7 @@ public struct ECPublicKey : Ravelin3DS.JWK {
   public let x: Swift.String
   public let y: Swift.String
   public init(crv: Ravelin3DS.ECCurveType, x: Swift.String, y: Swift.String, additionalParameters parameters: [Swift.String : Swift.String] = [:])
-  public init(publicKey: any Ravelin3DS.ExpressibleAsECPublicKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
+  public init(publicKey: Ravelin3DS.ExpressibleAsECPublicKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
   public init(data: Foundation.Data) throws
   public func converted<T>(to type: T.Type) throws -> T where T : Ravelin3DS.ExpressibleAsECPublicKeyComponents
   @available(iOS 11.0, *)
@@ -2139,7 +2139,7 @@ public struct ECPrivateKey : Ravelin3DS.JWK {
   public let y: Swift.String
   public let privateKey: Swift.String
   public init(crv: Swift.String, x: Swift.String, y: Swift.String, privateKey: Swift.String, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
-  public init(privateKey: any Ravelin3DS.ExpressibleAsECPrivateKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
+  public init(privateKey: Ravelin3DS.ExpressibleAsECPrivateKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
   public init(data: Foundation.Data) throws
   public func converted<T>(to type: T.Type) throws -> T where T : Ravelin3DS.ExpressibleAsECPrivateKeyComponents
   @available(iOS 11.0, *)
@@ -2179,7 +2179,7 @@ public struct OFB : Ravelin3DS.BlockMode {
   public let options: Ravelin3DS.BlockModeOption
   public let customBlockSize: Swift.Int?
   public init(iv: Swift.Array<Swift.UInt8>)
-  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> any Ravelin3DS.CipherModeWorker
+  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
 }
 extension Foundation.Data {
   public init?(base64URLEncoded base64URLString: Swift.String)
@@ -2226,7 +2226,7 @@ public struct CFB : Ravelin3DS.BlockMode {
   public let options: Ravelin3DS.BlockModeOption
   public let customBlockSize: Swift.Int?
   public init(iv: Swift.Array<Swift.UInt8>, segmentSize: Ravelin3DS.CFB.SegmentSize = .cfb128)
-  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> any Ravelin3DS.CipherModeWorker
+  public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
 }
 @objc @_inheritsConvenienceInitializers public class R3DS2TextBoxCustomization : Ravelin3DS.R3DS2Customization {
   public func setBorderWidth(borderWidth: Swift.Int) throws
@@ -2290,7 +2290,7 @@ final public class OCB : Ravelin3DS.BlockMode {
     self.init(nonce: N, additionalAuthenticatedData: additionalAuthenticatedData, tagLength: authenticationTag.count, mode: mode)
     self.authenticationTag = authenticationTag
   }
-  final public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> any Ravelin3DS.CipherModeWorker
+  final public func worker(blockSize: Swift.Int, cipherOperation: @escaping Ravelin3DS.CipherOperationOnBlock, encryptionOperation: @escaping Ravelin3DS.CipherOperationOnBlock) throws -> Ravelin3DS.CipherModeWorker
   @objc deinit
 }
 final public class SHA2 {
@@ -2419,10 +2419,10 @@ extension Ravelin3DS.SHA2 : Ravelin3DS.Updatable {
   }
 }
 public protocol CompactSerializable {
-  func serialize(to serializer: inout any Ravelin3DS.CompactSerializer)
+  func serialize(to serializer: inout Ravelin3DS.CompactSerializer)
 }
 public protocol CompactSerializer {
-  var components: [any Ravelin3DS.DataConvertible] { get }
+  var components: [Ravelin3DS.DataConvertible] { get }
   mutating func serialize<T>(_ object: T) where T : Ravelin3DS.DataConvertible
 }
 public struct JOSESerializer {
@@ -2489,7 +2489,7 @@ final internal class StreamDecryptor : Ravelin3DS.Cryptor, Ravelin3DS.Updatable 
   @usableFromInline
   final internal let blockSize: Swift.Int
   @usableFromInline
-  final internal var worker: any Ravelin3DS.CipherModeWorker
+  final internal var worker: Ravelin3DS.CipherModeWorker
   @usableFromInline
   final internal let padding: Ravelin3DS.Padding
   @usableFromInline
@@ -2497,7 +2497,7 @@ final internal class StreamDecryptor : Ravelin3DS.Cryptor, Ravelin3DS.Updatable 
   @usableFromInline
   final internal var lastBlockRemainder: Swift.Int
   @usableFromInline
-  internal init(blockSize: Swift.Int, padding: Ravelin3DS.Padding, _ worker: any Ravelin3DS.CipherModeWorker) throws
+  internal init(blockSize: Swift.Int, padding: Ravelin3DS.Padding, _ worker: Ravelin3DS.CipherModeWorker) throws
   @inlinable final public func update(withBytes bytes: Swift.ArraySlice<Swift.UInt8>, isLast: Swift.Bool) throws -> Swift.Array<Swift.UInt8> {
     self.accumulated += bytes
 
@@ -2587,7 +2587,7 @@ extension Ravelin3DS.PKCS5 {
 public protocol R3DS2Service {
   func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?) throws
   func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?, completion: ((Swift.Bool) -> Swift.Void)?) throws
-  func createTransaction(directoryServerID: Swift.String, messageVersion: Swift.String?) throws -> any Ravelin3DS.R3DS2Transaction
+  func createTransaction(directoryServerID: Swift.String, messageVersion: Swift.String?) throws -> Ravelin3DS.R3DS2Transaction
   func getWarnings() throws -> [Ravelin3DS.R3DS2Warning]
   func getSDKVersion() throws -> Swift.String
   func cleanup() throws
@@ -2597,7 +2597,7 @@ public protocol R3DS2Service {
   public init(bundle: Foundation.Bundle)
   public func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?, completion: ((Swift.Bool) -> Swift.Void)?) throws
   public func initialize(configParameters: Ravelin3DS.R3DS2ConfigParameters, locale: Swift.String?, uiCustomization: Ravelin3DS.R3DS2UiCustomization?) throws
-  public func createTransaction(directoryServerID directoryServerId: Swift.String, messageVersion: Swift.String?) throws -> any Ravelin3DS.R3DS2Transaction
+  public func createTransaction(directoryServerID directoryServerId: Swift.String, messageVersion: Swift.String?) throws -> Ravelin3DS.R3DS2Transaction
   public func getWarnings() throws -> [Ravelin3DS.R3DS2Warning]
   public func getSDKVersion() throws -> Swift.String
   public func cleanup() throws
@@ -2612,8 +2612,8 @@ extension Swift.FixedWidthInteger {
   }
 }
 public protocol Cryptors : AnyObject {
-  func makeEncryptor() throws -> any Ravelin3DS.Cryptor & Ravelin3DS.Updatable
-  func makeDecryptor() throws -> any Ravelin3DS.Cryptor & Ravelin3DS.Updatable
+  func makeEncryptor() throws -> Ravelin3DS.Cryptor & Ravelin3DS.Updatable
+  func makeDecryptor() throws -> Ravelin3DS.Cryptor & Ravelin3DS.Updatable
   static func randomIV(_ blockSize: Swift.Int) -> Swift.Array<Swift.UInt8>
 }
 extension Ravelin3DS.Cryptors {
@@ -2635,14 +2635,14 @@ public struct BlockModeOption : Swift.OptionSet {
   public typealias RawValue = Swift.Int
 }
 public struct JWKSet {
-  public let keys: [any Ravelin3DS.JWK]
-  public init(keys: [any Ravelin3DS.JWK])
+  public let keys: [Ravelin3DS.JWK]
+  public init(keys: [Ravelin3DS.JWK])
   public init(data: Foundation.Data) throws
   public func jsonString() -> Swift.String?
   public func jsonData() -> Foundation.Data?
 }
 extension Ravelin3DS.JWKSet : Swift.Collection {
-  public typealias ArrayType = [any Ravelin3DS.JWK]
+  public typealias ArrayType = [Ravelin3DS.JWK]
   public typealias Element = Ravelin3DS.JWKSet.ArrayType.Element
   public typealias Index = Ravelin3DS.JWKSet.ArrayType.Index
   public typealias Iterator = Ravelin3DS.JWKSet.ArrayType.Iterator
