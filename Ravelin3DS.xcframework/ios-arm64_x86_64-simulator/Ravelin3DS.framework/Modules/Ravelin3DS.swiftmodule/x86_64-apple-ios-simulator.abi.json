@@ -8745,78 +8745,36 @@
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
-      "kind": "IntegerLiteral",
-      "offset": 230,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
-      "kind": "IntegerLiteral",
-      "offset": 230,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
-      "kind": "IntegerLiteral",
-      "offset": 230,
-      "length": 5,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 7,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
       "kind": "StringLiteral",
-      "offset": 287,
+      "offset": 193,
       "length": 5,
       "value": "\"alg\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
       "kind": "StringLiteral",
-      "offset": 326,
+      "offset": 232,
       "length": 7,
       "value": "\"ES256\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
       "kind": "StringLiteral",
-      "offset": 367,
+      "offset": 273,
       "length": 7,
       "value": "\"PS256\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
       "kind": "StringLiteral",
-      "offset": 413,
+      "offset": 319,
       "length": 5,
       "value": "\"x5c\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
       "kind": "StringLiteral",
-      "offset": 426,
+      "offset": 332,
       "length": 21,
       "value": "\"Ravelin3DS.R3DS2JSONWebSignature\""
     },
@@ -10636,7 +10594,14 @@
     {
       "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "BooleanLiteral",
-      "offset": 3404,
+      "offset": 3436,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4678,
       "length": 5,
       "value": "false"
     },
