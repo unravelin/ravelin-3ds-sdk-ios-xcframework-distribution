@@ -8618,2877 +8618,2870 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2TextField.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2TextField.swift",
       "kind": "BooleanLiteral",
       "offset": 162,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2TextField.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2TextField.swift",
       "kind": "BooleanLiteral",
       "offset": 370,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2Label.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2Label.swift",
       "kind": "BooleanLiteral",
       "offset": 145,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2Label.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2Label.swift",
       "kind": "BooleanLiteral",
       "offset": 412,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeNavigationController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeNavigationController.swift",
       "kind": "BooleanLiteral",
       "offset": 773,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeNavigationController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeNavigationController.swift",
       "kind": "BooleanLiteral",
       "offset": 797,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeNavigationController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeNavigationController.swift",
       "kind": "BooleanLiteral",
       "offset": 4077,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeNavigationController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeNavigationController.swift",
       "kind": "StringLiteral",
       "offset": 167,
       "length": 29,
       "value": "\"Ravelin3DS.ChallengeNavigationController\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeNavigationController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeNavigationController.swift",
       "kind": "StringLiteral",
       "offset": 167,
       "length": 29,
       "value": "\"Ravelin3DS.ChallengeNavigationController\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeNavigationController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeNavigationController.swift",
       "kind": "StringLiteral",
       "offset": 167,
       "length": 29,
       "value": "\"Ravelin3DS.ChallengeNavigationController\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2Button.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2Button.swift",
       "kind": "BooleanLiteral",
       "offset": 215,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2Button.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2Button.swift",
       "kind": "FloatLiteral",
       "offset": 466,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2Button.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2Button.swift",
       "kind": "IntegerLiteral",
       "offset": 527,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2Button.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/R3DS2Button.swift",
       "kind": "BooleanLiteral",
       "offset": 683,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
       "kind": "IntegerLiteral",
       "offset": 698,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
       "kind": "IntegerLiteral",
       "offset": 5744,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
       "kind": "IntegerLiteral",
       "offset": 5897,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
       "kind": "BooleanLiteral",
       "offset": 9121,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 5,
       "value": "\"alg\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
       "kind": "StringLiteral",
       "offset": 232,
       "length": 7,
       "value": "\"ES256\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
       "kind": "StringLiteral",
       "offset": 273,
       "length": 7,
       "value": "\"PS256\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
       "kind": "StringLiteral",
       "offset": 319,
       "length": 5,
       "value": "\"x5c\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2JSONWebSignature.swift",
       "kind": "StringLiteral",
       "offset": 332,
       "length": 21,
       "value": "\"Ravelin3DS.R3DS2JSONWebSignature\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ProgressDialog\/R3DS2ProgressDialogImplementation.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ProgressDialog\/R3DS2ProgressDialogImplementation.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 33,
       "value": "\"Ravelin3DS.R3DS2ProgressDialogImplementation\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 4,
       "value": "\"01\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
       "kind": "StringLiteral",
       "offset": 501,
       "length": 4,
       "value": "\"02\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
       "kind": "StringLiteral",
       "offset": 573,
       "length": 4,
       "value": "\"03\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
       "kind": "StringLiteral",
       "offset": 636,
       "length": 4,
       "value": "\"04\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
       "kind": "StringLiteral",
       "offset": 693,
       "length": 4,
       "value": "\"05\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 4,
       "value": "\"01\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
       "kind": "StringLiteral",
       "offset": 501,
       "length": 4,
       "value": "\"02\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
       "kind": "StringLiteral",
       "offset": 573,
       "length": 4,
       "value": "\"03\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
       "kind": "StringLiteral",
       "offset": 636,
       "length": 4,
       "value": "\"04\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/R3DS2ChallengeResponse.swift",
       "kind": "StringLiteral",
       "offset": 693,
       "length": 4,
       "value": "\"05\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2Hash.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2Hash.swift",
       "kind": "StringLiteral",
       "offset": 152,
       "length": 9,
       "value": "\"SHA-256\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2Hash.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2Hash.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 9,
       "value": "\"SHA-384\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2Hash.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2Hash.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 9,
       "value": "\"SHA-512\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2Hash.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2Hash.swift",
       "kind": "StringLiteral",
       "offset": 152,
       "length": 9,
       "value": "\"SHA-256\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2Hash.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2Hash.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 9,
       "value": "\"SHA-384\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2Hash.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2Hash.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 9,
       "value": "\"SHA-512\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2ECDHKeyAgreement.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2ECDHKeyAgreement.swift",
       "kind": "IntegerLiteral",
       "offset": 2613,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ConfigParameters\/R3DS2ConfigParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ConfigParameters\/R3DS2ConfigParameters.swift",
       "kind": "StringLiteral",
       "offset": 162,
       "length": 32,
       "value": "\"configParameters.group.default\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ConfigParameters\/R3DS2ConfigParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ConfigParameters\/R3DS2ConfigParameters.swift",
       "kind": "StringLiteral",
       "offset": 4721,
       "length": 8,
       "value": "\"config\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Utils\/RS3DS2Logger.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Utils\/RS3DS2Logger.swift",
       "kind": "StringLiteral",
       "offset": 284,
       "length": 5,
       "value": "\"sdk\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Utils\/RS3DS2Logger.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Utils\/RS3DS2Logger.swift",
       "kind": "StringLiteral",
       "offset": 467,
       "length": 5,
       "value": "\"sdk\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "IntegerLiteral",
       "offset": 187,
       "length": 2,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "IntegerLiteral",
       "offset": 187,
       "length": 2,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "IntegerLiteral",
       "offset": 187,
       "length": 2,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
       "length": 7,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 12,
       "value": "\"F055545342\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 300,
       "length": 12,
       "value": "\"F155545342\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 329,
       "length": 12,
       "value": "\"A000000025\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 12,
       "value": "\"A000000324\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 396,
       "length": 12,
       "value": "\"A000000152\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 431,
       "length": 12,
       "value": "\"A000000004\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 467,
       "length": 12,
       "value": "\"A000000005\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 12,
       "value": "\"A000000003\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 535,
       "length": 25,
       "value": "\"mock-directory-server-b\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 586,
       "length": 25,
       "value": "\"mock-directory-server-a\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 12,
       "value": "\"F055545342\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 300,
       "length": 12,
       "value": "\"F155545342\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 329,
       "length": 12,
       "value": "\"A000000025\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 12,
       "value": "\"A000000324\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 396,
       "length": 12,
       "value": "\"A000000152\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 431,
       "length": 12,
       "value": "\"A000000004\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 467,
       "length": 12,
       "value": "\"A000000005\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 12,
       "value": "\"A000000003\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 535,
       "length": 25,
       "value": "\"mock-directory-server-b\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 586,
       "length": 25,
       "value": "\"mock-directory-server-a\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/WebChallengeController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/WebChallengeController.swift",
       "kind": "BooleanLiteral",
       "offset": 2002,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/WebChallengeController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/WebChallengeController.swift",
       "kind": "BooleanLiteral",
       "offset": 2047,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/WebChallengeController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/WebChallengeController.swift",
       "kind": "StringLiteral",
       "offset": 1653,
       "length": 22,
       "value": "\"Ravelin3DS.WebChallengeController\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/RadioButton.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/RadioButton.swift",
       "kind": "BooleanLiteral",
       "offset": 326,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 86,
       "length": 26,
       "value": "\"exclamationmark.triangle\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 138,
       "length": 15,
       "value": "\"record.circle\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 181,
       "length": 8,
       "value": "\"circle\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 218,
       "length": 18,
       "value": "\"checkmark.square\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 8,
       "value": "\"square\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 300,
       "length": 12,
       "value": "\"chevron.up\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 339,
       "length": 14,
       "value": "\"chevron.down\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 86,
       "length": 26,
       "value": "\"exclamationmark.triangle\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 138,
       "length": 15,
       "value": "\"record.circle\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 181,
       "length": 8,
       "value": "\"circle\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 218,
       "length": 18,
       "value": "\"checkmark.square\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 8,
       "value": "\"square\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 300,
       "length": 12,
       "value": "\"chevron.up\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ImageProvider.swift",
       "kind": "StringLiteral",
       "offset": 339,
       "length": 14,
       "value": "\"chevron.down\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/ButtonType\/R3DS2ButtonType.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/ButtonType\/R3DS2ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 411,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/ButtonType\/R3DS2ButtonType.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/ButtonType\/R3DS2ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 430,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/ButtonType\/R3DS2ButtonType.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/ButtonType\/R3DS2ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 445,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/ButtonType\/R3DS2ButtonType.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/UiCustomization\/ButtonType\/R3DS2ButtonType.swift",
       "kind": "IntegerLiteral",
       "offset": 462,
       "length": 6,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 73,
       "length": 27,
       "value": "\"Ravelin3DS.R3DS2AuthenticationResponse\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1233,
       "length": 3,
       "value": "\"Y\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1266,
       "length": 3,
       "value": "\"N\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1298,
       "length": 3,
       "value": "\"U\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1332,
       "length": 3,
       "value": "\"A\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1365,
       "length": 3,
       "value": "\"C\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1403,
       "length": 3,
       "value": "\"R\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1442,
       "length": 3,
       "value": "\"D\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1483,
       "length": 3,
       "value": "\"I\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1233,
       "length": 3,
       "value": "\"Y\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1266,
       "length": 3,
       "value": "\"N\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1298,
       "length": 3,
       "value": "\"U\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1332,
       "length": 3,
       "value": "\"A\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1365,
       "length": 3,
       "value": "\"C\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1403,
       "length": 3,
       "value": "\"R\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1442,
       "length": 3,
       "value": "\"D\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1483,
       "length": 3,
       "value": "\"I\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Utils\/SecKeyUtilities.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Utils\/SecKeyUtilities.swift",
       "kind": "Array",
       "offset": 257,
       "length": 6,
       "value": "[0x04]"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Utils\/SecKeyUtilities.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Utils\/SecKeyUtilities.swift",
       "kind": "StringLiteral",
       "offset": 295,
       "length": 29,
       "value": "\"-----BEGIN CERTIFICATE-----\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Utils\/SecKeyUtilities.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Utils\/SecKeyUtilities.swift",
       "kind": "StringLiteral",
       "offset": 356,
       "length": 27,
       "value": "\"-----END CERTIFICATE-----\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2ProtocolVersion.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2ProtocolVersion.swift",
       "kind": "StringLiteral",
       "offset": 185,
       "length": 7,
       "value": "\"2.1.0\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2ProtocolVersion.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2ProtocolVersion.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 7,
       "value": "\"2.2.0\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2ProtocolVersion.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2ProtocolVersion.swift",
       "kind": "StringLiteral",
       "offset": 185,
       "length": 7,
       "value": "\"2.1.0\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2ProtocolVersion.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2ProtocolVersion.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 7,
       "value": "\"2.2.0\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/UIViewController+activityIndicator.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/UIViewController+activityIndicator.swift",
       "kind": "StringLiteral",
       "offset": 100,
       "length": 9,
       "value": "\"#83ADD7\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/UIViewController+activityIndicator.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/UIViewController+activityIndicator.swift",
       "kind": "IntegerLiteral",
       "offset": 1161,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/UIViewController+activityIndicator.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/UIViewController+activityIndicator.swift",
       "kind": "FloatLiteral",
       "offset": 1171,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 282,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 323,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 1428,
       "length": 3,
       "value": "\"Y\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 1440,
       "length": 5,
       "value": "\"Yes\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 1509,
       "length": 5,
       "value": "\"Yes\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 1657,
       "length": 3,
       "value": "\"N\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 1669,
       "length": 4,
       "value": "\"No\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 1737,
       "length": 4,
       "value": "\"No\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 1892,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 1903,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1974,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2236,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 2359,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 2370,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 2760,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 2771,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3136,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3329,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "Array",
       "offset": 4359,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4531,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4588,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4597,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4608,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4618,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4676,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4709,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "Array",
       "offset": 4864,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 5177,
       "length": 31,
       "value": "\"horizontalSizeClass - compact\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 5298,
       "length": 31,
       "value": "\"horizontalSizeClass - regular\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 5538,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5595,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5604,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5615,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5625,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 5683,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5716,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "Array",
       "offset": 5956,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 6022,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 6289,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 7323,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 7903,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/ChallengeResponseViewController.swift",
       "kind": "StringLiteral",
       "offset": 66,
       "length": 31,
       "value": "\"Ravelin3DS.ChallengeResponseViewController\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 355,
       "length": 4,
       "value": "\"DV\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 378,
       "length": 4,
       "value": "\"DD\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 403,
       "length": 6,
       "value": "\"DPNA\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 428,
       "length": 4,
       "value": "\"SW\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 355,
       "length": 4,
       "value": "\"DV\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 378,
       "length": 4,
       "value": "\"DD\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 403,
       "length": 6,
       "value": "\"DPNA\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 428,
       "length": 4,
       "value": "\"SW\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1730,
       "length": 6,
       "value": "\"C001\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1757,
       "length": 6,
       "value": "\"C002\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1784,
       "length": 6,
       "value": "\"C003\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1811,
       "length": 6,
       "value": "\"C004\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1838,
       "length": 6,
       "value": "\"C005\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1865,
       "length": 6,
       "value": "\"C006\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1921,
       "length": 6,
       "value": "\"C008\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1948,
       "length": 6,
       "value": "\"C009\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1975,
       "length": 6,
       "value": "\"C010\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2002,
       "length": 6,
       "value": "\"C011\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2029,
       "length": 6,
       "value": "\"C012\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2056,
       "length": 6,
       "value": "\"C013\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2083,
       "length": 6,
       "value": "\"C014\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2110,
       "length": 6,
       "value": "\"C015\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2137,
       "length": 6,
       "value": "\"C016\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2164,
       "length": 6,
       "value": "\"I001\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2191,
       "length": 6,
       "value": "\"I002\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2218,
       "length": 6,
       "value": "\"I003\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2245,
       "length": 6,
       "value": "\"I004\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2272,
       "length": 6,
       "value": "\"I005\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2299,
       "length": 6,
       "value": "\"I006\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2326,
       "length": 6,
       "value": "\"I007\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2353,
       "length": 6,
       "value": "\"I008\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2380,
       "length": 6,
       "value": "\"I009\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2407,
       "length": 6,
       "value": "\"I010\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2434,
       "length": 6,
       "value": "\"I011\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2461,
       "length": 6,
       "value": "\"I012\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2488,
       "length": 6,
       "value": "\"I013\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2515,
       "length": 6,
       "value": "\"I014\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2542,
       "length": 6,
       "value": "\"I015\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1730,
       "length": 6,
       "value": "\"C001\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1757,
       "length": 6,
       "value": "\"C002\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1784,
       "length": 6,
       "value": "\"C003\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1811,
       "length": 6,
       "value": "\"C004\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1838,
       "length": 6,
       "value": "\"C005\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1865,
       "length": 6,
       "value": "\"C006\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1921,
       "length": 6,
       "value": "\"C008\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1948,
       "length": 6,
       "value": "\"C009\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 1975,
       "length": 6,
       "value": "\"C010\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2002,
       "length": 6,
       "value": "\"C011\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2029,
       "length": 6,
       "value": "\"C012\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2056,
       "length": 6,
       "value": "\"C013\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2083,
       "length": 6,
       "value": "\"C014\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2110,
       "length": 6,
       "value": "\"C015\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2137,
       "length": 6,
       "value": "\"C016\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2164,
       "length": 6,
       "value": "\"I001\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2191,
       "length": 6,
       "value": "\"I002\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2218,
       "length": 6,
       "value": "\"I003\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2245,
       "length": 6,
       "value": "\"I004\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2272,
       "length": 6,
       "value": "\"I005\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2299,
       "length": 6,
       "value": "\"I006\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2326,
       "length": 6,
       "value": "\"I007\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2353,
       "length": 6,
       "value": "\"I008\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2380,
       "length": 6,
       "value": "\"I009\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2407,
       "length": 6,
       "value": "\"I010\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2434,
       "length": 6,
       "value": "\"I011\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2461,
       "length": 6,
       "value": "\"I012\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2488,
       "length": 6,
       "value": "\"I013\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2515,
       "length": 6,
       "value": "\"I014\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2DeviceParamaters.swift",
       "kind": "StringLiteral",
       "offset": 2542,
       "length": 6,
       "value": "\"I015\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
       "kind": "StringLiteral",
       "offset": 516,
       "length": 9,
       "value": "\"A128GCM\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
       "kind": "StringLiteral",
       "offset": 550,
       "length": 15,
       "value": "\"A128CBC-HS256\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
       "kind": "StringLiteral",
       "offset": 516,
       "length": 9,
       "value": "\"A128GCM\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
       "kind": "StringLiteral",
       "offset": 550,
       "length": 15,
       "value": "\"A128CBC-HS256\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
       "kind": "IntegerLiteral",
       "offset": 759,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Severity\/R3DS2Severity.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Severity\/R3DS2Severity.swift",
       "kind": "IntegerLiteral",
       "offset": 456,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Severity\/R3DS2Severity.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Severity\/R3DS2Severity.swift",
       "kind": "IntegerLiteral",
       "offset": 472,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Severity\/R3DS2Severity.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Severity\/R3DS2Severity.swift",
       "kind": "IntegerLiteral",
       "offset": 456,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Severity\/R3DS2Severity.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Severity\/R3DS2Severity.swift",
       "kind": "IntegerLiteral",
       "offset": 472,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Severity\/R3DS2Severity.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Severity\/R3DS2Severity.swift",
       "kind": "IntegerLiteral",
       "offset": 456,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Severity\/R3DS2Severity.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Severity\/R3DS2Severity.swift",
       "kind": "IntegerLiteral",
       "offset": 472,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2140,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2153,
       "length": 32,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2195,
       "length": 25,
       "value": "103"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2264,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2277,
       "length": 37,
       "value": "202"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2324,
       "length": 13,
       "value": "203"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2347,
       "length": 20,
       "value": "204"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2411,
       "length": 3,
       "value": "301"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2424,
       "length": 21,
       "value": "302"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2482,
       "length": 3,
       "value": "402"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2516,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2140,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2153,
       "length": 32,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2195,
       "length": 25,
       "value": "103"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2264,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2277,
       "length": 37,
       "value": "202"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2324,
       "length": 13,
       "value": "203"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2347,
       "length": 20,
       "value": "204"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2411,
       "length": 3,
       "value": "301"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2424,
       "length": 21,
       "value": "302"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2482,
       "length": 3,
       "value": "402"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2516,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2140,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2153,
       "length": 32,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2195,
       "length": 25,
       "value": "103"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2264,
       "length": 3,
       "value": "201"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2277,
       "length": 37,
       "value": "202"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2324,
       "length": 13,
       "value": "203"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2347,
       "length": 20,
       "value": "204"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2411,
       "length": 3,
       "value": "301"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2424,
       "length": 21,
       "value": "302"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2482,
       "length": 3,
       "value": "402"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2516,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "StringLiteral",
       "offset": 85,
       "length": 31,
       "value": "\"3DS_LOA_SDK_UTSB_020100_00007\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 5,
       "value": "\"1.5\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "IntegerLiteral",
       "offset": 290,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "StringLiteral",
       "offset": 980,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "StringLiteral",
       "offset": 1232,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "BooleanLiteral",
       "offset": 1735,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "IntegerLiteral",
       "offset": 1803,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "BooleanLiteral",
       "offset": 1881,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "BooleanLiteral",
-      "offset": 3436,
+      "offset": 3428,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4678,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 30,
       "value": "\"Ravelin3DS.R3DS2TransactionImplementation\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeParameters\/R3DS2ChallengeRequestDerivedParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeParameters\/R3DS2ChallengeRequestDerivedParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 442,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 3448,
       "length": 27,
       "value": "\"The device is jailbroken.\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 3486,
       "length": 50,
       "value": "\"The text for warning when a device is jailbroken\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 3610,
       "length": 45,
       "value": "\"The integrity of the SDK has been tampered.\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 3666,
       "length": 75,
       "value": "\"The text for warning when the integrity of the SDK has been tampered with\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 3812,
       "length": 43,
       "value": "\"An emulator is being used to run the App.\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 3866,
       "length": 77,
       "value": "\"The text for warning when an emulator is being used to run the application.\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 4009,
       "length": 36,
       "value": "\"A debugger is attached to the App.\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 4056,
       "length": 76,
       "value": "\"The text for warning when a debugger is currently attached to the process.\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 4204,
       "length": 44,
       "value": "\"The OS or the OS version is not supported.\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 4259,
       "length": 82,
       "value": "\"The text for warning when the SDK is running on an unsupported OS or OS version.\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 4423,
       "length": 6,
       "value": "\"SW01\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 4484,
       "length": 6,
       "value": "\"SW02\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 4542,
       "length": 6,
       "value": "\"SW03\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 4595,
       "length": 6,
       "value": "\"SW04\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Warning\/R3DS2SecurityCheckWarning.swift",
       "kind": "StringLiteral",
       "offset": 4654,
       "length": 6,
       "value": "\"SW05\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ColorTheme.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ColorTheme.swift",
       "kind": "BooleanLiteral",
       "offset": 1176,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ColorTheme.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ColorTheme.swift",
       "kind": "StringLiteral",
       "offset": 1361,
       "length": 8,
       "value": "\"333333\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ColorTheme.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ColorTheme.swift",
       "kind": "StringLiteral",
       "offset": 1495,
       "length": 8,
       "value": "\"EEEFF2\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ColorTheme.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ColorTheme.swift",
       "kind": "StringLiteral",
       "offset": 1635,
       "length": 8,
       "value": "\"1F82FB\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ColorTheme.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Extensions\/ColorTheme.swift",
       "kind": "StringLiteral",
       "offset": 1695,
       "length": 8,
       "value": "\"7C7FED\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 6,
       "value": "\"RE01\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 6,
       "value": "\"RE02\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "StringLiteral",
       "offset": 428,
       "length": 6,
       "value": "\"RE03\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 6,
       "value": "\"RE04\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "StringLiteral",
       "offset": 210,
       "length": 6,
       "value": "\"RE01\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "StringLiteral",
       "offset": 297,
       "length": 6,
       "value": "\"RE02\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "StringLiteral",
       "offset": 428,
       "length": 6,
       "value": "\"RE03\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "StringLiteral",
       "offset": 540,
       "length": 6,
       "value": "\"RE04\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 920,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 931,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 952,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 968,
       "length": 9,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 987,
       "length": 6,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1003,
       "length": 8,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1065,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1076,
       "length": 10,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1096,
       "length": 9,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1115,
       "length": 8,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1133,
       "length": 9,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1152,
       "length": 22,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1184,
       "length": 8,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1202,
       "length": 10,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1222,
       "length": 12,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1296,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1309,
       "length": 18,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1337,
       "length": 11,
       "value": "103"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1358,
       "length": 22,
       "value": "104"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1390,
       "length": 10,
       "value": "105"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1410,
       "length": 13,
       "value": "106"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1433,
       "length": 14,
       "value": "107"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1457,
       "length": 19,
       "value": "108"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1486,
       "length": 14,
       "value": "109"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1510,
       "length": 12,
       "value": "110"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1532,
       "length": 26,
       "value": "111"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1568,
       "length": 18,
       "value": "112"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1596,
       "length": 15,
       "value": "113"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1621,
       "length": 18,
       "value": "114"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1649,
       "length": 21,
       "value": "115"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 920,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 931,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 952,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 968,
       "length": 9,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 987,
       "length": 6,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1003,
       "length": 8,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1065,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1076,
       "length": 10,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1096,
       "length": 9,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1115,
       "length": 8,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1133,
       "length": 9,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1152,
       "length": 22,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1184,
       "length": 8,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1202,
       "length": 10,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1222,
       "length": 12,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1296,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1309,
       "length": 18,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1337,
       "length": 11,
       "value": "103"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1358,
       "length": 22,
       "value": "104"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1390,
       "length": 10,
       "value": "105"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1410,
       "length": 13,
       "value": "106"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1433,
       "length": 14,
       "value": "107"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1457,
       "length": 19,
       "value": "108"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1486,
       "length": 14,
       "value": "109"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1510,
       "length": 12,
       "value": "110"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1532,
       "length": 26,
       "value": "111"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1568,
       "length": 18,
       "value": "112"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1596,
       "length": 15,
       "value": "113"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1621,
       "length": 18,
       "value": "114"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1649,
       "length": 21,
       "value": "115"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 920,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 931,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 952,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 968,
       "length": 9,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 987,
       "length": 6,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1003,
       "length": 8,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1065,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1076,
       "length": 10,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1096,
       "length": 9,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1115,
       "length": 8,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1133,
       "length": 9,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1152,
       "length": 22,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1184,
       "length": 8,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1202,
       "length": 10,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1222,
       "length": 12,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1296,
       "length": 3,
       "value": "101"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1309,
       "length": 18,
       "value": "102"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1337,
       "length": 11,
       "value": "103"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1358,
       "length": 22,
       "value": "104"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1390,
       "length": 10,
       "value": "105"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1410,
       "length": 13,
       "value": "106"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1433,
       "length": 14,
       "value": "107"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1457,
       "length": 19,
       "value": "108"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1486,
       "length": 14,
       "value": "109"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1510,
       "length": 12,
       "value": "110"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1532,
       "length": 26,
       "value": "111"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1568,
       "length": 18,
       "value": "112"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1596,
       "length": 15,
       "value": "113"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1621,
       "length": 18,
       "value": "114"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2CommonDeviceInformationParameters.swift",
       "kind": "IntegerLiteral",
       "offset": 1649,
       "length": 21,
       "value": "115"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationRequestParameters\/R3DS2AuthenticationRequestParameters.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationRequestParameters\/R3DS2AuthenticationRequestParameters.swift",
       "kind": "StringLiteral",
       "offset": 275,
       "length": 36,
       "value": "\"Ravelin3DS.R3DS2AuthenticationRequestParameters\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeStatusReceiver\/R3DS2ChallengeStatusReceiver.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeStatusReceiver\/R3DS2ChallengeStatusReceiver.swift",
       "kind": "StringLiteral",
       "offset": 1245,
       "length": 22,
       "value": "\"Ravelin3DS.R3DS2RuntimeErrorEvent\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeStatusReceiver\/R3DS2ChallengeStatusReceiver.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeStatusReceiver\/R3DS2ChallengeStatusReceiver.swift",
       "kind": "StringLiteral",
       "offset": 1824,
       "length": 17,
       "value": "\"Ravelin3DS.R3DS2ErrorMessage\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeStatusReceiver\/R3DS2ChallengeStatusReceiver.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeStatusReceiver\/R3DS2ChallengeStatusReceiver.swift",
       "kind": "StringLiteral",
       "offset": 4028,
       "length": 23,
       "value": "\"Ravelin3DS.R3DS2ProtocolErrorEvent\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeStatusReceiver\/R3DS2ChallengeStatusReceiver.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeStatusReceiver\/R3DS2ChallengeStatusReceiver.swift",
       "kind": "StringLiteral",
       "offset": 4521,
       "length": 20,
       "value": "\"Ravelin3DS.R3DS2CompletionEvent\""
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ThreeDS2Service\/ThreeDS2Service.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ThreeDS2Service\/ThreeDS2Service.swift",
       "kind": "BooleanLiteral",
       "offset": 2898,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Developer\/3DS2SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2LocationManager.swift",
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2LocationManager.swift",
       "kind": "IntegerLiteral",
       "offset": 408,
       "length": 1,
