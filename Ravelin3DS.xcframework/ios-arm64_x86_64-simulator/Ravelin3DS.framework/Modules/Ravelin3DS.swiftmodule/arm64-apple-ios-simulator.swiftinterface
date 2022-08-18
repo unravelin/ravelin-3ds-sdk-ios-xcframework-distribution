@@ -22,7 +22,7 @@ public protocol R3DS2ProgressDialog {
 public struct R3DS2Config : Swift.Codable {
   public func jsonData() throws -> Foundation.Data
   public func params() -> [Swift.String : Any]?
-  public static func readConfigFromFile(_ configFile: Swift.String) -> Ravelin3DS.R3DS2Config?
+  public static func readConfigFromFile(_ configFile: Swift.String) throws -> Ravelin3DS.R3DS2Config
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
