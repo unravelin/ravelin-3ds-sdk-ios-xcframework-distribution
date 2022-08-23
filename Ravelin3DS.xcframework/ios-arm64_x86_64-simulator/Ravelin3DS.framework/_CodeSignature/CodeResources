@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		aFTZGBrt+sKm8bXb+XGK0ZJbF1A=
+		wNyeL7EkwD7lJHCRBAEaxuFJim0=
 		</data>
 		<key>Frameworks/CryptoSwift.framework/CryptoSwift</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		N+45ZkghjYO3C/PkMdGyqWMcONY=
+		XtF05sU/Mmnuh1IAyXFtZzJ6lSo=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AGAO3/sKehRqXJQkkYjPbo91KdA=
+		sorLjkIWVuDFB1knRHsoSfvDmQQ=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/j3iuaN7JblgC+AtJh50RQFLGig=
+		DMU4/HPJ53se1dK5eHOWGGms1Bg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -167,7 +167,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Npd1qDS1SH/UuRqP/O2y+OvnzTeS5VEue4C9hcflO3M=
+			Zfw978VGAzbeZl+vKAn+MC44AiDm22mR+g63S/BHr9w=
 			</data>
 		</dict>
 		<key>Frameworks/CryptoSwift.framework/CryptoSwift</key>
@@ -265,7 +265,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tPWZHTDdvH1k24yOPIzHx/XOKt6adt99yfQ2vpXiudw=
+			Z8H4pk9XDIsIlcCVmQquP7BMR3xyIv27evg3j7E2Vec=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -300,7 +300,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jansOi0F5ykPPPWGvbbKRIF3G4edJmnSSGFaHZ3HziY=
+			MCo/7UbZ47Tu9UQHfgc84w6dQZadsqnZWpAPGR+r0DU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
