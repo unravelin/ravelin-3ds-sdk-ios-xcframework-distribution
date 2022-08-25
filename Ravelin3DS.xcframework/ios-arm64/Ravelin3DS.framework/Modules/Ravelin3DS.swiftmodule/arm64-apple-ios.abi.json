@@ -8970,23 +8970,23 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 262,
       "length": 12,
-      "value": "\"F055545342\""
+      "value": "\"A000000025\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 300,
+      "offset": 290,
       "length": 12,
-      "value": "\"F155545342\""
+      "value": "\"A000000333\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
       "offset": 329,
       "length": 12,
-      "value": "\"A000000025\""
+      "value": "\"A000000042\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
@@ -9005,58 +9005,79 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 431,
+      "offset": 424,
+      "length": 12,
+      "value": "\"A000000065\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
       "length": 12,
       "value": "\"A000000004\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 467,
+      "offset": 495,
       "length": 12,
       "value": "\"A000000005\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 524,
       "length": 12,
       "value": "\"A000000003\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 535,
+      "offset": 563,
       "length": 25,
       "value": "\"mock-directory-server-b\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 586,
+      "offset": 614,
       "length": 25,
       "value": "\"mock-directory-server-a\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 267,
+      "offset": 661,
       "length": 12,
       "value": "\"F055545342\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 300,
+      "offset": 694,
       "length": 12,
       "value": "\"F155545342\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 329,
+      "offset": 262,
       "length": 12,
       "value": "\"A000000025\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 12,
+      "value": "\"A000000333\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 12,
+      "value": "\"A000000042\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
@@ -9075,37 +9096,58 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 431,
+      "offset": 424,
+      "length": 12,
+      "value": "\"A000000065\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
       "length": 12,
       "value": "\"A000000004\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 467,
+      "offset": 495,
       "length": 12,
       "value": "\"A000000005\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 524,
       "length": 12,
       "value": "\"A000000003\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 535,
+      "offset": 563,
       "length": 25,
       "value": "\"mock-directory-server-b\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
       "kind": "StringLiteral",
-      "offset": 586,
+      "offset": 614,
       "length": 25,
       "value": "\"mock-directory-server-a\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 12,
+      "value": "\"F055545342\""
+    },
+    {
+      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/DirectoryServer\/R3DS2DirectoryServer.swift",
+      "kind": "StringLiteral",
+      "offset": 694,
+      "length": 12,
+      "value": "\"F155545342\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeResponse\/WebChallengeController.swift",
