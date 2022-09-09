@@ -8711,28 +8711,28 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 698,
+      "offset": 706,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 5744,
+      "offset": 6857,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 5897,
+      "offset": 7010,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 9717,
+      "offset": 10862,
       "length": 5,
       "value": "false"
     },
@@ -10636,7 +10636,7 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation.swift",
       "kind": "BooleanLiteral",
-      "offset": 3917,
+      "offset": 3933,
       "length": 5,
       "value": "false"
     },
