@@ -8,30 +8,6 @@
 		<data>
 		JyGdag9eaII1NSEkjZwZKQCj2jM=
 		</data>
-		<key>Frameworks/CryptoSwift.framework/CryptoSwift</key>
-		<data>
-		R7aXvNhrWGxSTnFywYy3QIG6Rh8=
-		</data>
-		<key>Frameworks/CryptoSwift.framework/Info.plist</key>
-		<data>
-		kjMgGxtBxtxbl7rxO0hB7FVAz5s=
-		</data>
-		<key>Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources</key>
-		<data>
-		fdu7+BXWs00rtHEogTg4ktY6MCs=
-		</data>
-		<key>Frameworks/JOSESwift.framework/Info.plist</key>
-		<data>
-		gpuEY480xsip2xGOLxBGyqy0dGQ=
-		</data>
-		<key>Frameworks/JOSESwift.framework/JOSESwift</key>
-		<data>
-		LPj6/PVnu3AC08krXBu33PfwQpA=
-		</data>
-		<key>Frameworks/JOSESwift.framework/_CodeSignature/CodeResources</key>
-		<data>
-		zdX9f3VTOX43Snf6mSNt+kHLOWc=
-		</data>
 		<key>Futura.plist</key>
 		<data>
 		hyTxsBHB4FVUsAeVPhhve0q+Zgk=
@@ -46,47 +22,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WlVHHkSwX7TPQnZjlYcGBdd5F+0=
+		acdDHLLtPIQX+bml/JSCmn5u2w8=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		c85Sul7bJvhbc0ZLhVWT4wvUDgo=
+		ig8npKiEh7BdwXXrujVvVTVRQ/k=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2C7ozWlS7xd2H7O1TsaMTvtoSfQ=
+		c1WrJXM6zXR9aougHJpbAk9STA0=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vNAG4EDAAlS1N1T66Ef1bt4Tf+g=
+		BHPlp7+XftQwzxnjJzYyrbuwdiE=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2C7ozWlS7xd2H7O1TsaMTvtoSfQ=
+		c1WrJXM6zXR9aougHJpbAk9STA0=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DUApj1kdCrsOILuBWu9HfXK88to=
+		C4d9qBZ+AAzLHr6wMILrCs/0op0=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		c85Sul7bJvhbc0ZLhVWT4wvUDgo=
+		ig8npKiEh7BdwXXrujVvVTVRQ/k=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		w/9HvbgztkCOAgxoLmLscXDWUQo=
+		thDPa+96TDticah1EPm09lFpCdk=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		2KoH/LeIgIENARZYaISg44DhvCc=
+		bcmn+LkoeLsrjzNbHaTkIHT5WLY=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		w/9HvbgztkCOAgxoLmLscXDWUQo=
+		thDPa+96TDticah1EPm09lFpCdk=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kCKJtFZ2RWlOeIhxOsbI9IrV4hk=
+		KI1QJ4ULvqjd29UDaD8kauqRSi0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -170,48 +146,6 @@
 			h6VU55Pu2GtbmmoF7Vy2c6PHqNCLwaSc71OeoKqbK88=
 			</data>
 		</dict>
-		<key>Frameworks/CryptoSwift.framework/CryptoSwift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eZXJgaUMX/d7O8tFigOZubjmdafyrOx6mMAJAROx190=
-			</data>
-		</dict>
-		<key>Frameworks/CryptoSwift.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			V3mNLYGsW1mI9W2dIge1qQI8Q27UrHbC/5C9bBTQm2E=
-			</data>
-		</dict>
-		<key>Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oUS8BaGd1wu98O3aAMrkxJokDjwYbN6Q+BzNx9bgecs=
-			</data>
-		</dict>
-		<key>Frameworks/JOSESwift.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Rr/Ndl+ioBmAoDquGptSreD5UkuYSk4LOqUPnPh1Gdk=
-			</data>
-		</dict>
-		<key>Frameworks/JOSESwift.framework/JOSESwift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gJLNh4pArSurbw7XPb5+uguc3/2zum8cvVzN2NncXos=
-			</data>
-		</dict>
-		<key>Frameworks/JOSESwift.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0UKQVb9FruBN/9APIfR3RiTosebKdqutHzuF/G85Pz4=
-			</data>
-		</dict>
 		<key>Futura.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -237,70 +171,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			by30YOrJcedsMFfVH8HaxFp4L2QBGJGaB680TGpLyoM=
+			rmB5R61ijL3+c8Jw88omI/o4oou5PdZjlg189xA4pZk=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0r02qYqAP4u9SnFS5IBKEbOsuKDgc4JyK6r6nKOyDPw=
+			CyBvB17nfnyyC0yH6HgiuS9MZ3knneCP6kc1eoeK5Qo=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y+wuYQWAJaIwoU1Z4+8685Czbc0Pw+dlg8Jr2yBu9Ko=
+			G+yVLO0PXqBuf9JxQ+NGLR3vAzOqxHyMdRXvQeAyGyg=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0r02qYqAP4u9SnFS5IBKEbOsuKDgc4JyK6r6nKOyDPw=
+			CyBvB17nfnyyC0yH6HgiuS9MZ3knneCP6kc1eoeK5Qo=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uiABbsgBUZtmAiabuaeWRKgbe4fR7qXkiYoR0UM0O0I=
+			lSdEEttwV8N7hmfa6deGzfpwVsJWmfy4TQeVULFwhto=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			by30YOrJcedsMFfVH8HaxFp4L2QBGJGaB680TGpLyoM=
+			rmB5R61ijL3+c8Jw88omI/o4oou5PdZjlg189xA4pZk=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dvXjnHpWTXYH9f+KdAuLuf2BWonskIVTWlOQuTBAsic=
+			VLbkaRbALIv2n5ZgDSOYJoPCZ5e9WJAKgNPtqRbOGcA=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UOxCK69a2eU2Ms5wvTdYa/VjmYyQ6vU0Y5G3yoCoen8=
+			DImQYGxOQYBIIHlTbX9Cr+/yOO98ImCZkz07Grs2kwE=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dvXjnHpWTXYH9f+KdAuLuf2BWonskIVTWlOQuTBAsic=
+			VLbkaRbALIv2n5ZgDSOYJoPCZ5e9WJAKgNPtqRbOGcA=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RCuE9c9f1syK2wkyDvDjp8mW4nzK5iwE8rOLI4FpFBM=
+			/CkzU9aX9VM1dyTd9VSUU2XxSywYSrEAeOGSxk/Tywo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
