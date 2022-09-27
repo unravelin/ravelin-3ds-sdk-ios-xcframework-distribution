@@ -6,19 +6,19 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		NXLE3WryQ1b+u182JrQ0rESqUbI=
+		JyGdag9eaII1NSEkjZwZKQCj2jM=
 		</data>
 		<key>Frameworks/CryptoSwift.framework/CryptoSwift</key>
 		<data>
-		NS0LzE7MlATV487S0i2cX06CTU4=
+		v0MQdDI+0iwhvYVEtD1IwXj4+Dw=
 		</data>
 		<key>Frameworks/CryptoSwift.framework/Info.plist</key>
 		<data>
-		RFIIXBzKRoCCVBj4gNpJ6/QATf8=
+		kjMgGxtBxtxbl7rxO0hB7FVAz5s=
 		</data>
 		<key>Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources</key>
 		<data>
-		XuoUF7AtUwrBM77Q78JIESVlBqY=
+		OSUZPv323+uV2MUQCWqugLFP+78=
 		</data>
 		<key>Frameworks/JOSESwift.framework/Info.plist</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Frameworks/JOSESwift.framework/JOSESwift</key>
 		<data>
-		LPj6/PVnu3AC08krXBu33PfwQpA=
+		dcVExUD8lO+T/S2R/qAAzppYEZQ=
 		</data>
 		<key>Frameworks/JOSESwift.framework/_CodeSignature/CodeResources</key>
 		<data>
-		zdX9f3VTOX43Snf6mSNt+kHLOWc=
+		L+n7BTXj5vYMqHWF76C16edpczg=
 		</data>
 		<key>Futura.plist</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		edphXuvX/xOTleLSM9cdHdYruFk=
+		rZObYz0BmnqhHkrU9Z6hcoAQTg8=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -167,28 +167,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dRgxDG4VUVr9ieXLuQUmiVwgyARmQ+p91ql7OMMZs5U=
+			h6VU55Pu2GtbmmoF7Vy2c6PHqNCLwaSc71OeoKqbK88=
 			</data>
 		</dict>
 		<key>Frameworks/CryptoSwift.framework/CryptoSwift</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kr7VRVYYox/UzEWoADBGRGhLTp1gwacYFJlCs+uyYrw=
+			eA5OR8zVQbEXBbWIJU+EnS3F3mmJfbbEi+v92odiPCI=
 			</data>
 		</dict>
 		<key>Frameworks/CryptoSwift.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LiKkhmQZh/WA4R23qAaJ5+qFq9Qkv8wknf2v2Bq/vrs=
+			V3mNLYGsW1mI9W2dIge1qQI8Q27UrHbC/5C9bBTQm2E=
 			</data>
 		</dict>
 		<key>Frameworks/CryptoSwift.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7fpJKhRD37pTEM8MmWMq8T8WePTkHFnp5bCrOCKVgCc=
+			FBa9OQyurtxnmBkzGgF502HB/RaLhoCCz6bB77RcE0E=
 			</data>
 		</dict>
 		<key>Frameworks/JOSESwift.framework/Info.plist</key>
@@ -202,14 +202,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gJLNh4pArSurbw7XPb5+uguc3/2zum8cvVzN2NncXos=
+			DXqweaVOE9rhS6X5brY+4XxY/53y04JiCJIpHnU6RH4=
 			</data>
 		</dict>
 		<key>Frameworks/JOSESwift.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0UKQVb9FruBN/9APIfR3RiTosebKdqutHzuF/G85Pz4=
+			J2M4U3gIQEJ2yhSiAOTz65okSaZ28oDCS0pfTdVPuXg=
 			</data>
 		</dict>
 		<key>Futura.plist</key>
