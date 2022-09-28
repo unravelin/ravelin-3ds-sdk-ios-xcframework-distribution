@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		JyGdag9eaII1NSEkjZwZKQCj2jM=
+		NXLE3WryQ1b+u182JrQ0rESqUbI=
 		</data>
 		<key>Futura.plist</key>
 		<data>
@@ -22,47 +22,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		acdDHLLtPIQX+bml/JSCmn5u2w8=
+		lgiIcTGbVK28Ffz+dSI8cKgon90=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ig8npKiEh7BdwXXrujVvVTVRQ/k=
+		jb0xkzP4MhkOOkoFj77FMPLESTg=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		c1WrJXM6zXR9aougHJpbAk9STA0=
+		HV8zgDt3z9E+gqpRxSbJX1pTfn8=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BHPlp7+XftQwzxnjJzYyrbuwdiE=
+		e4LJnc6b0UqDBVoAiAoq5BU7bVQ=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		c1WrJXM6zXR9aougHJpbAk9STA0=
+		HV8zgDt3z9E+gqpRxSbJX1pTfn8=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		C4d9qBZ+AAzLHr6wMILrCs/0op0=
+		oH5QWwT3KG5YQTtm47xXmzl3YRg=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ig8npKiEh7BdwXXrujVvVTVRQ/k=
+		jb0xkzP4MhkOOkoFj77FMPLESTg=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		thDPa+96TDticah1EPm09lFpCdk=
+		1Tq0PJlYTsKPXky9VpyWXajTJkE=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		bcmn+LkoeLsrjzNbHaTkIHT5WLY=
+		3h2mhjZFSSikl4xYFCatCYBIRjo=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		thDPa+96TDticah1EPm09lFpCdk=
+		1Tq0PJlYTsKPXky9VpyWXajTJkE=
 		</data>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KI1QJ4ULvqjd29UDaD8kauqRSi0=
+		MC6sH25NJOP7wRMy4pJ2sF+pNHU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -143,7 +143,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h6VU55Pu2GtbmmoF7Vy2c6PHqNCLwaSc71OeoKqbK88=
+			dRgxDG4VUVr9ieXLuQUmiVwgyARmQ+p91ql7OMMZs5U=
 			</data>
 		</dict>
 		<key>Futura.plist</key>
@@ -171,70 +171,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rmB5R61ijL3+c8Jw88omI/o4oou5PdZjlg189xA4pZk=
+			XJrKW1tX1lL2OV5o2ksjQpC1Iy/QtNrOCxASKFhEXHc=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CyBvB17nfnyyC0yH6HgiuS9MZ3knneCP6kc1eoeK5Qo=
+			caahnegdMCXPOMLECW6dKmlqEAxulNHtmCsJzDo6UjY=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G+yVLO0PXqBuf9JxQ+NGLR3vAzOqxHyMdRXvQeAyGyg=
+			DG1hjLVpLtIo8XqHjPZoKtEgzCuchobj6tjakDRRzAc=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CyBvB17nfnyyC0yH6HgiuS9MZ3knneCP6kc1eoeK5Qo=
+			caahnegdMCXPOMLECW6dKmlqEAxulNHtmCsJzDo6UjY=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lSdEEttwV8N7hmfa6deGzfpwVsJWmfy4TQeVULFwhto=
+			y43VJZVgQMKl63y/fzlQ8VrBFzjKJ0Pf3uN9Jhhrh4o=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rmB5R61ijL3+c8Jw88omI/o4oou5PdZjlg189xA4pZk=
+			XJrKW1tX1lL2OV5o2ksjQpC1Iy/QtNrOCxASKFhEXHc=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VLbkaRbALIv2n5ZgDSOYJoPCZ5e9WJAKgNPtqRbOGcA=
+			Q71Xxa1G6ThdbJN9WBx8SgwcCVFfgN5lt2UtOE3UNGM=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DImQYGxOQYBIIHlTbX9Cr+/yOO98ImCZkz07Grs2kwE=
+			PBZuL6zwr9OuUJk2haUQYSM5NOlXlDoQrUkBj/KFT8Q=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VLbkaRbALIv2n5ZgDSOYJoPCZ5e9WJAKgNPtqRbOGcA=
+			Q71Xxa1G6ThdbJN9WBx8SgwcCVFfgN5lt2UtOE3UNGM=
 			</data>
 		</dict>
 		<key>Modules/Ravelin3DS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/CkzU9aX9VM1dyTd9VSUU2XxSywYSrEAeOGSxk/Tywo=
+			uGq7SY08DFqOwQ/EuuAlWNWKAfRoB1S9vV4/YVQvlOc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
