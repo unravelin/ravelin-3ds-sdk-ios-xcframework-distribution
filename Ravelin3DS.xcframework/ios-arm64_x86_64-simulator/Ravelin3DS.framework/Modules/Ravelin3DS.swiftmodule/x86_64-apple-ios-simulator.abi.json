@@ -28392,28 +28392,28 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 706,
+      "offset": 630,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 6825,
+      "offset": 6445,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
       "kind": "IntegerLiteral",
-      "offset": 6978,
+      "offset": 6598,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Transaction\/R3DS2TransactionImplementation+TransactionChallengeApi.swift",
       "kind": "BooleanLiteral",
-      "offset": 10830,
+      "offset": 10298,
       "length": 5,
       "value": "false"
     },
@@ -30380,35 +30380,35 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
       "kind": "StringLiteral",
-      "offset": 518,
+      "offset": 478,
       "length": 9,
       "value": "\"A128GCM\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
       "kind": "StringLiteral",
-      "offset": 552,
+      "offset": 512,
       "length": 15,
       "value": "\"A128CBC-HS256\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
       "kind": "StringLiteral",
-      "offset": 518,
+      "offset": 478,
       "length": 9,
       "value": "\"A128GCM\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
       "kind": "StringLiteral",
-      "offset": 552,
+      "offset": 512,
       "length": 15,
       "value": "\"A128CBC-HS256\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/JOSE\/R3DS2DirAes.swift",
       "kind": "IntegerLiteral",
-      "offset": 777,
+      "offset": 699,
       "length": 1,
       "value": "0"
     },
