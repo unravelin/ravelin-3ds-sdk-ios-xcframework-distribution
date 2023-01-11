@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Ravelin3DS
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AdSupport
@@ -18,13 +18,6 @@ import _Concurrency
 import _StringProcessing
 import os.log
 import os
-public struct Signer<KeyType> {
-  public init?(signingAlgorithm: Ravelin3DS.SignatureAlgorithm, key: KeyType)
-}
-extension Ravelin3DS.Signer {
-  @available(*, deprecated, message: "Use `init?(signingAlgorithm: SignatureAlgorithm, key: KeyType)` instead")
-  public init?(signingAlgorithm: Ravelin3DS.SignatureAlgorithm, privateKey: KeyType)
-}
 public protocol R3DS2ProgressDialog {
   func start()
   func stop()
@@ -40,242 +33,12 @@ public struct R3DS2Scheme : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-extension Ravelin3DS.JWK {
-  public subscript(parameter: Swift.String) -> Swift.String? {
-    get
-  }
-}
-extension Ravelin3DS.JWK {
-  public func jsonString() -> Swift.String?
-  public func jsonData() -> Foundation.Data?
-}
-public struct Encrypter<KeyType> {
-  public init?(keyManagementAlgorithm: Ravelin3DS.KeyManagementAlgorithm, contentEncryptionAlgorithm: Ravelin3DS.ContentEncryptionAlgorithm, encryptionKey: KeyType)
-}
-extension Ravelin3DS.Encrypter {
-  @available(*, deprecated, message: "Use `init?(keyManagementAlgorithm:contentEncryptionAlgorithm:encryptionKey:)` instead")
-  public init?(keyEncryptionAlgorithm: Ravelin3DS.AsymmetricKeyAlgorithm, encryptionKey key: KeyType, contentEncyptionAlgorithm: Ravelin3DS.SymmetricKeyAlgorithm)
-  @available(*, deprecated, message: "Use `init?(keyManagementAlgorithm:contentEncryptionAlgorithm:encryptionKey:)` instead")
-  public init?(keyEncryptionAlgorithm: Ravelin3DS.AsymmetricKeyAlgorithm, keyEncryptionKey kek: KeyType, contentEncyptionAlgorithm: Ravelin3DS.SymmetricKeyAlgorithm)
-}
-@available(*, deprecated, message: "This type will be removed with the next major release.")
-public struct EncryptionContext {
-}
-@available(*, deprecated, message: "This type will be removed with the next major release.")
-public struct SymmetricEncryptionContext {
-}
-public enum JOSESwiftError : Swift.Error {
-  case signingFailed(description: Swift.String)
-  case verifyingFailed(description: Swift.String)
-  case signatureInvalid
-  case encryptingFailed(description: Swift.String)
-  case decryptingFailed(description: Swift.String)
-  case wrongDataEncoding(data: Foundation.Data)
-  case invalidCompactSerializationComponentCount(count: Swift.Int)
-  case componentNotValidBase64URL(component: Swift.String)
-  case componentCouldNotBeInitializedFromData(data: Foundation.Data)
-  case couldNotConstructJWK
-  case modulusNotBase64URLUIntEncoded
-  case exponentNotBase64URLUIntEncoded
-  case privateExponentNotBase64URLUIntEncoded
-  case symmetricKeyNotBase64URLEncoded
-  case xNotBase64URLUIntEncoded
-  case yNotBase64URLUIntEncoded
-  case privateKeyNotBase64URLUIntEncoded
-  case invalidCurveType
-  case compressedCurvePointsUnsupported
-  case invalidCurvePointOctetLength
-  case localAuthenticationFailed(errorCode: Swift.Int)
-  case compressionFailed
-  case decompressionFailed
-  case compressionAlgorithmNotSupported
-  case rawDataMustBeGreaterThanZero
-  case compressedDataMustBeGreaterThanZero
-  case thumbprintSerialization
-}
-extension Security.SecKey : Ravelin3DS.ExpressibleAsRSAPublicKeyComponents {
-  public static func representing(rsaPublicKeyComponents components: Ravelin3DS.RSAPublicKeyComponents) throws -> Self
-  public func rsaPublicKeyComponents() throws -> Ravelin3DS.RSAPublicKeyComponents
-}
-public enum SignatureAlgorithm : Swift.String {
-  case HS256
-  case HS384
-  case HS512
-  case RS256
-  case RS384
-  case RS512
-  @available(iOS 11, *)
-  case PS256
-  @available(iOS 11, *)
-  case PS384
-  @available(iOS 11, *)
-  case PS512
-  case ES256
-  case ES384
-  case ES512
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum KeyManagementAlgorithm : Swift.String, Swift.CaseIterable {
-  case RSA1_5
-  case RSAOAEP
-  case RSAOAEP256
-  case A128KW
-  case A192KW
-  case A256KW
-  case direct
-  public init?(rawValue: Swift.String)
-  public typealias AllCases = [Ravelin3DS.KeyManagementAlgorithm]
-  public typealias RawValue = Swift.String
-  public static var allCases: [Ravelin3DS.KeyManagementAlgorithm] {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum ContentEncryptionAlgorithm : Swift.String {
-  case A256CBCHS512
-  case A128CBCHS256
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum HMACAlgorithm : Swift.String {
-  case SHA512
-  case SHA384
-  case SHA256
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum JWKThumbprintAlgorithm : Swift.String {
-  case SHA256
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum CompressionAlgorithm : Swift.String {
-  case DEFLATE
-  case NONE
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-@available(*, deprecated, message: "Use `KeyManagementAlgorithm` instead")
-public typealias AsymmetricKeyAlgorithm = Ravelin3DS.KeyManagementAlgorithm
-@available(*, deprecated, message: "Use `ContentEncryptionAlgorithm` instead")
-public typealias SymmetricKeyAlgorithm = Ravelin3DS.ContentEncryptionAlgorithm
-public enum JWKParameter : Swift.String, Swift.CodingKey {
-  case keyType
-  case keyUse
-  case keyOperations
-  case algorithm
-  case keyIdentifier
-  case X509URL
-  case X509CertificateChain
-  case X509CertificateSHA1Thumbprint
-  case X509CertificateSHA256Thumbprint
-  public init?(rawValue: Swift.String)
-  public init?(stringValue: Swift.String)
-  public init?(intValue: Swift.Int)
-  public typealias RawValue = Swift.String
-  public var intValue: Swift.Int? {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-  public var stringValue: Swift.String {
-    get
-  }
-}
-public enum RSAParameter : Swift.String, Swift.CodingKey {
-  case modulus
-  case exponent
-  case privateExponent
-  public init?(rawValue: Swift.String)
-  public init?(stringValue: Swift.String)
-  public init?(intValue: Swift.Int)
-  public typealias RawValue = Swift.String
-  public var intValue: Swift.Int? {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-  public var stringValue: Swift.String {
-    get
-  }
-}
-public enum SymmetricKeyParameter : Swift.String, Swift.CodingKey {
-  case key
-  public init?(rawValue: Swift.String)
-  public init?(stringValue: Swift.String)
-  public init?(intValue: Swift.Int)
-  public typealias RawValue = Swift.String
-  public var intValue: Swift.Int? {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-  public var stringValue: Swift.String {
-    get
-  }
-}
-public enum ECParameter : Swift.String, Swift.CodingKey {
-  case curve
-  case x
-  case y
-  case privateKey
-  public init?(rawValue: Swift.String)
-  public init?(stringValue: Swift.String)
-  public init?(intValue: Swift.Int)
-  public typealias RawValue = Swift.String
-  public var intValue: Swift.Int? {
-    get
-  }
-  public var rawValue: Swift.String {
-    get
-  }
-  public var stringValue: Swift.String {
-    get
-  }
-}
 public class R3DS2Warning {
   public init(warningId: Swift.String, message: Swift.String, severity: Ravelin3DS.R3DS2Severity)
   public func getID() -> Swift.String
   public func getMessage() -> Swift.String
   public func getSeverity() -> Ravelin3DS.R3DS2Severity
   @objc deinit
-}
-extension Ravelin3DS.ECPublicKey : Swift.Encodable {
-  public func encode(to encoder: Swift.Encoder) throws
-}
-extension Ravelin3DS.ECPublicKey : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
-}
-extension Ravelin3DS.ECPrivateKey : Swift.Encodable {
-  public func encode(to encoder: Swift.Encoder) throws
-}
-extension Ravelin3DS.ECPrivateKey : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
-}
-extension Foundation.Data : Ravelin3DS.ExpressibleAsECPublicKeyComponents {
-  public static func representing(ecPublicKeyComponents components: Ravelin3DS.ECPublicKeyComponents) throws -> Foundation.Data
-  public func ecPublicKeyComponents() throws -> Ravelin3DS.ECPublicKeyComponents
 }
 @objc @_inheritsConvenienceInitializers public class R3DS2ButtonCustomization : Ravelin3DS.R3DS2Customization {
   public func setBackgroundColor(hexColorCode: Swift.String) throws
@@ -287,84 +50,6 @@ extension Foundation.Data : Ravelin3DS.ExpressibleAsECPublicKeyComponents {
   @objc override public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc override dynamic public init()
   @objc deinit
-}
-public struct Payload : Ravelin3DS.DataConvertible {
-  public init(_ payload: Foundation.Data)
-  public func data() -> Foundation.Data
-}
-public struct JWSHeader {
-  public init(algorithm: Ravelin3DS.SignatureAlgorithm)
-  public init(parameters: [Swift.String : Any]) throws
-}
-extension Ravelin3DS.JWSHeader {
-  public var algorithm: Ravelin3DS.SignatureAlgorithm? {
-    get
-  }
-}
-extension Ravelin3DS.JWSHeader : Ravelin3DS.CommonHeaderParameterSpace {
-  public var jku: Foundation.URL? {
-    get
-    set
-  }
-  public var jwk: Swift.String? {
-    get
-    set
-  }
-  public var jwkTyped: Ravelin3DS.JWK? {
-    get
-    set
-  }
-  public var kid: Swift.String? {
-    get
-    set
-  }
-  public var x5u: Foundation.URL? {
-    get
-    set
-  }
-  public var x5c: [Swift.String]? {
-    get
-    set
-  }
-  public var x5t: Swift.String? {
-    get
-    set
-  }
-  public var x5tS256: Swift.String? {
-    get
-    set
-  }
-  public var typ: Swift.String? {
-    get
-    set
-  }
-  public var cty: Swift.String? {
-    get
-    set
-  }
-  public var crit: [Swift.String]? {
-    get
-    set
-  }
-}
-extension Ravelin3DS.SymmetricKey : Swift.Encodable {
-  public func encode(to encoder: Swift.Encoder) throws
-}
-extension Ravelin3DS.SymmetricKey : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
-}
-public protocol CommonHeaderParameterSpace {
-  var jku: Foundation.URL? { get set }
-  var jwk: Swift.String? { get set }
-  var jwkTyped: Ravelin3DS.JWK? { get set }
-  var kid: Swift.String? { get set }
-  var x5u: Foundation.URL? { get set }
-  var x5c: [Swift.String]? { get set }
-  var x5t: Swift.String? { get set }
-  var x5tS256: Swift.String? { get set }
-  var typ: Swift.String? { get set }
-  var cty: Swift.String? { get set }
-  var crit: [Swift.String]? { get set }
 }
 public protocol R3DS2ChallengeView {
   var viewController: UIKit.UIViewController { get }
@@ -393,128 +78,9 @@ public let kConfigDefaultGroupName: Swift.String
   @objc override dynamic public init()
   @objc deinit
 }
-public protocol DataConvertible {
-  init?(_ data: Foundation.Data)
-  func data() -> Foundation.Data
-}
-extension Ravelin3DS.RSAPublicKey : Swift.Encodable {
-  public func encode(to encoder: Swift.Encoder) throws
-}
-extension Ravelin3DS.RSAPublicKey : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
-}
-extension Ravelin3DS.RSAPrivateKey : Swift.Encodable {
-  public func encode(to encoder: Swift.Encoder) throws
-}
-extension Ravelin3DS.RSAPrivateKey : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
-}
-public enum JWKKeyType : Swift.String, Swift.Codable {
-  case RSA
-  case OCT
-  case EC
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public protocol JWK : Swift.Decodable, Swift.Encodable {
-  var keyType: Ravelin3DS.JWKKeyType { get }
-  var parameters: [Swift.String : Swift.String] { get }
-  var requiredParameters: [Swift.String : Swift.String] { get }
-  subscript(parameter: Swift.String) -> Swift.String? { get }
-  init(data: Foundation.Data) throws
-  func jsonString() -> Swift.String?
-  func jsonData() -> Foundation.Data?
-  @available(iOS 11.0, *)
-  func thumbprint(algorithm: Ravelin3DS.JWKThumbprintAlgorithm) throws -> Swift.String
-  @available(iOS 11.0, *)
-  func withThumbprintAsKeyId(algorithm: Ravelin3DS.JWKThumbprintAlgorithm) throws -> Self
-}
-extension Ravelin3DS.JWK {
-  @available(iOS 11.0, *)
-  public func thumbprint(algorithm: Ravelin3DS.JWKThumbprintAlgorithm = .SHA256) throws -> Swift.String
-}
 extension UIKit.UIColor {
   convenience public init?(hexColorCode: Swift.String?)
 }
-public struct JWE {
-  public let header: Ravelin3DS.JWEHeader
-  public let encryptedKey: Foundation.Data
-  public let initializationVector: Foundation.Data
-  public let ciphertext: Foundation.Data
-  public let authenticationTag: Foundation.Data
-  public var compactSerializedString: Swift.String {
-    get
-  }
-  public var compactSerializedData: Foundation.Data {
-    get
-  }
-  public init<KeyType>(header: Ravelin3DS.JWEHeader, payload: Ravelin3DS.Payload, encrypter: Ravelin3DS.Encrypter<KeyType>) throws
-  public init(compactSerialization: Swift.String) throws
-  public init(compactSerialization: Foundation.Data) throws
-  @available(*, deprecated, message: "Use `decrypt(using decrypter:)` instead")
-  public func decrypt<KeyType>(with key: KeyType) throws -> Ravelin3DS.Payload
-  public func decrypt(using decrypter: Ravelin3DS.Decrypter) throws -> Ravelin3DS.Payload
-}
-extension Ravelin3DS.JWE : Ravelin3DS.CompactSerializable {
-  public func serialize(to serializer: inout Ravelin3DS.CompactSerializer)
-}
-extension Ravelin3DS.JWE : Ravelin3DS.CompactDeserializable {
-  public static var componentCount: Swift.Int {
-    get
-  }
-  public init(from deserializer: Ravelin3DS.CompactDeserializer) throws
-}
-extension Foundation.Data : Ravelin3DS.ExpressibleAsRSAPublicKeyComponents {
-  public static func representing(rsaPublicKeyComponents components: Ravelin3DS.RSAPublicKeyComponents) throws -> Foundation.Data
-  public func rsaPublicKeyComponents() throws -> Ravelin3DS.RSAPublicKeyComponents
-}
-public typealias ECPublicKeyComponents = (crv: Swift.String, x: Foundation.Data, y: Foundation.Data)
-public typealias ECPrivateKeyComponents = (crv: Swift.String, x: Foundation.Data, y: Foundation.Data, d: Foundation.Data)
-public protocol ExpressibleAsECPublicKeyComponents {
-  static func representing(ecPublicKeyComponents components: Ravelin3DS.ECPublicKeyComponents) throws -> Self
-  func ecPublicKeyComponents() throws -> Ravelin3DS.ECPublicKeyComponents
-}
-public protocol ExpressibleAsECPrivateKeyComponents {
-  static func representing(ecPrivateKeyComponents components: Ravelin3DS.ECPrivateKeyComponents) throws -> Self
-  func ecPrivateKeyComponents() throws -> Ravelin3DS.ECPrivateKeyComponents
-}
-public struct ECPublicKey : Ravelin3DS.JWK {
-  public let keyType: Ravelin3DS.JWKKeyType
-  public let parameters: [Swift.String : Swift.String]
-  public var requiredParameters: [Swift.String : Swift.String] {
-    get
-  }
-  public let crv: Ravelin3DS.ECCurveType
-  public let x: Swift.String
-  public let y: Swift.String
-  public init(crv: Ravelin3DS.ECCurveType, x: Swift.String, y: Swift.String, additionalParameters parameters: [Swift.String : Swift.String] = [:])
-  public init(publicKey: Ravelin3DS.ExpressibleAsECPublicKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
-  public init(data: Foundation.Data) throws
-  public func converted<T>(to type: T.Type) throws -> T where T : Ravelin3DS.ExpressibleAsECPublicKeyComponents
-  @available(iOS 11.0, *)
-  public func withThumbprintAsKeyId(algorithm: Ravelin3DS.JWKThumbprintAlgorithm = .SHA256) throws -> Ravelin3DS.ECPublicKey
-}
-public struct ECPrivateKey : Ravelin3DS.JWK {
-  public let keyType: Ravelin3DS.JWKKeyType
-  public let parameters: [Swift.String : Swift.String]
-  public var requiredParameters: [Swift.String : Swift.String] {
-    get
-  }
-  public let crv: Ravelin3DS.ECCurveType
-  public let x: Swift.String
-  public let y: Swift.String
-  public let privateKey: Swift.String
-  public init(crv: Swift.String, x: Swift.String, y: Swift.String, privateKey: Swift.String, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
-  public init(privateKey: Ravelin3DS.ExpressibleAsECPrivateKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
-  public init(data: Foundation.Data) throws
-  public func converted<T>(to type: T.Type) throws -> T where T : Ravelin3DS.ExpressibleAsECPrivateKeyComponents
-  @available(iOS 11.0, *)
-  public func withThumbprintAsKeyId(algorithm: Ravelin3DS.JWKThumbprintAlgorithm = .SHA256) throws -> Ravelin3DS.ECPrivateKey
-}
-public typealias ECKeyPair = Ravelin3DS.ECPrivateKey
 @objc @_inheritsConvenienceInitializers public class R3DS2UiCustomization : ObjectiveC.NSObject, Foundation.NSCopying {
   public func setButtonCustomization(buttonCustomization: Ravelin3DS.R3DS2ButtonCustomization, buttonType: Ravelin3DS.R3DS2ButtonType) throws
   public func setButtonCustomization(buttonCustomization: Ravelin3DS.R3DS2ButtonCustomization, btnType: Swift.String) throws
@@ -559,12 +125,6 @@ public enum R3DS2ButtonType : Swift.Int, Swift.RawRepresentable, Swift.Equatable
     get
   }
 }
-extension Ravelin3DS.JWKSet : Swift.Encodable {
-  public func encode(to encoder: Swift.Encoder) throws
-}
-extension Ravelin3DS.JWKSet : Swift.Decodable {
-  public init(from decoder: Swift.Decoder) throws
-}
 @objc @_inheritsConvenienceInitializers public class R3DS2LabelCustomization : Ravelin3DS.R3DS2Customization {
   public func setHeadingTextColor(hexColorCode: Swift.String) throws
   public func setHeadingDarkTextColor(hexColorCode: Swift.String) throws
@@ -578,73 +138,10 @@ extension Ravelin3DS.JWKSet : Swift.Decodable {
   @objc override dynamic public init()
   @objc deinit
 }
-public struct JWKSet {
-  public let keys: [Ravelin3DS.JWK]
-  public init(keys: [Ravelin3DS.JWK])
-  public init(data: Foundation.Data) throws
-  public func jsonString() -> Swift.String?
-  public func jsonData() -> Foundation.Data?
-}
-extension Ravelin3DS.JWKSet : Swift.Collection {
-  public typealias ArrayType = [Ravelin3DS.JWK]
-  public typealias Element = Ravelin3DS.JWKSet.ArrayType.Element
-  public typealias Index = Ravelin3DS.JWKSet.ArrayType.Index
-  public typealias Iterator = Ravelin3DS.JWKSet.ArrayType.Iterator
-  public var startIndex: Ravelin3DS.JWKSet.Index {
-    get
-  }
-  public var endIndex: Ravelin3DS.JWKSet.Index {
-    get
-  }
-  public subscript(index: Ravelin3DS.JWKSet.Index) -> Ravelin3DS.JWKSet.Element {
-    get
-  }
-  public func index(after index: Ravelin3DS.JWKSet.Index) -> Ravelin3DS.JWKSet.Index
-  public func makeIterator() -> Swift.IndexingIterator<Ravelin3DS.JWKSet.ArrayType>
-  public typealias Indices = Swift.DefaultIndices<Ravelin3DS.JWKSet>
-  public typealias SubSequence = Swift.Slice<Ravelin3DS.JWKSet>
-}
-extension Ravelin3DS.JWKSet : Swift.ExpressibleByArrayLiteral {
-  public typealias ArrayLiteralElement = Ravelin3DS.JWKSet.Element
-  public init(arrayLiteral elements: Ravelin3DS.JWKSet.ArrayLiteralElement...)
-}
-public struct JWS {
-  public let header: Ravelin3DS.JWSHeader
-  public let payload: Ravelin3DS.Payload
-  public let signature: Foundation.Data
-  public var compactSerializedString: Swift.String {
-    get
-  }
-  public var compactSerializedData: Foundation.Data {
-    get
-  }
-  public init<KeyType>(header: Ravelin3DS.JWSHeader, payload: Ravelin3DS.Payload, signer: Ravelin3DS.Signer<KeyType>) throws
-  public init(compactSerialization: Swift.String) throws
-  public init(compactSerialization: Foundation.Data) throws
-  @available(*, deprecated, message: "Use `isValid(for verifier:)` instead")
-  public func isValid<KeyType>(for publicKey: KeyType) -> Swift.Bool
-  @available(*, deprecated, message: "Use `validate(using verifier:)` instead")
-  public func validate<KeyType>(with publicKey: KeyType) throws -> Ravelin3DS.JWS
-  public func validate(using verifier: Ravelin3DS.Verifier) throws -> Ravelin3DS.JWS
-  public func isValid(for verifier: Ravelin3DS.Verifier) -> Swift.Bool
-}
-extension Ravelin3DS.JWS : Ravelin3DS.CompactSerializable {
-  public func serialize(to serializer: inout Ravelin3DS.CompactSerializer)
-}
-extension Ravelin3DS.JWS : Ravelin3DS.CompactDeserializable {
-  public static var componentCount: Swift.Int {
-    get
-  }
-  public init(from deserializer: Ravelin3DS.CompactDeserializer) throws
-}
 @objc @_hasMissingDesignatedInitializers public class R3DS2AuthenticationResponse : ObjectiveC.NSObject, Swift.Codable {
   @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
-}
-extension Foundation.Data : Ravelin3DS.ExpressibleAsECPrivateKeyComponents {
-  public static func representing(ecPrivateKeyComponents components: Ravelin3DS.ECPrivateKeyComponents) throws -> Foundation.Data
-  public func ecPrivateKeyComponents() throws -> Ravelin3DS.ECPrivateKeyComponents
 }
 public protocol R3DS2Transaction {
   func getAuthenticationRequestParameters() throws -> Ravelin3DS.R3DS2AuthenticationRequestParameters
@@ -665,91 +162,6 @@ public enum R3DS2Severity : Swift.Int, Swift.RawRepresentable, Swift.Equatable, 
   public var rawValue: Swift.Int {
     get
   }
-}
-public struct JWEHeader {
-  public init(keyManagementAlgorithm: Ravelin3DS.KeyManagementAlgorithm, contentEncryptionAlgorithm: Ravelin3DS.ContentEncryptionAlgorithm)
-  public init(parameters: [Swift.String : Any]) throws
-}
-extension Ravelin3DS.JWEHeader {
-  public var keyManagementAlgorithm: Ravelin3DS.KeyManagementAlgorithm? {
-    get
-  }
-  public var contentEncryptionAlgorithm: Ravelin3DS.ContentEncryptionAlgorithm? {
-    get
-  }
-  public var compressionAlgorithm: Ravelin3DS.CompressionAlgorithm? {
-    get
-  }
-  public var zip: Swift.String? {
-    get
-    set
-  }
-}
-extension Ravelin3DS.JWEHeader : Ravelin3DS.CommonHeaderParameterSpace {
-  public var jku: Foundation.URL? {
-    get
-    set
-  }
-  public var jwk: Swift.String? {
-    get
-    set
-  }
-  public var jwkTyped: Ravelin3DS.JWK? {
-    get
-    set
-  }
-  public var kid: Swift.String? {
-    get
-    set
-  }
-  public var x5u: Foundation.URL? {
-    get
-    set
-  }
-  public var x5c: [Swift.String]? {
-    get
-    set
-  }
-  public var x5t: Swift.String? {
-    get
-    set
-  }
-  public var x5tS256: Swift.String? {
-    get
-    set
-  }
-  public var typ: Swift.String? {
-    get
-    set
-  }
-  public var cty: Swift.String? {
-    get
-    set
-  }
-  public var crit: [Swift.String]? {
-    get
-    set
-  }
-}
-extension Ravelin3DS.JWEHeader {
-  @available(*, deprecated, message: "Use `JWEHeader.keyManagementAlgorithm` instead")
-  public var algorithm: Ravelin3DS.AsymmetricKeyAlgorithm? {
-    get
-  }
-  @available(*, deprecated, message: "Use `JWEHeader.contentEncryptionAlgorithm` instead")
-  public var encryptionAlgorithm: Ravelin3DS.SymmetricKeyAlgorithm? {
-    get
-  }
-  @available(*, deprecated, message: "Use `init(keyManagementAlgorithm:contentEncryptionAlgorithm` instead")
-  public init(algorithm: Ravelin3DS.AsymmetricKeyAlgorithm, encryptionAlgorithm: Ravelin3DS.SymmetricKeyAlgorithm)
-}
-extension Security.SecKey : Ravelin3DS.ExpressibleAsECPrivateKeyComponents {
-  public static func representing(ecPrivateKeyComponents components: Ravelin3DS.ECPrivateKeyComponents) throws -> Self
-  public func ecPrivateKeyComponents() throws -> Ravelin3DS.ECPrivateKeyComponents
-}
-extension Security.SecKey : Ravelin3DS.ExpressibleAsECPublicKeyComponents {
-  public static func representing(ecPublicKeyComponents components: Ravelin3DS.ECPublicKeyComponents) throws -> Self
-  public func ecPublicKeyComponents() throws -> Ravelin3DS.ECPublicKeyComponents
 }
 @objc @_inheritsConvenienceInitializers public class R3DS2Error : ObjectiveC.NSObject {
   public static func InvalidInput(message: Swift.String, cause: Swift.Error?) -> Swift.Error
@@ -783,25 +195,6 @@ public enum R3DS2ErrorCode : Swift.String, Swift.Equatable, Swift.Hashable, Swif
     get
   }
 }
-public typealias SymmetricKeyComponents = (Foundation.Data)
-public protocol ExpressibleAsSymmetricKeyComponents {
-  static func representing(symmetricKeyComponents components: Ravelin3DS.SymmetricKeyComponents) throws -> Self
-  func symmetricKeyComponents() throws -> Ravelin3DS.SymmetricKeyComponents
-}
-public struct SymmetricKey : Ravelin3DS.JWK {
-  public let keyType: Ravelin3DS.JWKKeyType
-  public let parameters: [Swift.String : Swift.String]
-  public var requiredParameters: [Swift.String : Swift.String] {
-    get
-  }
-  public let key: Swift.String
-  public init(key: Foundation.Data, additionalParameters parameters: [Swift.String : Swift.String] = [:])
-  public init(key: Ravelin3DS.ExpressibleAsSymmetricKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
-  public init(data: Foundation.Data) throws
-  public func converted<T>(to type: T.Type) throws -> T where T : Ravelin3DS.ExpressibleAsSymmetricKeyComponents
-  @available(iOS 11.0, *)
-  public func withThumbprintAsKeyId(algorithm: Ravelin3DS.JWKThumbprintAlgorithm = .SHA256) throws -> Ravelin3DS.SymmetricKey
-}
 @objc @_inheritsConvenienceInitializers public class R3DS2ChallengeParameters : ObjectiveC.NSObject {
   convenience public init(authenticationResponse authResponse: Ravelin3DS.R3DS2AuthenticationResponse?)
   public func set3DSServerTransactionID(_ threeDSServerTransactionID: Swift.String)
@@ -816,60 +209,6 @@ public struct SymmetricKey : Ravelin3DS.JWK {
   public func getThreeDSRequestorAppURL() -> Swift.String
   @objc override dynamic public init()
   @objc deinit
-}
-public enum ECCurveType : Swift.String, Swift.Codable {
-  case P256
-  case P384
-  case P521
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
-public enum ECCompression : Swift.UInt8 {
-  case CompressedYEven
-  case CompressedYOdd
-  case Uncompressed
-  case HybridYEven
-  case HybridYOdd
-  public init?(rawValue: Swift.UInt8)
-  public typealias RawValue = Swift.UInt8
-  public var rawValue: Swift.UInt8 {
-    get
-  }
-}
-public protocol CompactDeserializable {
-  static var componentCount: Swift.Int { get }
-  init(from deserializer: Ravelin3DS.CompactDeserializer) throws
-}
-public protocol CompactDeserializer {
-  func deserialize<T>(_ type: T.Type, at index: Swift.Int) throws -> T where T : Ravelin3DS.DataConvertible
-}
-public struct JOSEDeserializer {
-  public init()
-  public func deserialize<T>(_ type: T.Type, fromCompactSerialization compactSerialization: Swift.String) throws -> T where T : Ravelin3DS.CompactDeserializable
-}
-public enum ComponentCompactSerializedIndex {
-}
-extension Foundation.Data : Ravelin3DS.ExpressibleAsSymmetricKeyComponents {
-  public static func representing(symmetricKeyComponents components: Ravelin3DS.SymmetricKeyComponents) throws -> Foundation.Data
-  public func symmetricKeyComponents() throws -> Ravelin3DS.SymmetricKeyComponents
-}
-public struct Decrypter {
-  public init?<KeyType>(keyManagementAlgorithm: Ravelin3DS.KeyManagementAlgorithm, contentEncryptionAlgorithm: Ravelin3DS.ContentEncryptionAlgorithm, decryptionKey: KeyType)
-}
-extension Ravelin3DS.Decrypter {
-  @available(*, deprecated, message: "Use `init?(keyManagementAlgorithm:contentEncryptionAlgorithm:decryptionKey:)` instead")
-  public init?<KeyType>(keyDecryptionAlgorithm: Ravelin3DS.AsymmetricKeyAlgorithm, decryptionKey key: KeyType, contentDecryptionAlgorithm: Ravelin3DS.SymmetricKeyAlgorithm)
-  @available(*, deprecated, message: "Use `init?(keyManagementAlgorithm:contentEncryptionAlgorithm:decryptionKey:)` instead")
-  public init?<KeyType>(keyDecryptionAlgorithm: Ravelin3DS.AsymmetricKeyAlgorithm, keyDecryptionKey kdk: KeyType, contentDecryptionAlgorithm: Ravelin3DS.SymmetricKeyAlgorithm)
-}
-@available(*, deprecated, message: "This type will be removed with the next major release.")
-public struct DecryptionContext {
-}
-@available(*, deprecated, message: "This type will be removed with the next major release.")
-public struct SymmetricDecryptionContext {
 }
 @objc public class R3DS2AuthenticationRequestParameters : ObjectiveC.NSObject {
   public init(sdkTransactionId: Swift.String, deviceData: Swift.String, sdkEphemeralPublicKey: Swift.String, sdkAppId: Swift.String, sdkReferenceNumber: Swift.String, messageVersion: Swift.String, directoryServerId: Swift.String) throws
@@ -893,30 +232,6 @@ public struct SymmetricDecryptionContext {
   @objc override public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   @objc override dynamic public init()
   @objc deinit
-}
-public struct Verifier {
-  public init?<KeyType>(verifyingAlgorithm: Ravelin3DS.SignatureAlgorithm, key: KeyType)
-}
-extension Ravelin3DS.Verifier {
-  @available(*, deprecated, message: "Use `init?(verifyingAlgorithm: SignatureAlgorithm, key: KeyType)` instead")
-  public init?<KeyType>(verifyingAlgorithm: Ravelin3DS.SignatureAlgorithm, publicKey: KeyType)
-}
-public protocol CompactSerializable {
-  func serialize(to serializer: inout Ravelin3DS.CompactSerializer)
-}
-public protocol CompactSerializer {
-  var components: [Ravelin3DS.DataConvertible] { get }
-  mutating func serialize<T>(_ object: T) where T : Ravelin3DS.DataConvertible
-}
-public struct JOSESerializer {
-  public func serialize<T>(compact object: T) -> Swift.String where T : Ravelin3DS.CompactSerializable
-}
-public enum SecureRandomError : Swift.Error {
-  case failed(status: Darwin.OSStatus)
-  case countMustBeGreaterThanZero
-}
-public struct SecureRandom {
-  public static func generate(count: Swift.Int) throws -> Foundation.Data
 }
 public protocol R3DS2ChallengeStatusReceiver : AnyObject {
   func completed(completionEvent: Ravelin3DS.R3DS2CompletionEvent)
@@ -973,96 +288,3 @@ public protocol R3DS2Service {
   public func cleanup() throws
   @objc deinit
 }
-public typealias RSAPublicKeyComponents = (modulus: Foundation.Data, exponent: Foundation.Data)
-public typealias RSAPrivateKeyComponents = (modulus: Foundation.Data, exponent: Foundation.Data, privateExponent: Foundation.Data)
-public protocol ExpressibleAsRSAPublicKeyComponents {
-  static func representing(rsaPublicKeyComponents components: Ravelin3DS.RSAPublicKeyComponents) throws -> Self
-  func rsaPublicKeyComponents() throws -> Ravelin3DS.RSAPublicKeyComponents
-}
-public protocol ExpressibleAsRSAPrivateKeyComponents {
-  static func representing(rsaPrivateKeyComponents components: Ravelin3DS.RSAPrivateKeyComponents) throws -> Self
-  func rsaPrivateKeyComponents() throws -> Ravelin3DS.RSAPrivateKeyComponents
-}
-public struct RSAPublicKey : Ravelin3DS.JWK {
-  public let keyType: Ravelin3DS.JWKKeyType
-  public let parameters: [Swift.String : Swift.String]
-  public var requiredParameters: [Swift.String : Swift.String] {
-    get
-  }
-  public let modulus: Swift.String
-  public let exponent: Swift.String
-  public init(modulus: Swift.String, exponent: Swift.String, additionalParameters parameters: [Swift.String : Swift.String] = [:])
-  public init(publicKey: Ravelin3DS.ExpressibleAsRSAPublicKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
-  public init(data: Foundation.Data) throws
-  public func converted<T>(to type: T.Type) throws -> T where T : Ravelin3DS.ExpressibleAsRSAPublicKeyComponents
-  @available(iOS 11.0, *)
-  public func withThumbprintAsKeyId(algorithm: Ravelin3DS.JWKThumbprintAlgorithm = .SHA256) throws -> Ravelin3DS.RSAPublicKey
-}
-public struct RSAPrivateKey : Ravelin3DS.JWK {
-  public let keyType: Ravelin3DS.JWKKeyType
-  public let parameters: [Swift.String : Swift.String]
-  public var requiredParameters: [Swift.String : Swift.String] {
-    get
-  }
-  public let modulus: Swift.String
-  public let exponent: Swift.String
-  public let privateExponent: Swift.String
-  public init(modulus: Swift.String, exponent: Swift.String, privateExponent: Swift.String, additionalParameters parameters: [Swift.String : Swift.String] = [:])
-  public init(privateKey: Ravelin3DS.ExpressibleAsRSAPrivateKeyComponents, additionalParameters parameters: [Swift.String : Swift.String] = [:]) throws
-  public init(data: Foundation.Data) throws
-  public func converted<T>(to type: T.Type) throws -> T where T : Ravelin3DS.ExpressibleAsRSAPrivateKeyComponents
-  @available(iOS 11.0, *)
-  public func withThumbprintAsKeyId(algorithm: Ravelin3DS.JWKThumbprintAlgorithm = .SHA256) throws -> Ravelin3DS.RSAPrivateKey
-}
-public typealias RSAKeyPair = Ravelin3DS.RSAPrivateKey
-extension Foundation.Data {
-  public init?(base64URLEncoded base64URLString: Swift.String)
-  public init?(base64URLEncoded base64URLData: Foundation.Data)
-  public func base64URLEncodedString() -> Swift.String
-  public func base64URLEncodedData() -> Foundation.Data
-}
-extension Foundation.Data : Ravelin3DS.DataConvertible {
-  public init(_ data: Foundation.Data)
-  public func data() -> Foundation.Data
-}
-extension Ravelin3DS.JWKThumbprintAlgorithm : Swift.Equatable {}
-extension Ravelin3DS.JWKThumbprintAlgorithm : Swift.Hashable {}
-extension Ravelin3DS.JWKThumbprintAlgorithm : Swift.RawRepresentable {}
-extension Ravelin3DS.HMACAlgorithm : Swift.Equatable {}
-extension Ravelin3DS.HMACAlgorithm : Swift.Hashable {}
-extension Ravelin3DS.HMACAlgorithm : Swift.RawRepresentable {}
-extension Ravelin3DS.SignatureAlgorithm : Swift.Equatable {}
-extension Ravelin3DS.SignatureAlgorithm : Swift.Hashable {}
-extension Ravelin3DS.SignatureAlgorithm : Swift.RawRepresentable {}
-extension Ravelin3DS.KeyManagementAlgorithm : Swift.Equatable {}
-extension Ravelin3DS.KeyManagementAlgorithm : Swift.Hashable {}
-extension Ravelin3DS.KeyManagementAlgorithm : Swift.RawRepresentable {}
-extension Ravelin3DS.ContentEncryptionAlgorithm : Swift.Equatable {}
-extension Ravelin3DS.ContentEncryptionAlgorithm : Swift.Hashable {}
-extension Ravelin3DS.ContentEncryptionAlgorithm : Swift.RawRepresentable {}
-extension Ravelin3DS.CompressionAlgorithm : Swift.Equatable {}
-extension Ravelin3DS.CompressionAlgorithm : Swift.Hashable {}
-extension Ravelin3DS.CompressionAlgorithm : Swift.RawRepresentable {}
-extension Ravelin3DS.JWKParameter : Swift.Equatable {}
-extension Ravelin3DS.JWKParameter : Swift.Hashable {}
-extension Ravelin3DS.JWKParameter : Swift.RawRepresentable {}
-extension Ravelin3DS.RSAParameter : Swift.Equatable {}
-extension Ravelin3DS.RSAParameter : Swift.Hashable {}
-extension Ravelin3DS.RSAParameter : Swift.RawRepresentable {}
-extension Ravelin3DS.SymmetricKeyParameter : Swift.Equatable {}
-extension Ravelin3DS.SymmetricKeyParameter : Swift.Hashable {}
-extension Ravelin3DS.SymmetricKeyParameter : Swift.RawRepresentable {}
-extension Ravelin3DS.ECParameter : Swift.Equatable {}
-extension Ravelin3DS.ECParameter : Swift.Hashable {}
-extension Ravelin3DS.ECParameter : Swift.RawRepresentable {}
-extension Ravelin3DS.JWSHeader : Ravelin3DS.DataConvertible {}
-extension Ravelin3DS.JWKKeyType : Swift.Equatable {}
-extension Ravelin3DS.JWKKeyType : Swift.Hashable {}
-extension Ravelin3DS.JWKKeyType : Swift.RawRepresentable {}
-extension Ravelin3DS.JWEHeader : Ravelin3DS.DataConvertible {}
-extension Ravelin3DS.ECCurveType : Swift.Equatable {}
-extension Ravelin3DS.ECCurveType : Swift.Hashable {}
-extension Ravelin3DS.ECCurveType : Swift.RawRepresentable {}
-extension Ravelin3DS.ECCompression : Swift.Equatable {}
-extension Ravelin3DS.ECCompression : Swift.Hashable {}
-extension Ravelin3DS.ECCompression : Swift.RawRepresentable {}
