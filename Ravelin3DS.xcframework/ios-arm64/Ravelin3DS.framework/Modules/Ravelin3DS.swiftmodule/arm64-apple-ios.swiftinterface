@@ -53,7 +53,8 @@ public protocol R3DS2ChallengeView {
   var viewController: UIKit.UIViewController { get }
 }
 public let kConfigDefaultGroupName: Swift.String
-@_hasMissingDesignatedInitializers public class R3DS2ConfigParameters {
+public class R3DS2ConfigParameters {
+  public init()
   convenience public init(parameters: [Swift.String : Any]?, group: Swift.String = kConfigDefaultGroupName)
   public func addParam(group: Swift.String? = nil, paramName: Swift.String, paramValue: Swift.String) throws
   public func getParamValue(group: Swift.String? = nil, paramName: Swift.String) throws -> Swift.String?
@@ -152,12 +153,11 @@ public enum R3DS2Severity : Swift.Int, Swift.RawRepresentable, Swift.Equatable, 
     get
   }
 }
-@objc @_inheritsConvenienceInitializers public class R3DS2Error : ObjectiveC.NSObject {
+@_hasMissingDesignatedInitializers public class R3DS2Error {
   public static func InvalidInput(message: Swift.String, cause: Swift.Error?) -> Swift.Error
   public static func SDKAlreadyInitialized(message: Swift.String, cause: Swift.Error?) -> Swift.Error
   public static func SDKNotInitialized(message: Swift.String, cause: Swift.Error?) -> Swift.Error
   public static func SDKRuntime(message: Swift.String, errorCode: Swift.String?, cause: Swift.Error?) -> Swift.Error
-  @objc override dynamic public init()
   @objc deinit
 }
 public enum R3DS2ErrorCode : Swift.String, Swift.Equatable, Swift.Hashable, Swift.RawRepresentable {
@@ -184,7 +184,8 @@ public enum R3DS2ErrorCode : Swift.String, Swift.Equatable, Swift.Hashable, Swif
     get
   }
 }
-@_hasMissingDesignatedInitializers public class R3DS2ChallengeParameters {
+public class R3DS2ChallengeParameters {
+  public init()
   convenience public init(authenticationResponse authResponse: Ravelin3DS.R3DS2AuthenticationResponse?)
   public func set3DSServerTransactionID(_ threeDSServerTransactionID: Swift.String)
   public func setAcsTransactionID(_ acsTransactionID: Swift.String)

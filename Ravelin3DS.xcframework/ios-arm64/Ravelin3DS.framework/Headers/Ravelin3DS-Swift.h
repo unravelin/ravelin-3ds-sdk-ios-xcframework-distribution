@@ -230,7 +230,6 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import ObjectiveC;
 #endif
 
 #endif
@@ -251,27 +250,6 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
-
-
-/// Error related to errors produced by the SDK, and interaction with it.
-/// <ul>
-///   <li>
-///     InvalidInput: represenst a run-time error that occurs due toan  invalid parameter.
-///   </li>
-///   <li>
-///     SDKAlreadyInitialized: represents an error that is thrown if the 3DS SDK instance has already been initialized.
-///   </li>
-///   <li>
-///     SDKNotInitialized: represents an error that is thrown if the 3DS SDK has not been initialized.
-///   </li>
-///   <li>
-///     SDKRuntime: represents an error that is thrown when an internal error is encountered by the 3DS SDK.
-///   </li>
-/// </ul>
-SWIFT_CLASS("_TtC10Ravelin3DS10R3DS2Error")
-@interface R3DS2Error : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
 

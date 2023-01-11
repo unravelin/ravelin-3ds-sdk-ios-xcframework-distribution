@@ -1246,6 +1246,27 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "R3DS2ConfigParameters",
+                "printedName": "Ravelin3DS.R3DS2ConfigParameters",
+                "usr": "s:10Ravelin3DS21R3DS2ConfigParametersC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10Ravelin3DS21R3DS2ConfigParametersCACycfc",
+            "mangledName": "$s10Ravelin3DS21R3DS2ConfigParametersCACycfc",
+            "moduleName": "Ravelin3DS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(parameters:group:)",
             "children": [
               {
@@ -1295,8 +1316,7 @@
             "moduleName": "Ravelin3DS",
             "declAttributes": [
               "Convenience",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "init_kind": "Convenience"
           },
@@ -1491,8 +1511,7 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       },
       {
         "kind": "Import",
@@ -4178,99 +4197,17 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2Error",
-                "printedName": "Ravelin3DS.R3DS2Error",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2Error"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2Error(im)init",
-            "mangledName": "$s10Ravelin3DS10R3DS2ErrorCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2Error",
+        "usr": "s:10Ravelin3DS10R3DS2ErrorC",
         "mangledName": "$s10Ravelin3DS10R3DS2ErrorC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
+          "RawDocComment"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "TypeDecl",
@@ -5062,6 +4999,27 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "R3DS2ChallengeParameters",
+                "printedName": "Ravelin3DS.R3DS2ChallengeParameters",
+                "usr": "s:10Ravelin3DS24R3DS2ChallengeParametersC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10Ravelin3DS24R3DS2ChallengeParametersCACycfc",
+            "mangledName": "$s10Ravelin3DS24R3DS2ChallengeParametersCACycfc",
+            "moduleName": "Ravelin3DS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(authenticationResponse:)",
             "children": [
               {
@@ -5337,8 +5295,7 @@
         "moduleName": "Ravelin3DS",
         "declAttributes": [
           "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       },
       {
         "kind": "Import",
@@ -8902,7 +8859,7 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ConfigParameters\/R3DS2ConfigParameters.swift",
       "kind": "StringLiteral",
-      "offset": 4790,
+      "offset": 4680,
       "length": 8,
       "value": "\"config\""
     },
@@ -10456,231 +10413,231 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2140,
+      "offset": 2129,
       "length": 3,
       "value": "101"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2153,
+      "offset": 2142,
       "length": 32,
       "value": "102"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2195,
+      "offset": 2184,
       "length": 25,
       "value": "103"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2264,
+      "offset": 2253,
       "length": 3,
       "value": "201"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2277,
+      "offset": 2266,
       "length": 37,
       "value": "202"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2324,
+      "offset": 2313,
       "length": 13,
       "value": "203"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2347,
+      "offset": 2336,
       "length": 20,
       "value": "204"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2411,
+      "offset": 2400,
       "length": 3,
       "value": "301"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2424,
+      "offset": 2413,
       "length": 21,
       "value": "302"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2482,
+      "offset": 2471,
       "length": 3,
       "value": "402"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2516,
+      "offset": 2505,
       "length": 4,
       "value": "1001"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2140,
+      "offset": 2129,
       "length": 3,
       "value": "101"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2153,
+      "offset": 2142,
       "length": 32,
       "value": "102"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2195,
+      "offset": 2184,
       "length": 25,
       "value": "103"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2264,
+      "offset": 2253,
       "length": 3,
       "value": "201"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2277,
+      "offset": 2266,
       "length": 37,
       "value": "202"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2324,
+      "offset": 2313,
       "length": 13,
       "value": "203"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2347,
+      "offset": 2336,
       "length": 20,
       "value": "204"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2411,
+      "offset": 2400,
       "length": 3,
       "value": "301"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2424,
+      "offset": 2413,
       "length": 21,
       "value": "302"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2482,
+      "offset": 2471,
       "length": 3,
       "value": "402"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2516,
+      "offset": 2505,
       "length": 4,
       "value": "1001"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2140,
+      "offset": 2129,
       "length": 3,
       "value": "101"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2153,
+      "offset": 2142,
       "length": 32,
       "value": "102"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2195,
+      "offset": 2184,
       "length": 25,
       "value": "103"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2264,
+      "offset": 2253,
       "length": 3,
       "value": "201"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2277,
+      "offset": 2266,
       "length": 37,
       "value": "202"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2324,
+      "offset": 2313,
       "length": 13,
       "value": "203"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2347,
+      "offset": 2336,
       "length": 20,
       "value": "204"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2411,
+      "offset": 2400,
       "length": 3,
       "value": "301"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2424,
+      "offset": 2413,
       "length": 21,
       "value": "302"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2482,
+      "offset": 2471,
       "length": 3,
       "value": "402"
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/Exceptions\/R3DS2Error.swift",
       "kind": "IntegerLiteral",
-      "offset": 2516,
+      "offset": 2505,
       "length": 4,
       "value": "1001"
     },
