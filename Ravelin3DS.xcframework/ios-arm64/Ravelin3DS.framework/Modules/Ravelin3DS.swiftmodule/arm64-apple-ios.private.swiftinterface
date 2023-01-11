@@ -40,7 +40,8 @@ public class R3DS2Warning {
   public func getSeverity() -> Ravelin3DS.R3DS2Severity
   @objc deinit
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class R3DS2ButtonCustomization : Ravelin3DS.R3DS2Customization {
+@_inheritsConvenienceInitializers public class R3DS2ButtonCustomization : Ravelin3DS.R3DS2Customization {
+  override public init()
   public func setBackgroundColor(hexColorCode: Swift.String) throws
   public func setDarkBackgroundColor(hexColorCode: Swift.String) throws
   public func setCornerRadius(cornerRadius: Swift.Int) throws
@@ -62,7 +63,8 @@ public class R3DS2ConfigParameters {
   public static func loadFromFile(_ configFile: Swift.String = "config") -> Ravelin3DS.R3DS2ConfigParameters
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class R3DS2Customization {
+public class R3DS2Customization {
+  public init()
   public func setTextFontName(fontName: Swift.String) throws
   public func setTextColor(hexColorCode: Swift.String) throws
   public func setDarkTextColor(hexColorCode: Swift.String) throws
@@ -76,7 +78,8 @@ public class R3DS2ConfigParameters {
 extension UIKit.UIColor {
   convenience public init?(hexColorCode: Swift.String?)
 }
-@_hasMissingDesignatedInitializers public class R3DS2UiCustomization {
+public class R3DS2UiCustomization {
+  public init()
   public func setButtonCustomization(buttonCustomization: Ravelin3DS.R3DS2ButtonCustomization, buttonType: Ravelin3DS.R3DS2ButtonType) throws
   public func setButtonCustomization(buttonCustomization: Ravelin3DS.R3DS2ButtonCustomization, btnType: Swift.String) throws
   public func setToolbarCustomization(toolbarCustomization: Ravelin3DS.R3DS2ToolbarCustomization)
@@ -89,7 +92,8 @@ extension UIKit.UIColor {
   public func getTextboxCustomization() -> Ravelin3DS.R3DS2TextBoxCustomization?
   @objc deinit
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class R3DS2ToolbarCustomization : Ravelin3DS.R3DS2Customization {
+@_inheritsConvenienceInitializers public class R3DS2ToolbarCustomization : Ravelin3DS.R3DS2Customization {
+  override public init()
   public func setBackgroundColor(hexColorCode: Swift.String) throws
   public func setDarkBackgroundColor(hexColorCode: Swift.String) throws
   public func setHeaderText(headerText: Swift.String) throws
@@ -116,7 +120,8 @@ public enum R3DS2ButtonType : Swift.Int, Swift.RawRepresentable, Swift.Equatable
     get
   }
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class R3DS2LabelCustomization : Ravelin3DS.R3DS2Customization {
+@_inheritsConvenienceInitializers public class R3DS2LabelCustomization : Ravelin3DS.R3DS2Customization {
+  override public init()
   public func setHeadingTextColor(hexColorCode: Swift.String) throws
   public func setHeadingDarkTextColor(hexColorCode: Swift.String) throws
   public func setHeadingTextFontName(fontName: Swift.String) throws
@@ -208,7 +213,8 @@ public class R3DS2AuthenticationRequestParameters {
   public func getMessageVersion() -> Swift.String
   @objc deinit
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class R3DS2TextBoxCustomization : Ravelin3DS.R3DS2Customization {
+@_inheritsConvenienceInitializers public class R3DS2TextBoxCustomization : Ravelin3DS.R3DS2Customization {
+  override public init()
   public func setBorderWidth(borderWidth: Swift.Int) throws
   public func setBorderColor(hexColorCode: Swift.String) throws
   public func setDarkBorderColor(hexColorCode: Swift.String) throws
