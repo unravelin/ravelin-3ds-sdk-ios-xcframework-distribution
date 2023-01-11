@@ -1529,34 +1529,6 @@
         "printedName": "R3DS2Customization",
         "children": [
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2Customization",
-                "printedName": "Ravelin3DS.R3DS2Customization",
-                "usr": "s:10Ravelin3DS18R3DS2CustomizationC"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2Customization",
-                "printedName": "Ravelin3DS.R3DS2Customization",
-                "usr": "s:10Ravelin3DS18R3DS2CustomizationC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10Ravelin3DS18R3DS2CustomizationC4withA2C_tcfc",
-            "mangledName": "$s10Ravelin3DS18R3DS2CustomizationC4withA2C_tcfc",
-            "moduleName": "Ravelin3DS",
-            "declAttributes": [
-              "AccessControl",
-              "Convenience"
-            ],
-            "init_kind": "Convenience"
-          },
-          {
             "kind": "Function",
             "name": "setTextFontName",
             "printedName": "setTextFontName(fontName:)",

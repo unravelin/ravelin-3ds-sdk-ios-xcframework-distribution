@@ -63,7 +63,6 @@ public class R3DS2ConfigParameters {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class R3DS2Customization {
-  convenience public init(with base: Ravelin3DS.R3DS2Customization)
   public func setTextFontName(fontName: Swift.String) throws
   public func setTextColor(hexColorCode: Swift.String) throws
   public func setDarkTextColor(hexColorCode: Swift.String) throws
