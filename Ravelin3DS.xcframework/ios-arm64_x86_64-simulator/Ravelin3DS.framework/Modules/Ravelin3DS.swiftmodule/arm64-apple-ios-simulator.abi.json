@@ -1040,138 +1040,21 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "copy",
-            "printedName": "copy(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ObjectiveC.NSZone?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSZone",
-                    "printedName": "ObjectiveC.NSZone",
-                    "usr": "s:10ObjectiveC6NSZoneV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ButtonCustomization(im)copyWithZone:",
-            "mangledName": "$s10Ravelin3DS24R3DS2ButtonCustomizationC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "objc_name": "copyWithZone:",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2ButtonCustomization",
-                "printedName": "Ravelin3DS.R3DS2ButtonCustomization",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ButtonCustomization"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ButtonCustomization(im)init",
-            "mangledName": "$s10Ravelin3DS24R3DS2ButtonCustomizationCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ButtonCustomization",
+        "usr": "s:10Ravelin3DS24R3DS2ButtonCustomizationC",
         "mangledName": "$s10Ravelin3DS24R3DS2ButtonCustomizationC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
+          "RawDocComment"
         ],
-        "superclassUsr": "c:@M@Ravelin3DS@objc(cs)R3DS2Customization",
+        "superclassUsr": "s:10Ravelin3DS18R3DS2CustomizationC",
+        "hasMissingDesignatedInitializers": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "Ravelin3DS.R3DS2Customization",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
+          "Ravelin3DS.R3DS2Customization"
         ]
       },
       {
@@ -1363,39 +1246,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2ConfigParameters",
-                "printedName": "Ravelin3DS.R3DS2ConfigParameters",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ConfigParameters"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ConfigParameters(im)init",
-            "mangledName": "$s10Ravelin3DS21R3DS2ConfigParametersCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
             "printedName": "init(parameters:group:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "R3DS2ConfigParameters",
                 "printedName": "Ravelin3DS.R3DS2ConfigParameters",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ConfigParameters"
+                "usr": "s:10Ravelin3DS21R3DS2ConfigParametersC"
               },
               {
                 "kind": "TypeNominal",
@@ -1438,7 +1295,8 @@
             "moduleName": "Ravelin3DS",
             "declAttributes": [
               "Convenience",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Convenience"
           },
@@ -1604,7 +1462,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ConfigParameters",
                 "printedName": "Ravelin3DS.R3DS2ConfigParameters",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ConfigParameters"
+                "usr": "s:10Ravelin3DS21R3DS2ConfigParametersC"
               },
               {
                 "kind": "TypeNominal",
@@ -1627,70 +1485,14 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ConfigParameters",
+        "usr": "s:10Ravelin3DS21R3DS2ConfigParametersC",
         "mangledName": "$s10Ravelin3DS21R3DS2ConfigParametersC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
+          "RawDocComment"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -1716,13 +1518,13 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2Customization",
                 "printedName": "Ravelin3DS.R3DS2Customization",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2Customization"
+                "usr": "s:10Ravelin3DS18R3DS2CustomizationC"
               },
               {
                 "kind": "TypeNominal",
                 "name": "R3DS2Customization",
                 "printedName": "Ravelin3DS.R3DS2Customization",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2Customization"
+                "usr": "s:10Ravelin3DS18R3DS2CustomizationC"
               }
             ],
             "declKind": "Constructor",
@@ -1934,136 +1736,17 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "copy",
-            "printedName": "copy(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ObjectiveC.NSZone?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSZone",
-                    "printedName": "ObjectiveC.NSZone",
-                    "usr": "s:10ObjectiveC6NSZoneV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2Customization(im)copyWithZone:",
-            "mangledName": "$s10Ravelin3DS18R3DS2CustomizationC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
-            "moduleName": "Ravelin3DS",
-            "objc_name": "copyWithZone:",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2Customization",
-                "printedName": "Ravelin3DS.R3DS2Customization",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2Customization"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2Customization(im)init",
-            "mangledName": "$s10Ravelin3DS18R3DS2CustomizationCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2Customization",
+        "usr": "s:10Ravelin3DS18R3DS2CustomizationC",
         "mangledName": "$s10Ravelin3DS18R3DS2CustomizationC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
+          "RawDocComment"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -2272,7 +1955,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ButtonCustomization",
                 "printedName": "Ravelin3DS.R3DS2ButtonCustomization",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ButtonCustomization"
+                "usr": "s:10Ravelin3DS24R3DS2ButtonCustomizationC"
               },
               {
                 "kind": "TypeNominal",
@@ -2306,7 +1989,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ButtonCustomization",
                 "printedName": "Ravelin3DS.R3DS2ButtonCustomization",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ButtonCustomization"
+                "usr": "s:10Ravelin3DS24R3DS2ButtonCustomizationC"
               },
               {
                 "kind": "TypeNominal",
@@ -2340,7 +2023,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ToolbarCustomization",
                 "printedName": "Ravelin3DS.R3DS2ToolbarCustomization",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ToolbarCustomization"
+                "usr": "s:10Ravelin3DS25R3DS2ToolbarCustomizationC"
               }
             ],
             "declKind": "Func",
@@ -2367,7 +2050,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2LabelCustomization",
                 "printedName": "Ravelin3DS.R3DS2LabelCustomization",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2LabelCustomization"
+                "usr": "s:10Ravelin3DS23R3DS2LabelCustomizationC"
               }
             ],
             "declKind": "Func",
@@ -2394,7 +2077,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2TextBoxCustomization",
                 "printedName": "Ravelin3DS.R3DS2TextBoxCustomization",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2TextBoxCustomization"
+                "usr": "s:10Ravelin3DS25R3DS2TextBoxCustomizationC"
               }
             ],
             "declKind": "Func",
@@ -2421,7 +2104,7 @@
                     "kind": "TypeNominal",
                     "name": "R3DS2ButtonCustomization",
                     "printedName": "Ravelin3DS.R3DS2ButtonCustomization",
-                    "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ButtonCustomization"
+                    "usr": "s:10Ravelin3DS24R3DS2ButtonCustomizationC"
                   }
                 ],
                 "usr": "s:Sq"
@@ -2457,7 +2140,7 @@
                     "kind": "TypeNominal",
                     "name": "R3DS2ButtonCustomization",
                     "printedName": "Ravelin3DS.R3DS2ButtonCustomization",
-                    "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ButtonCustomization"
+                    "usr": "s:10Ravelin3DS24R3DS2ButtonCustomizationC"
                   }
                 ],
                 "usr": "s:Sq"
@@ -2493,7 +2176,7 @@
                     "kind": "TypeNominal",
                     "name": "R3DS2ToolbarCustomization",
                     "printedName": "Ravelin3DS.R3DS2ToolbarCustomization",
-                    "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ToolbarCustomization"
+                    "usr": "s:10Ravelin3DS25R3DS2ToolbarCustomizationC"
                   }
                 ],
                 "usr": "s:Sq"
@@ -2523,7 +2206,7 @@
                     "kind": "TypeNominal",
                     "name": "R3DS2LabelCustomization",
                     "printedName": "Ravelin3DS.R3DS2LabelCustomization",
-                    "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2LabelCustomization"
+                    "usr": "s:10Ravelin3DS23R3DS2LabelCustomizationC"
                   }
                 ],
                 "usr": "s:Sq"
@@ -2553,7 +2236,7 @@
                     "kind": "TypeNominal",
                     "name": "R3DS2TextBoxCustomization",
                     "printedName": "Ravelin3DS.R3DS2TextBoxCustomization",
-                    "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2TextBoxCustomization"
+                    "usr": "s:10Ravelin3DS25R3DS2TextBoxCustomizationC"
                   }
                 ],
                 "usr": "s:Sq"
@@ -2568,137 +2251,17 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "copy",
-            "printedName": "copy(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ObjectiveC.NSZone?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSZone",
-                    "printedName": "ObjectiveC.NSZone",
-                    "usr": "s:10ObjectiveC6NSZoneV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2UiCustomization(im)copyWithZone:",
-            "mangledName": "$s10Ravelin3DS20R3DS2UiCustomizationC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
-            "moduleName": "Ravelin3DS",
-            "objc_name": "copyWithZone:",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2UiCustomization",
-                "printedName": "Ravelin3DS.R3DS2UiCustomization",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2UiCustomization"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2UiCustomization(im)init",
-            "mangledName": "$s10Ravelin3DS20R3DS2UiCustomizationCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2UiCustomization",
+        "usr": "s:10Ravelin3DS20R3DS2UiCustomizationC",
         "mangledName": "$s10Ravelin3DS20R3DS2UiCustomizationC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
+          "RawDocComment"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -2961,138 +2524,21 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "copy",
-            "printedName": "copy(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ObjectiveC.NSZone?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSZone",
-                    "printedName": "ObjectiveC.NSZone",
-                    "usr": "s:10ObjectiveC6NSZoneV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ToolbarCustomization(im)copyWithZone:",
-            "mangledName": "$s10Ravelin3DS25R3DS2ToolbarCustomizationC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "objc_name": "copyWithZone:",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2ToolbarCustomization",
-                "printedName": "Ravelin3DS.R3DS2ToolbarCustomization",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ToolbarCustomization"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ToolbarCustomization(im)init",
-            "mangledName": "$s10Ravelin3DS25R3DS2ToolbarCustomizationCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ToolbarCustomization",
+        "usr": "s:10Ravelin3DS25R3DS2ToolbarCustomizationC",
         "mangledName": "$s10Ravelin3DS25R3DS2ToolbarCustomizationC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
+          "RawDocComment"
         ],
-        "superclassUsr": "c:@M@Ravelin3DS@objc(cs)R3DS2Customization",
+        "superclassUsr": "s:10Ravelin3DS18R3DS2CustomizationC",
+        "hasMissingDesignatedInitializers": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "Ravelin3DS.R3DS2Customization",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
+          "Ravelin3DS.R3DS2Customization"
         ]
       },
       {
@@ -3730,138 +3176,21 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "copy",
-            "printedName": "copy(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ObjectiveC.NSZone?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSZone",
-                    "printedName": "ObjectiveC.NSZone",
-                    "usr": "s:10ObjectiveC6NSZoneV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2LabelCustomization(im)copyWithZone:",
-            "mangledName": "$s10Ravelin3DS23R3DS2LabelCustomizationC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "objc_name": "copyWithZone:",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2LabelCustomization",
-                "printedName": "Ravelin3DS.R3DS2LabelCustomization",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2LabelCustomization"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2LabelCustomization(im)init",
-            "mangledName": "$s10Ravelin3DS23R3DS2LabelCustomizationCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2LabelCustomization",
+        "usr": "s:10Ravelin3DS23R3DS2LabelCustomizationC",
         "mangledName": "$s10Ravelin3DS23R3DS2LabelCustomizationC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
+          "RawDocComment"
         ],
-        "superclassUsr": "c:@M@Ravelin3DS@objc(cs)R3DS2Customization",
+        "superclassUsr": "s:10Ravelin3DS18R3DS2CustomizationC",
+        "hasMissingDesignatedInitializers": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "Ravelin3DS.R3DS2Customization",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
+          "Ravelin3DS.R3DS2Customization"
         ]
       },
       {
@@ -3902,39 +3231,13 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2AuthenticationResponse",
-                "printedName": "Ravelin3DS.R3DS2AuthenticationResponse",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2AuthenticationResponse"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2AuthenticationResponse(im)init",
-            "mangledName": "$s10Ravelin3DS27R3DS2AuthenticationResponseCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
             "printedName": "init(from:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "R3DS2AuthenticationResponse",
                 "printedName": "Ravelin3DS.R3DS2AuthenticationResponse",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2AuthenticationResponse"
+                "usr": "s:10Ravelin3DS27R3DS2AuthenticationResponseC"
               },
               {
                 "kind": "TypeNominal",
@@ -3981,18 +3284,13 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2AuthenticationResponse",
+        "usr": "s:10Ravelin3DS27R3DS2AuthenticationResponseC",
         "mangledName": "$s10Ravelin3DS27R3DS2AuthenticationResponseC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
+          "AccessControl"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
         "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
         "conformances": [
           {
             "kind": "Conformance",
@@ -4007,55 +3305,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -4204,7 +3453,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2AuthenticationRequestParameters",
                 "printedName": "Ravelin3DS.R3DS2AuthenticationRequestParameters",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2AuthenticationRequestParameters"
+                "usr": "s:10Ravelin3DS36R3DS2AuthenticationRequestParametersC"
               }
             ],
             "declKind": "Func",
@@ -4235,7 +3484,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ChallengeParameters",
                 "printedName": "Ravelin3DS.R3DS2ChallengeParameters",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ChallengeParameters"
+                "usr": "s:10Ravelin3DS24R3DS2ChallengeParametersC"
               },
               {
                 "kind": "TypeNominal",
@@ -5819,7 +5068,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ChallengeParameters",
                 "printedName": "Ravelin3DS.R3DS2ChallengeParameters",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ChallengeParameters"
+                "usr": "s:10Ravelin3DS24R3DS2ChallengeParametersC"
               },
               {
                 "kind": "TypeNominal",
@@ -5830,7 +5079,7 @@
                     "kind": "TypeNominal",
                     "name": "R3DS2AuthenticationResponse",
                     "printedName": "Ravelin3DS.R3DS2AuthenticationResponse",
-                    "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2AuthenticationResponse"
+                    "usr": "s:10Ravelin3DS27R3DS2AuthenticationResponseC"
                   }
                 ],
                 "usr": "s:Sq"
@@ -6080,98 +5329,16 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2ChallengeParameters",
-                "printedName": "Ravelin3DS.R3DS2ChallengeParameters",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ChallengeParameters"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ChallengeParameters(im)init",
-            "mangledName": "$s10Ravelin3DS24R3DS2ChallengeParametersCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ChallengeParameters",
+        "usr": "s:10Ravelin3DS24R3DS2ChallengeParametersC",
         "mangledName": "$s10Ravelin3DS24R3DS2ChallengeParametersC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
+          "AccessControl"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -6382,7 +5549,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2AuthenticationRequestParameters",
                 "printedName": "Ravelin3DS.R3DS2AuthenticationRequestParameters",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2AuthenticationRequestParameters"
+                "usr": "s:10Ravelin3DS36R3DS2AuthenticationRequestParametersC"
               },
               {
                 "kind": "TypeNominal",
@@ -6568,97 +5735,15 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2AuthenticationRequestParameters",
-                "printedName": "Ravelin3DS.R3DS2AuthenticationRequestParameters",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2AuthenticationRequestParameters"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2AuthenticationRequestParameters(im)init",
-            "mangledName": "$s10Ravelin3DS36R3DS2AuthenticationRequestParametersCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2AuthenticationRequestParameters",
+        "usr": "s:10Ravelin3DS36R3DS2AuthenticationRequestParametersC",
         "mangledName": "$s10Ravelin3DS36R3DS2AuthenticationRequestParametersC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
+          "RawDocComment"
         ]
       },
       {
@@ -6885,138 +5970,21 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "copy",
-            "printedName": "copy(with:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "Any"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "ObjectiveC.NSZone?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSZone",
-                    "printedName": "ObjectiveC.NSZone",
-                    "usr": "s:10ObjectiveC6NSZoneV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2TextBoxCustomization(im)copyWithZone:",
-            "mangledName": "$s10Ravelin3DS25R3DS2TextBoxCustomizationC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "objc_name": "copyWithZone:",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2TextBoxCustomization",
-                "printedName": "Ravelin3DS.R3DS2TextBoxCustomization",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2TextBoxCustomization"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2TextBoxCustomization(im)init",
-            "mangledName": "$s10Ravelin3DS25R3DS2TextBoxCustomizationCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2TextBoxCustomization",
+        "usr": "s:10Ravelin3DS25R3DS2TextBoxCustomizationC",
         "mangledName": "$s10Ravelin3DS25R3DS2TextBoxCustomizationC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
+          "RawDocComment"
         ],
-        "superclassUsr": "c:@M@Ravelin3DS@objc(cs)R3DS2Customization",
+        "superclassUsr": "s:10Ravelin3DS18R3DS2CustomizationC",
+        "hasMissingDesignatedInitializers": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
-          "Ravelin3DS.R3DS2Customization",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
+          "Ravelin3DS.R3DS2Customization"
         ]
       },
       {
@@ -7142,7 +6110,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2CompletionEvent",
                 "printedName": "Ravelin3DS.R3DS2CompletionEvent",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2CompletionEvent"
+                "usr": "s:10Ravelin3DS20R3DS2CompletionEventC"
               }
             ],
             "declKind": "Func",
@@ -7220,7 +6188,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ProtocolErrorEvent",
                 "printedName": "Ravelin3DS.R3DS2ProtocolErrorEvent",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ProtocolErrorEvent"
+                "usr": "s:10Ravelin3DS23R3DS2ProtocolErrorEventC"
               }
             ],
             "declKind": "Func",
@@ -7250,7 +6218,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2RuntimeErrorEvent",
                 "printedName": "Ravelin3DS.R3DS2RuntimeErrorEvent",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2RuntimeErrorEvent"
+                "usr": "s:10Ravelin3DS22R3DS2RuntimeErrorEventC"
               }
             ],
             "declKind": "Func",
@@ -7292,7 +6260,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2RuntimeErrorEvent",
                 "printedName": "Ravelin3DS.R3DS2RuntimeErrorEvent",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2RuntimeErrorEvent"
+                "usr": "s:10Ravelin3DS22R3DS2RuntimeErrorEventC"
               },
               {
                 "kind": "TypeNominal",
@@ -7373,96 +6341,14 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2RuntimeErrorEvent",
-                "printedName": "Ravelin3DS.R3DS2RuntimeErrorEvent",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2RuntimeErrorEvent"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2RuntimeErrorEvent(im)init",
-            "mangledName": "$s10Ravelin3DS22R3DS2RuntimeErrorEventCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2RuntimeErrorEvent",
+        "usr": "s:10Ravelin3DS22R3DS2RuntimeErrorEventC",
         "mangledName": "$s10Ravelin3DS22R3DS2RuntimeErrorEventC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
+          "AccessControl"
         ]
       },
       {
@@ -7479,7 +6365,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ErrorMessage",
                 "printedName": "Ravelin3DS.R3DS2ErrorMessage",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ErrorMessage"
+                "usr": "s:10Ravelin3DS17R3DS2ErrorMessageC"
               },
               {
                 "kind": "TypeNominal",
@@ -7694,97 +6580,15 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2ErrorMessage",
-                "printedName": "Ravelin3DS.R3DS2ErrorMessage",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ErrorMessage"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ErrorMessage(im)init",
-            "mangledName": "$s10Ravelin3DS17R3DS2ErrorMessageCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ErrorMessage",
+        "usr": "s:10Ravelin3DS17R3DS2ErrorMessageC",
         "mangledName": "$s10Ravelin3DS17R3DS2ErrorMessageC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
+          "RawDocComment"
         ]
       },
       {
@@ -7801,7 +6605,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ProtocolErrorEvent",
                 "printedName": "Ravelin3DS.R3DS2ProtocolErrorEvent",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ProtocolErrorEvent"
+                "usr": "s:10Ravelin3DS23R3DS2ProtocolErrorEventC"
               },
               {
                 "kind": "TypeNominal",
@@ -7813,7 +6617,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ErrorMessage",
                 "printedName": "Ravelin3DS.R3DS2ErrorMessage",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ErrorMessage"
+                "usr": "s:10Ravelin3DS17R3DS2ErrorMessageC"
               }
             ],
             "declKind": "Constructor",
@@ -7834,7 +6638,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ErrorMessage",
                 "printedName": "Ravelin3DS.R3DS2ErrorMessage",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ErrorMessage"
+                "usr": "s:10Ravelin3DS17R3DS2ErrorMessageC"
               }
             ],
             "declKind": "Func",
@@ -7866,96 +6670,14 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2ProtocolErrorEvent",
-                "printedName": "Ravelin3DS.R3DS2ProtocolErrorEvent",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ProtocolErrorEvent"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ProtocolErrorEvent(im)init",
-            "mangledName": "$s10Ravelin3DS23R3DS2ProtocolErrorEventCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ProtocolErrorEvent",
+        "usr": "s:10Ravelin3DS23R3DS2ProtocolErrorEventC",
         "mangledName": "$s10Ravelin3DS23R3DS2ProtocolErrorEventC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
+          "AccessControl"
         ]
       },
       {
@@ -7972,7 +6694,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2CompletionEvent",
                 "printedName": "Ravelin3DS.R3DS2CompletionEvent",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2CompletionEvent"
+                "usr": "s:10Ravelin3DS20R3DS2CompletionEventC"
               },
               {
                 "kind": "TypeNominal",
@@ -8037,96 +6759,14 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2CompletionEvent",
-                "printedName": "Ravelin3DS.R3DS2CompletionEvent",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2CompletionEvent"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2CompletionEvent(im)init",
-            "mangledName": "$s10Ravelin3DS20R3DS2CompletionEventCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2CompletionEvent",
+        "usr": "s:10Ravelin3DS20R3DS2CompletionEventC",
         "mangledName": "$s10Ravelin3DS20R3DS2CompletionEventC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
+          "AccessControl"
         ]
       },
       {
@@ -8162,7 +6802,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ConfigParameters",
                 "printedName": "Ravelin3DS.R3DS2ConfigParameters",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ConfigParameters"
+                "usr": "s:10Ravelin3DS21R3DS2ConfigParametersC"
               },
               {
                 "kind": "TypeNominal",
@@ -8187,7 +6827,7 @@
                     "kind": "TypeNominal",
                     "name": "R3DS2UiCustomization",
                     "printedName": "Ravelin3DS.R3DS2UiCustomization",
-                    "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2UiCustomization"
+                    "usr": "s:10Ravelin3DS20R3DS2UiCustomizationC"
                   }
                 ],
                 "usr": "s:Sq"
@@ -8221,7 +6861,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ConfigParameters",
                 "printedName": "Ravelin3DS.R3DS2ConfigParameters",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ConfigParameters"
+                "usr": "s:10Ravelin3DS21R3DS2ConfigParametersC"
               },
               {
                 "kind": "TypeNominal",
@@ -8246,7 +6886,7 @@
                     "kind": "TypeNominal",
                     "name": "R3DS2UiCustomization",
                     "printedName": "Ravelin3DS.R3DS2UiCustomization",
-                    "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2UiCustomization"
+                    "usr": "s:10Ravelin3DS20R3DS2UiCustomizationC"
                   }
                 ],
                 "usr": "s:Sq"
@@ -8447,44 +7087,12 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ServiceSDK",
                 "printedName": "Ravelin3DS.R3DS2ServiceSDK",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ServiceSDK"
+                "usr": "s:10Ravelin3DS15R3DS2ServiceSDKC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ServiceSDK(im)init",
+            "usr": "s:10Ravelin3DS15R3DS2ServiceSDKCACycfc",
             "mangledName": "$s10Ravelin3DS15R3DS2ServiceSDKCACycfc",
-            "moduleName": "Ravelin3DS",
-            "overriding": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(bundle:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "R3DS2ServiceSDK",
-                "printedName": "Ravelin3DS.R3DS2ServiceSDK",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ServiceSDK"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bundle",
-                "printedName": "Foundation.Bundle",
-                "usr": "c:objc(cs)NSBundle"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10Ravelin3DS15R3DS2ServiceSDKC6bundleACSo8NSBundleC_tcfc",
-            "mangledName": "$s10Ravelin3DS15R3DS2ServiceSDKC6bundleACSo8NSBundleC_tcfc",
             "moduleName": "Ravelin3DS",
             "declAttributes": [
               "AccessControl",
@@ -8506,7 +7114,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ConfigParameters",
                 "printedName": "Ravelin3DS.R3DS2ConfigParameters",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ConfigParameters"
+                "usr": "s:10Ravelin3DS21R3DS2ConfigParametersC"
               },
               {
                 "kind": "TypeNominal",
@@ -8531,7 +7139,7 @@
                     "kind": "TypeNominal",
                     "name": "R3DS2UiCustomization",
                     "printedName": "Ravelin3DS.R3DS2UiCustomization",
-                    "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2UiCustomization"
+                    "usr": "s:10Ravelin3DS20R3DS2UiCustomizationC"
                   }
                 ],
                 "usr": "s:Sq"
@@ -8588,7 +7196,7 @@
                 "kind": "TypeNominal",
                 "name": "R3DS2ConfigParameters",
                 "printedName": "Ravelin3DS.R3DS2ConfigParameters",
-                "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ConfigParameters"
+                "usr": "s:10Ravelin3DS21R3DS2ConfigParametersC"
               },
               {
                 "kind": "TypeNominal",
@@ -8613,7 +7221,7 @@
                     "kind": "TypeNominal",
                     "name": "R3DS2UiCustomization",
                     "printedName": "Ravelin3DS.R3DS2UiCustomization",
-                    "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2UiCustomization"
+                    "usr": "s:10Ravelin3DS20R3DS2UiCustomizationC"
                   }
                 ],
                 "usr": "s:Sq"
@@ -8750,17 +7358,11 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Ravelin3DS@objc(cs)R3DS2ServiceSDK",
+        "usr": "s:10Ravelin3DS15R3DS2ServiceSDKC",
         "mangledName": "$s10Ravelin3DS15R3DS2ServiceSDKC",
         "moduleName": "Ravelin3DS",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -8769,55 +7371,6 @@
             "printedName": "R3DS2Service",
             "usr": "s:10Ravelin3DS12R3DS2ServiceP",
             "mangledName": "$s10Ravelin3DS12R3DS2ServiceP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -10349,7 +8902,7 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ConfigParameters\/R3DS2ConfigParameters.swift",
       "kind": "StringLiteral",
-      "offset": 4721,
+      "offset": 4790,
       "length": 8,
       "value": "\"config\""
     },
@@ -10867,119 +9420,112 @@
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 73,
-      "length": 27,
-      "value": "\"Ravelin3DS.R3DS2AuthenticationResponse\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1223,
       "length": 3,
       "value": "\"Y\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1266,
+      "offset": 1256,
       "length": 3,
       "value": "\"N\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1298,
+      "offset": 1288,
       "length": 3,
       "value": "\"U\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1332,
+      "offset": 1322,
       "length": 3,
       "value": "\"A\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1365,
+      "offset": 1355,
       "length": 3,
       "value": "\"C\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1403,
+      "offset": 1393,
       "length": 3,
       "value": "\"R\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1442,
+      "offset": 1432,
       "length": 3,
       "value": "\"D\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1483,
+      "offset": 1473,
       "length": 3,
       "value": "\"I\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1223,
       "length": 3,
       "value": "\"Y\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1266,
+      "offset": 1256,
       "length": 3,
       "value": "\"N\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1298,
+      "offset": 1288,
       "length": 3,
       "value": "\"U\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1332,
+      "offset": 1322,
       "length": 3,
       "value": "\"A\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1365,
+      "offset": 1355,
       "length": 3,
       "value": "\"C\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1403,
+      "offset": 1393,
       "length": 3,
       "value": "\"R\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1442,
+      "offset": 1432,
       "length": 3,
       "value": "\"D\""
     },
     {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationResponse\/R3DS2AuthenticationResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1483,
+      "offset": 1473,
       "length": 3,
       "value": "\"I\""
     },
@@ -13273,13 +11819,6 @@
       "value": "115"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/AuthenticationRequestParameters\/R3DS2AuthenticationRequestParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 237,
-      "length": 36,
-      "value": "\"Ravelin3DS.R3DS2AuthenticationRequestParameters\""
-    },
-    {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/JOSESwift\/JOSESwift\/Sources\/Serializer.swift",
       "kind": "Array",
       "offset": 1595,
@@ -13287,37 +11826,9 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeStatusReceiver\/R3DS2ChallengeStatusReceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 1245,
-      "length": 22,
-      "value": "\"Ravelin3DS.R3DS2RuntimeErrorEvent\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeStatusReceiver\/R3DS2ChallengeStatusReceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 1824,
-      "length": 17,
-      "value": "\"Ravelin3DS.R3DS2ErrorMessage\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeStatusReceiver\/R3DS2ChallengeStatusReceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 4028,
-      "length": 23,
-      "value": "\"Ravelin3DS.R3DS2ProtocolErrorEvent\""
-    },
-    {
-      "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ChallengeStatusReceiver\/R3DS2ChallengeStatusReceiver.swift",
-      "kind": "StringLiteral",
-      "offset": 4521,
-      "length": 20,
-      "value": "\"Ravelin3DS.R3DS2CompletionEvent\""
-    },
-    {
       "filePath": "\/Users\/markbrightman\/Development\/SDK\/ravelin-3ds-sdk-ios-xcframework\/Ravelin3DSFramework\/Ravelin3DS\/ThreeDS2Service\/ThreeDS2Service.swift",
       "kind": "BooleanLiteral",
-      "offset": 2890,
+      "offset": 2881,
       "length": 5,
       "value": "false"
     },
