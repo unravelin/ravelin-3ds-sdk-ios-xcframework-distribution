@@ -13,6 +13,6 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Ravelin3DS", 
-            url: "https://ravelin.mycloudrepo.io/repositories/testrepository/0.4.8/Ravelin3DS.xcframework.zip",
-            checksum: "95cd1785a3f47e1c2ae767ffb23a6f3bb98080b186903b45c73d7786b3cfb606")
+            url: "https://ravelin.mycloudrepo.io/repositories/testrepository/0.4.9/Ravelin3DS.xcframework.zip",
+            checksum: "8ce605af09951f1d2b8b28574b0b0e061434ca7992da080eff78245e9a883ff1")
     ])
